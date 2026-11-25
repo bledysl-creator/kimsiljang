@@ -2,13 +2,18 @@
 const { NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, KAKAO_REST_KEY, KAKAO_JS_KEY } = process.env;
 let failed = false;
 const ok = (m) => console.log(`✅ ${m}`);
+const warn = (m) => console.log(`⚠️  ${m}`);
 const bad = (m) => {
   console.log(`❌ ${m}`);
   failed = true;
 };
 
-for (const [k, v] of Object.entries({ NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, KAKAO_REST_KEY, KAKAO_JS_KEY })) {
+// 카카오 키는 필수, 네이버 키는 선택 (없으면 블로그 후기 수집만 빠져요)
+for (const [k, v] of Object.entries({ KAKAO_REST_KEY, KAKAO_JS_KEY })) {
   v ? ok(`${k} 있음 (${v.length}자)`) : bad(`${k} 없음`);
+}
+for (const [k, v] of Object.entries({ NAVER_CLIENT_ID, NAVER_CLIENT_SECRET })) {
+  v ? ok(`${k} 있음 (${v.length}자)`) : warn(`${k} 없음 (선택: 블로그 후기 수집이 꺼져요)`);
 }
 
 if (NAVER_CLIENT_ID && NAVER_CLIENT_SECRET) {
