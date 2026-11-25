@@ -1,6 +1,19 @@
 // API 키 연결 확인용. 키 값은 출력하지 않고 성공/실패만 보여줘요.
 const { NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, KAKAO_REST_KEY, KAKAO_JS_KEY } = process.env;
 let failed = false;
+
+// 네트워크가 잠깐 끊겨도 3번까지 다시 시도해요
+async function fetchRetry(url, opts, tries = 3) {
+  for (let i = 1; ; i++) {
+    try {
+      return await fetchRetry(url, { ...opts, signal: AbortSignal.timeout(15000) });
+    } catch (e) {
+      if (i >= tries) throw e;
+      console.log(`  (연결 재시도 ${i}/${tries - 1}: ${e.cause?.code ?? e.message})`);
+      await new Promise((r) => setTimeout(r, 2000 * i));
+    }
+  }
+}
 const ok = (m) => console.log(`✅ ${m}`);
 const warn = (m) => console.log(`⚠️  ${m}`);
 const bad = (m) => {
@@ -17,7 +30,7 @@ for (const [k, v] of Object.entries({ NAVER_CLIENT_ID, NAVER_CLIENT_SECRET })) {
 }
 
 if (NAVER_CLIENT_ID && NAVER_CLIENT_SECRET) {
-  const res = await fetch(
+  const res = await fetchRetry(
     `https://naverapihub.apigw.ntruss.com/search/v1/blog?query=${encodeURIComponent('서현 콜키지')}&display=1`,
     { headers: { 'X-NCP-APIGW-API-KEY-ID': NAVER_CLIENT_ID, 'X-NCP-APIGW-API-KEY': NAVER_CLIENT_SECRET } }
   );
@@ -26,7 +39,7 @@ if (NAVER_CLIENT_ID && NAVER_CLIENT_SECRET) {
 }
 
 if (KAKAO_REST_KEY) {
-  const res = await fetch(`https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent('서현역')}&size=1`, {
+  const res = await fetchRetry(`https://dapi.kakao.com/v2/local/search/keyword.json?query=${encodeURIComponent('서현역')}&size=1`, {
     headers: { Authorization: `KakaoAK ${KAKAO_REST_KEY}` },
   });
   const body = await res.text();
@@ -37,7 +50,7 @@ if (KAKAO_REST_KEY) {
 
 if (KAKAO_JS_KEY) {
   // 지도 SDK 는 등록된 도메인에서만 동작해요. 여기서는 키가 유효한지만 봐요.
-  const res = await fetch(`https://dapi.kakao.com/v2/maps/sdk.js?appkey=${KAKAO_JS_KEY}&autoload=false`, {
+  const res = await fetchRetry(`https://dapi.kakao.com/v2/maps/sdk.js?appkey=${KAKAO_JS_KEY}&autoload=false`, {
     headers: { Referer: 'https://bledysl-creator.github.io/kimsiljang/' },
   });
   const body = await res.text();

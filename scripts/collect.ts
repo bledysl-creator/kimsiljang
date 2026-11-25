@@ -51,7 +51,14 @@ const disabled = new Set<string>();
 async function getJson(api: string, url: string, headers: Record<string, string>) {
   if (disabled.has(api)) return null;
   for (let attempt = 0; attempt < 3; attempt++) {
-    const res = await fetch(url, { headers });
+    let res: Response;
+    try {
+      res = await fetch(url, { headers, signal: AbortSignal.timeout(15000) });
+    } catch (e) {
+      console.warn(`  ⚠️ ${api} 연결 실패, 다시 시도 (${(e as Error).message})`);
+      await sleep(2000 * (attempt + 1));
+      continue;
+    }
     api.startsWith('naver') ? calls.naver++ : calls.kakao++;
     await sleep(120);
     if (res.ok) return res.json();
