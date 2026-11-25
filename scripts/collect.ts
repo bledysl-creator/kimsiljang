@@ -354,6 +354,13 @@ async function main() {
     }
     state.version = STATE_VERSION;
   }
+  // 예전 형식으로 판정된 결과는 버리고 다시 검증해요 (MAX_VERIFY 때문에 한 번에 다 못 돌았을 수 있어요)
+  for (const it of Object.values(state.pool)) {
+    if (it.result && !('reviewSignal' in it.result.corkage)) {
+      delete it.result;
+      delete it.verifiedAt;
+    }
+  }
   const manual = (await readJson<{ places: ManualPlace[] }>('public/data/manual.json', { places: [] })).places;
 
   // 1) 블로그 발견
