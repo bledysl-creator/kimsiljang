@@ -16,7 +16,7 @@ import type { CorkageInfo, Drink, Evidence, Food, MenuImage, Region, Restaurant,
 
 const root = new URL('../', import.meta.url);
 const { NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, KAKAO_REST_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
-const MAX_VERIFY = Number(process.env.MAX_VERIFY ?? 120);
+const MAX_VERIFY = Number(process.env.MAX_VERIFY ?? 200);
 const REVERIFY_DAYS = 5;
 const IMAGE_REFRESH_DAYS = 30;
 
@@ -148,6 +148,12 @@ function foodOf(cat: string): Food {
   return '기타';
 }
 
+/** '경기 성남시 분당구 정자동 123' → '정자' (블로그 글에서 지점 구분용) */
+function areaToken(addr: string) {
+  const dong = addr.split(/\s+/).find((p) => /(동|가)\d*$/.test(p) && !/구$/.test(p)) ?? '';
+  return dong.replace(/\d*가$/, '').replace(/\d*동$/, '').replace(/\d+$/, '');
+}
+
 const FOOD_EMOJI: Record<Food, string> = { '일식·이자카야': '🍢', '양식·다이닝': '🍝', 한식: '🍲', 중식: '🥟', 고기: '🥩', '해산물·회': '🍣', 기타: '🍽️' };
 
 /** '작은어촌 정자점' → '작은어촌' */
@@ -161,7 +167,7 @@ function coreName(name: string) {
 // ---- 콜키지 판정 ----
 const RE_FREE = /콜키지\s*(프리|free|무료|0원|없|안\s*받)|무료\s*콜키지|콜키지(가|는|도|비|비용|료)?\s*(무료|프리|없)/i;
 const RE_PAID = /콜키지\s*(비용|비|료|차지)?\s*[:은는이가]?\s*(병당\s*)?\d[\d,]*\s*(원|만\s*원)|콜키지\s*(유료|있음|받)|병당\s*\d[\d,]*\s*(원|만)/;
-const RE_COND = /(\d|한|두|세)\s*병\s*(까지|만)?\s*(무료|프리)|평일\s*(만|에만)?\s*(무료|프리|가능)|1인\s*1병|요일|주류\s*주문\s*시/;
+const RE_COND = /(\d|한|두|세)\s*병\s*(까지|만)?\s*(무료|프리)|평일\s*(만|에만)\s*(무료|프리|가능)|1인\s*1병/;
 
 function bottleLimit(text: string): number | null {
   const m = text.match(/(\d|한|두|세)\s*병\s*(까지|만)?\s*(무료|프리)/);
@@ -169,17 +175,26 @@ function bottleLimit(text: string): number | null {
   return { 한: 1, 두: 2, 세: 3 }[m[1]] ?? Number(m[1]);
 }
 
+function mode(xs: number[]) {
+  const c = new Map<number, number>();
+  xs.forEach((x) => c.set(x, (c.get(x) ?? 0) + 1));
+  return [...c.entries()].sort((a, b) => b[1] - a[1])[0][0];
+}
+
+/** 여러 글에서 2번 이상 나온 조건만 남겨요 (한 글의 우연한 언급 제외) */
 function conditionsOf(texts: string[]): string[] {
-  const t = texts.join(' ');
+  const rules: [string, RegExp][] = [
+    ['평일만', /평일\s*(만|에만)/],
+    ['잔 제공', /잔\s*(제공|챙겨|무료|준비)|와인\s*잔\s*(을|도)?\s*(주|제공|내어)/],
+    ['얼음 제공', /얼음\s*(제공|무료|주)/],
+    ['와인만 가능', /와인\s*만\s*(가능|무료|프리)/],
+  ];
   const out: string[] = [];
-  const lim = bottleLimit(t);
-  if (lim) out.push(`${lim}병까지 무료`);
-  if (/평일\s*(만|에만)/.test(t)) out.push('평일만');
-  if (/잔\s*(제공|챙겨|무료|준비)|와인\s*잔/.test(t)) out.push('잔 제공 언급');
-  if (/얼음/.test(t)) out.push('얼음 언급');
-  if (/와인\s*만/.test(t)) out.push('와인만 가능 언급');
-  const fee = t.match(/콜키지\s*(비용|비|료|차지)?\s*[:은는이가]?\s*(병당\s*)?(\d[\d,]*)\s*(원|만\s*원)/);
-  if (fee) out.push(`콜키지 ${fee[3]}${fee[4].replace(/\s/g, '')} 언급`);
+  const limits = texts.map(bottleLimit).filter((x): x is number => x != null);
+  if (limits.length >= 2) out.push(`${mode(limits)}병까지 무료`);
+  for (const [label, re] of rules) if (texts.filter((t) => re.test(t)).length >= 2) out.push(label);
+  const fees = texts.map((t) => t.match(/콜키지\s*(비용|비|료|차지)?\s*[:은는이가]?\s*(병당\s*)?(\d[\d,]*)\s*(원|만\s*원)/)).filter(Boolean) as RegExpMatchArray[];
+  if (fees.length >= 2) out.push(`초과 시 콜키지 ${fees[0][3]}${fees[0][4].replace(/\s/g, '')} 언급`);
   return out.slice(0, 5);
 }
 
@@ -222,16 +237,18 @@ export function judge(posts: Post[]): { corkage: CorkageInfo; evidence: Evidence
     });
   }
   const texts = posts.map((p) => p.text);
+  const limits = texts.map(bottleLimit).filter((x): x is number => x != null);
+  const limit = limits.length >= 2 ? mode(limits) : null;
   let status: CorkageInfo['status'] = 'unknown';
-  if (free > 0 && free >= paid) status = cond > 0 || bottleLimit(texts.join(' ')) ? 'conditional' : 'free';
+  // 조건 언급이 무료 언급의 1/3 이상이거나 병 수 제한이 2개 글 이상에서 나오면 '조건부'
+  if (free > 0 && free >= paid) status = cond * 3 >= free || limit ? 'conditional' : 'free';
   else if (paid > free) status = 'paid';
   const newest = posts.map((p) => p.date).sort().pop();
   const confidence = Math.max(0, Math.min(95, 25 + free * 15 - paid * 10 + (daysSince(newest) < 365 ? 10 : 0)));
-  const all = texts.join(' ');
   return {
     corkage: {
       status,
-      bottleLimit: bottleLimit(all),
+      bottleLimit: limit,
       conditions: conditionsOf(texts),
       freeMentions: free,
       paidMentions: paid,
@@ -240,10 +257,13 @@ export function judge(posts: Post[]): { corkage: CorkageInfo; evidence: Evidence
       verifiedBy: 'auto',
     },
     evidence: evidence.sort((a, b) => b.date.localeCompare(a.date)).slice(0, 6),
-    tags: TAG_RULES.filter(([, re]) => re.test(all)).map(([t]) => t),
-    drinks: DRINK_RULES.filter(([, re]) => re.test(all)).map(([d]) => d),
+    tags: TAG_RULES.filter(([, re]) => texts.filter((t) => re.test(t)).length >= 2).map(([t]) => t),
+    drinks: DRINK_RULES.filter(([, re]) => texts.filter((t) => re.test(t)).length >= 2).map(([d]) => d),
   };
 }
+
+// 술 이름·일반 단어와 겹치는 가게 이름은 동네 이름까지 확인해요
+const GENERIC = /^(청하|참이슬|처음처럼|나나|우리|오늘|하루|봄|여름|가을|겨울|바다|고기|술집|와인|사케|위스키|맛집|본가|원조)$/;
 
 // ---- 상태 파일 ----
 interface PoolItem {
@@ -258,8 +278,10 @@ interface PoolItem {
   imagesAt?: string;
 }
 interface State {
+  version?: number;
   pool: Record<string, PoolItem>;
 }
+const STATE_VERSION = 2; // 판정 규칙이 바뀌면 올려서 전부 다시 검증해요
 interface ManualPlace {
   name: string;
   area: string;
@@ -287,6 +309,10 @@ async function main() {
     return;
   }
   const state = await readJson<State>('data/state.json', { pool: {} });
+  if (state.version !== STATE_VERSION) {
+    for (const it of Object.values(state.pool)) delete it.verifiedAt;
+    state.version = STATE_VERSION;
+  }
   const manual = (await readJson<{ places: ManualPlace[] }>('public/data/manual.json', { places: [] })).places;
 
   // 1) 블로그 발견
@@ -338,10 +364,21 @@ async function main() {
     .filter(([id, it]) => (it.hits > 0 || it.localHint || manualIds.has(id)) && daysSince(it.verifiedAt) >= REVERIFY_DAYS)
     .sort(([ia, a], [ib, b]) => Number(manualIds.has(ib)) - Number(manualIds.has(ia)) || b.hits - a.hits)
     .slice(0, MAX_VERIFY);
+  // 같은 이름의 지점이 여러 곳이면(체인), 블로그 글에 동네 이름까지 있어야 그 지점 근거로 인정해요.
+  const nameCount = new Map<string, number>();
+  for (const it of Object.values(state.pool)) {
+    const k = squash(coreName(it.place.place_name));
+    nameCount.set(k, (nameCount.get(k) ?? 0) + 1);
+  }
   for (const [, it] of queue) {
     const name = coreName(it.place.place_name);
     const key = squash(name);
-    const found = (await naverBlog(`${name} 콜키지`, 40)).filter((p) => squash(p.text).includes(key) && /콜키지/.test(p.text));
+    const town = areaToken(it.place.address_name);
+    const strict = key.length <= 2 || (nameCount.get(key) ?? 0) > 1 || GENERIC.test(name);
+    const found = (await naverBlog(`${name} ${town} 콜키지`, 40)).filter((p) => {
+      const t = squash(p.text);
+      return t.includes(key) && /콜키지/.test(p.text) && (!strict || (town.length >= 2 && t.includes(town)));
+    });
     it.result = judge(found);
     it.verifiedAt = today();
   }
@@ -353,7 +390,8 @@ async function main() {
     if (manualByKakao.has(id)) return true;
     const r = it.result;
     if (!r) return false;
-    return r.corkage.status === 'free' || r.corkage.status === 'conditional' || (r.corkage.status !== 'paid' && r.evidence.length >= 2);
+    if (r.corkage.status === 'free' || r.corkage.status === 'conditional') return r.corkage.freeMentions >= 2;
+    return r.corkage.status === 'unknown' && r.evidence.length >= 3;
   });
 
   // 6) 메뉴 사진

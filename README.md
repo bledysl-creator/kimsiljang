@@ -1,48 +1,48 @@
-# 🍷 김실장
+# 🍷 OUR TABLE · by 김실장
 
-김실장이 추천하는 서울·경기(성남, 수원) **콜키지 프리** 술집 지도예요.
+우리 둘만의 **콜키지 프리** 맛집 아카이브. 서울·성남·분당·판교·수원의 콜키지 프리 가게를 자동으로 찾고, 블로그 근거로 무료 여부와 반입 조건을 검증하고, 메뉴 사진과 함께 취향에 맞게 추천해요.
 
-- 지도(카카오맵), 지역/업종 필터, 즐겨찾기, 홈 화면 설치(PWA)
-- 매일 아침 6시 GitHub Actions 가 네이버 블로그 후기를 모으고 사이트를 다시 배포해요
-- 리뷰·메뉴 사진은 네이버 지도/카카오맵으로 바로 연결해요 (공식 API만 사용, 크롤링 없음)
+- **프론트엔드**: React 19 + TypeScript + Tailwind CSS 4 + Vite (PWA, 홈 화면 설치)
+- **메뉴 11개**: 홈 · 맛집 탐색 · 지도 탐색 · AI 추천 · 신규 발견 · 위시리스트 · 데이트 기록 · 술장고 · 랜덤 데이트 · 통계·분석 · 설정
+- **테마**: 웜 아이보리 + 딥 버건디(기본), 다크 차콜 + 코랄핑크 + 라벤더(설정에서 전환)
+- **데이터**: `public/data/restaurants.json`(실제 수집) / `src/data/sample.ts`(가상 예시, 화면에 '가상' 배지)
+- **저장**: Supabase 키가 있으면 로그인 + 커플 공유, 없으면 이 브라우저(localStorage)
 
-주소: https://bledysl-creator.github.io/kimsiljang/
+## 자동 수집 · 콜키지 검증 (`scripts/collect.ts`)
 
-## 가게 추가하기
+매일 오전 6시 GitHub Actions 가 실행해요. 공식 API만 쓰고 크롤링은 하지 않아요.
 
-`public/data/places.json` 의 `places` 에 항목을 추가하면 돼요. 좌표(`lat`, `lng`), 주소, 전화, 카카오맵 링크는 비워 두면 다음 자동 수집 때 카카오 API 로 채워져요.
+1. 네이버 블로그 검색: `지역 + 콜키지 프리/무료` 글 수집
+2. 카카오 장소 검색: 지역별 이자카야·횟집·와인바·고깃집·오마카세·비스트로 가게 풀
+3. 블로그 글에 가게 이름이 나오면 후보로 올림 (+ 네이버 지역 검색 `지역 + 콜키지`)
+4. 후보마다 `가게명 콜키지` 블로그 글을 분석 → 무료 / 조건부(병 수, 평일 등) / 유료 / 확인 필요, 신뢰도, 잔·얼음 조건, 분위기 태그, 주종
+5. 메뉴 사진: 카카오(다음) 이미지 검색 → 없으면 네이버 이미지 검색 썸네일 (출처 링크 표시)
 
-```json
-{
-  "id": "seohyeon-example",
-  "name": "가게 이름",
-  "category": "회",
-  "region": "성남",
-  "district": "분당구 서현동",
-  "corkage": { "type": "free", "note": "병 수 제한 없음", "checkedAt": "2026-11-25" },
-  "tags": ["주차"],
-  "memo": ""
-}
-```
+직접 확인한 가게는 `public/data/manual.json` 에 넣으면 자동 결과보다 우선해요.
 
-- `category`: 회 · 이자카야 · 와인바 · 고기 · 기타
-- `region`: 서울 · 성남 · 수원 · 기타 경기
-- `corkage.type`: `free`(완전 무료) · `conditional`(조건부) · `paid`(유료) · `unknown`(확인 필요)
+## 필요한 키
 
-새 후보는 `public/data/candidates.json` 에 매일 쌓여요. 읽어보고 맞는 곳만 `places.json` 으로 옮기세요.
+| 위치 | 이름 | 용도 |
+| --- | --- | --- |
+| GitHub Secrets | `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` | NAVER API HUB (블로그·지역·이미지 검색) |
+| GitHub Secrets | `KAKAO_REST_KEY` | 카카오 장소·이미지 검색 |
+| GitHub Secrets + Vercel | `KAKAO_JS_KEY` → Vercel 에서는 `VITE_KAKAO_JS_KEY` | 지도 |
+| GitHub Secrets + Vercel | `SUPABASE_URL`, `SUPABASE_ANON_KEY` → Vercel 에서는 `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY` | 로그인·커플 공유 |
+| GitHub Secrets | `SUPABASE_SERVICE_ROLE_KEY` | 수집 결과를 Supabase 에도 저장 (선택) |
 
-## 처음 한 번 설정
+Supabase 는 `supabase/schema.sql` 을 SQL Editor 에서 실행하면 테이블과 권한이 만들어져요.
 
-0. 네이버 키는 네이버 클라우드 플랫폼 콘솔 → NAVER API HUB → Application 에서 발급 (Client ID / Client Secret)
-1. **Settings → Secrets and variables → Actions** 에 `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET`, `KAKAO_REST_KEY`, `KAKAO_JS_KEY` 추가
-2. **Settings → Pages → Source** 를 **GitHub Actions** 로 변경
-3. **Actions → 수집하고 배포하기 → Run workflow** 로 첫 실행
+## 배포
 
-## 로컬에서 실행
+- **Vercel**: GitHub 저장소를 Import → Framework 'Vite' → 위 `VITE_` 환경변수 3개 입력 → Deploy. 수집 봇이 main 에 커밋하면 자동 재배포돼요.
+- **GitHub Pages**: Settings → Pages → Source 'GitHub Actions'. https://bledysl-creator.github.io/kimsiljang/
+
+## 로컬 실행
 
 ```bash
-cp .env.example .env.local   # 키 입력
+cp .env.example .env.local
 npm install
-npm run dev                  # http://localhost:5173/kimsiljang/
-npm run collect              # 수집 스크립트 (환경변수 필요)
+npm run dev          # http://localhost:5173
+npm run typecheck
+npm run collect      # 수집 (키 필요)
 ```
