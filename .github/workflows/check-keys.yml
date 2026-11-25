@@ -1,0 +1,21 @@
+name: API 키 확인
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 네이버/카카오 키 확인
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          KAKAO_JS_KEY: ${{ secrets.KAKAO_JS_KEY }}
+        run: node scripts/check-keys.mjs
