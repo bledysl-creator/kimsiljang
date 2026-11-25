@@ -6,7 +6,7 @@ let failed = false;
 async function fetchRetry(url, opts, tries = 3) {
   for (let i = 1; ; i++) {
     try {
-      return await fetchRetry(url, { ...opts, signal: AbortSignal.timeout(15000) });
+      return await fetch(url, { ...opts, signal: AbortSignal.timeout(15000) });
     } catch (e) {
       if (i >= tries) throw e;
       console.log(`  (연결 재시도 ${i}/${tries - 1}: ${e.cause?.code ?? e.message})`);
