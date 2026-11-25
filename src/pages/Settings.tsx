@@ -1,83 +1,68 @@
 import { useState } from 'react';
-import { CheckCircle2, CircleDashed, LogOut, Moon, Settings as Gear, Sun } from 'lucide-react';
-import { PageHero } from '@/components/Layout';
-import { Card, Chip, GhostButton, PrimaryButton, inputCls } from '@/components/ui';
-import { Field } from './Visits';
+import { CheckCircle2, CircleDashed, ExternalLink, LogOut } from 'lucide-react';
+import { PageHeader } from '@/components/Layout';
+import { Card, GhostButton, PrimaryButton, inputCls } from '@/components/ui';
 import { useStore } from '@/store/AppStore';
 import { supabase, isSupabaseReady } from '@/lib/supabase';
-import { DRINKS, FOODS, REGIONS } from '@/lib/constants';
-import type { Preferences } from '@/types';
+import { PrefsEditor } from './Recommend';
+
+const ACTIONS_URL = 'https://github.com/bledysl-creator/kimsiljang/actions';
+
+function Collection() {
+  const { lastRun, lastSuccessAt, realCount, reload } = useStore();
+  return (
+    <Card className="space-y-2 text-sm">
+      <h2 className="font-bold">자동 수집 상태</h2>
+      <p>
+        마지막 성공: <b>{lastSuccessAt ?? '없음'}</b> · 실제 {realCount}곳
+      </p>
+      <p>
+        마지막 실행:{' '}
+        {lastRun ? (
+          <>
+            <b className={lastRun.status === 'failed' ? 'text-st-disputed' : ''}>{{ success: '성공', failed: '실패', skipped: '건너뜀' }[lastRun.status]}</b> ({lastRun.finishedAt.replace('T', ' ').slice(0, 16)}, {lastRun.count}곳)
+            {lastRun.error && <span className="block text-xs text-muted">오류: {lastRun.error}</span>}
+          </>
+        ) : (
+          '기록 없음 (새 형식 수집 전)'
+        )}
+      </p>
+      <p className="text-xs text-muted">매일 오전 7시(KST) 예약 실행이에요. GitHub 사정에 따라 늦어질 수 있어요. 실패하면 이전 데이터를 그대로 둬요.</p>
+      <div className="flex flex-wrap gap-2 pt-1">
+        <a href={ACTIONS_URL} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center gap-1 rounded-xl border border-line px-4 font-medium hover:border-brand/50">
+          수동 갱신 (GitHub Actions) <ExternalLink size={13} aria-hidden />
+        </a>
+        <GhostButton onClick={reload}>데이터 다시 불러오기</GhostButton>
+      </div>
+    </Card>
+  );
+}
 
 export default function Settings() {
   const s = useStore();
-  const [p, setP] = useState<Preferences>(s.prefs);
-  const toggle = <T,>(arr: T[], v: T) => (arr.includes(v) ? arr.filter((x) => x !== v) : [...arr, v]);
-
   return (
-    <div className="space-y-5">
-      <PageHero title="설정" icon={<Gear className="text-brand" />} subtitle="취향, 화면, 계정과 데이터 연결 상태를 관리해요." />
-
+    <div className="space-y-4">
+      <PageHeader title="설정" subtitle="두 사람의 취향, 계정, 자동 수집 상태와 데이터 출처를 관리해요." />
+      <section aria-labelledby="pref" className="space-y-3">
+        <h2 id="pref" className="text-lg font-bold">
+          두 사람의 취향
+        </h2>
+        <PrefsEditor />
+      </section>
       <div className="grid gap-4 lg:grid-cols-2">
-        <Card className="space-y-4">
-          <h2 className="font-bold">우리 둘의 취향</h2>
-          <div className="flex flex-wrap gap-2">
-            {FOODS.map((f) => (
-              <Chip key={f} active={p.foods.includes(f)} onClick={() => setP({ ...p, foods: toggle(p.foods, f) })}>
-                {f}
-              </Chip>
-            ))}
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {DRINKS.map((d) => (
-              <Chip key={d} active={p.drinks.includes(d)} onClick={() => setP({ ...p, drinks: toggle(p.drinks, d) })}>
-                {d}
-              </Chip>
-            ))}
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {REGIONS.map((r) => (
-              <Chip key={r} active={p.regions.includes(r)} onClick={() => setP({ ...p, regions: toggle(p.regions, r) })}>
-                {r}
-              </Chip>
-            ))}
-          </div>
-          <div className="grid grid-cols-2 gap-3">
-            <Field label="2인 예산(원)">
-              <input type="number" min={0} step={10000} className={inputCls} value={p.budget} onChange={(e) => setP({ ...p, budget: Number(e.target.value) })} />
-            </Field>
-            <Field label="분위기">
-              <select className={inputCls} value={p.mood} onChange={(e) => setP({ ...p, mood: e.target.value as Preferences['mood'] })}>
-                <option>조용한</option>
-                <option>활기찬</option>
-                <option>상관없음</option>
-              </select>
-            </Field>
-          </div>
-          <PrimaryButton onClick={() => s.savePrefs(p)}>취향 저장</PrimaryButton>
+        <Account />
+        <Card className="space-y-3">
+          <h2 className="font-bold">화면 데이터</h2>
+          <label className="flex min-h-11 items-center justify-between gap-3 text-sm">
+            <span>
+              가상 예시 데이터 함께 보기
+              <span className="block text-xs text-muted">실제 수집 데이터가 0곳이면 항상 보여요. 예시는 '가상 예시' 표시가 붙어요.</span>
+            </span>
+            <input type="checkbox" className="size-5 accent-brand" checked={s.showSamples} onChange={(e) => s.setShowSamples(e.target.checked)} />
+          </label>
         </Card>
-
-        <div className="space-y-4">
-          <Card className="space-y-3">
-            <h2 className="font-bold">화면</h2>
-            <div className="flex gap-2">
-              <Chip active={s.theme === 'light'} onClick={() => s.setTheme('light')} icon={<Sun size={14} />}>
-                아이보리·버건디
-              </Chip>
-              <Chip active={s.theme === 'dark'} onClick={() => s.setTheme('dark')} icon={<Moon size={14} />}>
-                다크 차콜
-              </Chip>
-            </div>
-            <label className="flex items-center justify-between gap-3 text-sm">
-              <span>
-                가상 예시 데이터 함께 보기
-                <span className="block text-xs text-muted">실제 수집 데이터가 0곳이면 항상 보여요.</span>
-              </span>
-              <input type="checkbox" className="size-5 accent-[var(--c-brand)]" checked={s.showSamples} onChange={(e) => s.setShowSamples(e.target.checked)} />
-            </label>
-          </Card>
-          <Account />
-          <Connections />
-        </div>
+        <Collection />
+        <Connections />
       </div>
     </div>
   );
@@ -162,23 +147,25 @@ function Account() {
 }
 
 function Connections() {
-  const { realCount, dataUpdatedAt } = useStore();
+  const { realCount } = useStore();
   const rows: [string, boolean, string][] = [
     ['카카오 지도', !!import.meta.env.VITE_KAKAO_JS_KEY, 'VITE_KAKAO_JS_KEY'],
     ['Supabase', isSupabaseReady, 'VITE_SUPABASE_URL / ANON_KEY'],
-    ['자동 수집 (네이버 블로그 · 카카오 장소)', realCount > 0, dataUpdatedAt ? `마지막 ${dataUpdatedAt}` : '아직 실행 전'],
+    ['네이버 블로그 검색 (콜키지 후기)', realCount > 0, 'GitHub Secrets'],
+    ['카카오 로컬 (주소·좌표·장소 링크)', realCount > 0, 'GitHub Secrets'],
   ];
   return (
     <Card className="space-y-2">
-      <h2 className="font-bold">데이터 연결 상태</h2>
+      <h2 className="font-bold">데이터 출처와 연결</h2>
       {rows.map(([k, ok, d]) => (
         <p key={k} className="flex items-center gap-2 text-sm">
-          {ok ? <CheckCircle2 size={16} className="text-ok" /> : <CircleDashed size={16} className="text-muted" />}
+          {ok ? <CheckCircle2 size={16} className="text-st-free" aria-label="연결됨" /> : <CircleDashed size={16} className="text-muted" aria-label="미연결" />}
           <span className="flex-1">{k}</span>
           <span className="text-xs text-muted">{d}</span>
         </p>
       ))}
-      <p className="pt-1 text-xs text-muted">비밀 키는 이 화면에 입력하지 않아요. GitHub Secrets / Vercel 환경변수에서 관리해요.</p>
+      <p className="pt-1 text-xs text-muted">메뉴 사진과 리뷰 원문은 가져오지 않아요(공개 API로 허용 범위가 확인되지 않음). 블로그는 제목·링크·날짜만 저장해요.</p>
+      <p className="text-xs text-muted">비밀 키는 이 화면에 입력하지 않아요. GitHub Secrets / Vercel 환경변수에서 관리해요.</p>
     </Card>
   );
 }

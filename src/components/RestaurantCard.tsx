@@ -1,84 +1,104 @@
-import { FileText } from 'lucide-react';
 import type { Scored } from '@/lib/score';
+import type { Restaurant } from '@/types';
 import { money } from '@/lib/constants';
 import { useStore } from '@/store/AppStore';
-import { CorkageBadge, DataBadge, FoodArt, HeartButton, cx } from './ui';
+import { CorkageBadge, DataBadge, FitBadge, HeartButton, PhotoBox, ReviewBadge, cx } from './ui';
 
-/** 목록형 카드 (시안의 검색 결과 카드) */
+export function conditionText(r: Restaurant) {
+  const c = r.corkage;
+  const parts: string[] = [];
+  if (c.freeBottles) parts.push(`${c.freeBottles}병 무료`);
+  if (c.drinkTypes.length) parts.push(`${c.drinkTypes.join('·')} 반입`);
+  if (c.extraFee) parts.push(c.extraFee);
+  if (c.glassIce) parts.push(c.glassIce);
+  return parts.join(' · ') || '반입 조건 확인 필요';
+}
+
+export function checkedText(r: Restaurant) {
+  const c = r.corkage;
+  if (c.verifiedAt) return `${c.verifiedAt} ${{ official: '공식 안내', phone: '전화 확인', visit: '방문 확인', review: '후기', none: '' }[c.verificationMethod]}`;
+  if (c.reviewCheckedAt) return `${c.reviewCheckedAt} 후기 분석`;
+  return '확인 전';
+}
+
+/** 목록형 카드 */
 export function RestaurantRow({ s, active }: { s: Scored; active?: boolean }) {
   const { openDetail } = useStore();
   const { r } = s;
   return (
-    <article
+    <div
+      role="button"
+      tabIndex={0}
+      aria-label={`${r.name} 상세 보기`}
       onClick={() => openDetail(r.id)}
+      onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), openDetail(r.id))}
       className={cx(
-        'flex cursor-pointer gap-4 rounded-2xl border bg-card p-3 transition hover:shadow-md',
-        active ? 'border-brand ring-2 ring-brand/20' : 'border-line'
+        'flex min-w-0 cursor-pointer gap-3.5 rounded-[var(--radius-card)] border bg-card p-3 shadow-[var(--shadow-card)] transition hover:border-brand/40',
+        active ? 'border-brand ring-2 ring-brand/15' : 'border-line'
       )}
     >
-      <div className="relative shrink-0">
-        <FoodArt r={r} className="size-24 sm:size-32" />
-        {r.corkage.freeMentions > 0 && (
-          <span className="absolute bottom-1.5 left-1.5 inline-flex items-center gap-1 rounded-md bg-black/60 px-1.5 py-0.5 text-[11px] font-semibold text-white">
-            <FileText size={11} /> 후기 {r.corkage.freeMentions}
-          </span>
-        )}
-      </div>
+      <PhotoBox r={r} className="size-[110px] shrink-0 sm:size-[120px]" />
       <div className="min-w-0 flex-1">
-        <div className="flex items-start justify-between gap-2">
+        <div className="flex items-start justify-between gap-1">
           <div className="min-w-0">
             <p className="flex flex-wrap items-center gap-1.5 text-xs text-muted">
-              {r.region} · {r.area} <span className="text-line">|</span> {r.food} <DataBadge r={r} />
+              {r.region} · {r.area} <span aria-hidden className="text-line">|</span> {r.food} <DataBadge r={r} />
             </p>
-            <h3 className="mt-0.5 truncate text-lg font-bold">{r.name}</h3>
+            <h3 className="mt-0.5 truncate text-[17px] font-bold sm:text-lg">{r.name}</h3>
           </div>
-          <HeartButton id={r.id} className="-mr-1 -mt-1" />
+          <HeartButton id={r.id} className="-mr-1.5 -mt-1.5" />
         </div>
-        <div className="mt-1.5 flex flex-wrap gap-1.5">
+        <div className="mt-1 flex flex-wrap gap-1.5">
           <CorkageBadge status={r.corkage.status} />
-          {r.tags.slice(0, 3).map((t) => (
-            <span key={t} className="rounded-md border border-line px-2 py-0.5 text-[11px] text-muted">
-              {t}
-            </span>
-          ))}
+          <ReviewBadge signal={r.corkage.reviewSignal} count={r.corkage.freeMentions} />
         </div>
-        <div className="mt-2 flex items-end justify-between gap-2">
-          <div className="min-w-0 text-[13px] leading-relaxed text-muted">
-            <p className="line-clamp-1">{s.reasons.slice(0, 3).join(' · ') || r.category}</p>
-            <p>{r.priceFor2 != null ? `2인 약 ${money(r.priceFor2)}` : '가격 정보 없음'}{r.drinks.length ? ` · ${r.drinks.slice(0, 2).join('·')}` : ''}</p>
+        <div className="mt-1.5 flex items-end justify-between gap-2">
+          <div className="min-w-0 space-y-0.5 text-[13px] text-muted">
+            <p className="truncate">{conditionText(r)}</p>
+            <p className="truncate">
+              {r.priceFor2 != null ? `2인 약 ${money(r.priceFor2)}` : '가격 확인 필요'}
+              {r.tags.length > 0 && ` · ${r.tags.slice(0, 2).join('·')}`}
+            </p>
+            <p className="truncate text-xs">확인: {checkedText(r)}</p>
           </div>
-          <div className="shrink-0 rounded-xl bg-brand-soft px-2.5 py-1 text-center">
-            <p className="text-[10px] font-semibold text-brand">적합도</p>
-            <p className="text-lg font-extrabold leading-tight text-brand">{s.score}%</p>
-          </div>
+          <FitBadge score={s.score} coverage={s.coverage} />
         </div>
       </div>
-    </article>
+    </div>
   );
 }
 
-/** 사진 큰 카드 (홈 추천) */
+/** 격자형 카드 */
 export function RestaurantTile({ s }: { s: Scored }) {
   const { openDetail } = useStore();
   const { r } = s;
   return (
-    <article onClick={() => openDetail(r.id)} className="group cursor-pointer overflow-hidden rounded-2xl border border-line bg-card transition hover:shadow-lg">
+    <div
+      role="button"
+      tabIndex={0}
+      aria-label={`${r.name} 상세 보기`}
+      onClick={() => openDetail(r.id)}
+      onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), openDetail(r.id))}
+      className="cursor-pointer overflow-hidden rounded-[var(--radius-card)] border border-line bg-card shadow-[var(--shadow-card)] transition hover:border-brand/40"
+    >
       <div className="relative">
-        <FoodArt r={r} className="aspect-[4/3] w-full" rounded="rounded-none" />
-        <HeartButton id={r.id} className="absolute right-2 top-2 bg-card/80 backdrop-blur" />
+        <PhotoBox r={r} className="aspect-[4/3] w-full border-0" rounded="rounded-none" />
+        <HeartButton id={r.id} className="absolute right-1.5 top-1.5 bg-card/90" />
         <span className="absolute left-2 top-2">
           <DataBadge r={r} />
         </span>
       </div>
-      <div className="p-4">
-        <p className="text-xs font-medium text-accent">
+      <div className="space-y-1 p-3.5">
+        <p className="text-xs text-muted">
           {r.region} · {r.area}
         </p>
-        <h3 className="mt-0.5 truncate text-lg font-bold">{r.name}</h3>
-        <p className="mt-1 text-2xl font-extrabold text-brand">{s.score}점</p>
-        <CorkageBadge status={r.corkage.status} className="mt-1 !px-0" />
-        <p className="mt-1 text-sm text-muted">{r.priceFor2 != null ? `2인 ${money(r.priceFor2)}` : r.food}</p>
+        <h3 className="truncate text-[17px] font-bold">{r.name}</h3>
+        <CorkageBadge status={r.corkage.status} />
+        <ReviewBadge signal={r.corkage.reviewSignal} count={r.corkage.freeMentions} />
+        <p className="text-sm text-muted">
+          {s.coverage >= 0.5 ? <b className="text-brand">적합도 {s.score}%</b> : '적합도 정보 부족'} · {r.priceFor2 != null ? `2인 ${money(r.priceFor2)}` : r.food}
+        </p>
       </div>
-    </article>
+    </div>
   );
 }

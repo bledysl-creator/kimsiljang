@@ -23,10 +23,12 @@ const bad = (m) => {
 
 // 카카오 키는 필수, 네이버 키는 선택 (없으면 블로그 후기 수집만 빠져요)
 for (const [k, v] of Object.entries({ KAKAO_REST_KEY, KAKAO_JS_KEY })) {
-  v ? ok(`${k} 있음 (${v.length}자)`) : bad(`${k} 없음`);
+  if (v) ok(`${k} 있음 (${v.length}자)`);
+  else bad(`${k} 없음`);
 }
 for (const [k, v] of Object.entries({ NAVER_CLIENT_ID, NAVER_CLIENT_SECRET })) {
-  v ? ok(`${k} 있음 (${v.length}자)`) : warn(`${k} 없음 (선택: 블로그 후기 수집이 꺼져요)`);
+  if (v) ok(`${k} 있음 (${v.length}자)`);
+  else warn(`${k} 없음 (선택: 블로그 후기 수집이 꺼져요)`);
 }
 
 if (NAVER_CLIENT_ID && NAVER_CLIENT_SECRET) {
@@ -35,7 +37,8 @@ if (NAVER_CLIENT_ID && NAVER_CLIENT_SECRET) {
     { headers: { 'X-NCP-APIGW-API-KEY-ID': NAVER_CLIENT_ID, 'X-NCP-APIGW-API-KEY': NAVER_CLIENT_SECRET } }
   );
   const body = await res.text();
-  res.ok ? ok(`네이버 블로그 검색 성공 (총 ${JSON.parse(body).total}건)`) : bad(`네이버 블로그 검색 실패 ${res.status}: ${body.slice(0, 300)}`);
+  if (res.ok) ok(`네이버 블로그 검색 성공 (총 ${JSON.parse(body).total}건)`);
+  else bad(`네이버 블로그 검색 실패 ${res.status}: ${body.slice(0, 300)}`);
 }
 
 if (KAKAO_REST_KEY) {
@@ -43,9 +46,8 @@ if (KAKAO_REST_KEY) {
     headers: { Authorization: `KakaoAK ${KAKAO_REST_KEY}` },
   });
   const body = await res.text();
-  res.ok
-    ? ok(`카카오 장소 검색 성공 (${JSON.parse(body).documents[0]?.place_name})`)
-    : bad(`카카오 장소 검색 실패 ${res.status}: ${body.slice(0, 300)}`);
+  if (res.ok) ok(`카카오 장소 검색 성공 (${JSON.parse(body).documents[0]?.place_name})`);
+  else bad(`카카오 장소 검색 실패 ${res.status}: ${body.slice(0, 300)}`);
 }
 
 if (KAKAO_JS_KEY) {
@@ -54,9 +56,8 @@ if (KAKAO_JS_KEY) {
     headers: { Referer: 'https://bledysl-creator.github.io/kimsiljang/' },
   });
   const body = await res.text();
-  res.ok && !/error|invalid/i.test(body.slice(0, 200))
-    ? ok('카카오 지도 JS 키 응답 정상')
-    : bad(`카카오 지도 JS 키 확인 실패 ${res.status}: ${body.slice(0, 200)}`);
+  if (res.ok && !/error|invalid/i.test(body.slice(0, 200))) ok('카카오 지도 JS 키 응답 정상');
+  else bad(`카카오 지도 JS 키 확인 실패 ${res.status}: ${body.slice(0, 200)}`);
 }
 
 process.exit(failed ? 1 : 0);

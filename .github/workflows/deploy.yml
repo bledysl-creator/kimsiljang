@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 21 * * *' # 매일 한국시간 오전 6시
+    - cron: '0 22 * * *' # 매일 한국시간 오전 7시 (GitHub 사정으로 늦어질 수 있어요)
   workflow_dispatch: # Actions 탭에서 '지금 실행' 가능 (브랜치 선택 시 수집만 테스트)
 
 permissions:
@@ -27,8 +27,11 @@ jobs:
           cache: npm
       - run: npm ci
 
-      - name: 가게 찾기 · 콜키지 검증 · 메뉴 사진
+      - name: 가게 찾기 · 콜키지 후기 분석
+        id: collect
         if: github.event_name != 'push'
+        # 실패해도 이전 데이터는 남기고 '수집 실패'만 기록한 뒤 배포는 계속해요
+        continue-on-error: true
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
@@ -44,6 +47,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data data
           git diff --cached --quiet || (git commit -m "데이터 자동 갱신 $(date +%F)" && git push)
+
+      - name: 린트 · 테스트
+        run: npm run lint && npm test
 
       - name: 빌드
         env:

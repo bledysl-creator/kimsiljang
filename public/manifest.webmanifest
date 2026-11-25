@@ -1,11 +1,11 @@
 {
-  "name": "OUR TABLE · 콜키지 프리 맛집",
-  "short_name": "OUR TABLE",
+  "name": "김실장 · 콜키지 프리 맛집",
+  "short_name": "김실장",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#16181f",
-  "theme_color": "#16181f",
+  "background_color": "#f8f4ef",
+  "theme_color": "#32131d",
   "lang": "ko",
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },

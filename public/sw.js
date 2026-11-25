@@ -1,5 +1,5 @@
 // 간단한 오프라인 캐시: 앱 화면은 캐시 우선, 데이터(JSON)는 네트워크 우선.
-const CACHE = 'kimsiljang-v1';
+const CACHE = 'kimsiljang-v2'; // 디자인 개편으로 캐시 갱신
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html'])));
