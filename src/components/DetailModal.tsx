@@ -10,6 +10,8 @@ import { checkedText } from './RestaurantCard';
 
 const NEED = <span className="text-muted">확인 필요</span>;
 const RECHECK_DAYS = 30;
+/** 네이버지도 검색 화면 링크 (사용자 요청). 특정 장소 링크가 아니라 '이름 + 동네' 검색이에요 */
+export const naverMapSearchUrl = (name: string, area: string) => `https://map.naver.com/p/search/${encodeURIComponent(`${name} ${area.split(' ').pop() ?? ''}`.trim())}`;
 const todayKST = () => new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Seoul' });
 
 function daysSince(d: string | null) {
@@ -167,11 +169,25 @@ export function DetailModal() {
             <h3 id="src" className="mb-2 font-bold">
               원본 링크
             </h3>
+            {/* 사진·후기는 지도 앱에서 보기 (공개 API 로는 가져올 수 없어요) */}
+            <div className="mb-3 grid grid-cols-2 gap-2">
+              {r.sources.find((l) => l.provider === 'kakao') ? (
+                <a href={r.sources.find((l) => l.provider === 'kakao')!.url} target="_blank" rel="noreferrer" className="flex min-h-11 items-center justify-center gap-1.5 rounded-xl border border-line bg-card px-3 text-sm font-semibold hover:border-brand/50">
+                  카카오맵에서 보기 <ExternalLink size={13} aria-hidden />
+                </a>
+              ) : (
+                <span />
+              )}
+              <a href={naverMapSearchUrl(r.name, r.area)} target="_blank" rel="noreferrer" className="flex min-h-11 items-center justify-center gap-1.5 rounded-xl border border-line bg-card px-3 text-sm font-semibold hover:border-brand/50">
+                네이버지도 검색 <ExternalLink size={13} aria-hidden />
+              </a>
+            </div>
+            <p className="-mt-1 mb-3 text-xs text-muted">사진과 방문자 후기는 지도 앱에서 볼 수 있어요. 네이버지도는 가게 이름으로 검색한 결과가 열려요.</p>
             {r.sources.length === 0 && r.evidence.length === 0 ? (
               <p className="text-sm text-muted">연결된 원본 링크가 없어요.</p>
             ) : (
               <ul className="space-y-1.5 text-sm">
-                {r.sources.map((l) => (
+                {r.sources.filter((l) => l.provider !== 'kakao').map((l) => (
                   <li key={l.url}>
                     <a href={l.url} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center gap-1.5 text-brand underline">
                       <MapPin size={14} aria-hidden /> {l.label} <ExternalLink size={12} aria-hidden />
