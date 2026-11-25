@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { BarChart3, CalendarHeart, Dices, Heart, Home, Inbox, MapPin, Menu, Search, Settings, Sparkles, Wine, X } from 'lucide-react';
+import { BarChart3, PanelLeftClose, PanelLeftOpen, CalendarHeart, Dices, Heart, Home, Inbox, MapPin, Menu, Search, Settings, Sparkles, Wine, X } from 'lucide-react';
 import { useStore } from '@/store/AppStore';
 import { PROJECT_NAME, SERVICE_NAME } from '@/lib/constants';
 import { cx } from './ui';
@@ -97,6 +97,16 @@ export function Layout({ children }: { children: ReactNode }) {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [open]);
+  // 사이드바 펼침 상태: 직접 바꾸면 이 기기에 기억해요
+  const [wide, setWide] = useState(() => {
+    const saved = localStorage.getItem('ot_sidebar');
+    return saved ? saved === 'wide' : window.matchMedia('(min-width: 75rem)').matches;
+  });
+  const toggleWide = () =>
+    setWide((w) => {
+      localStorage.setItem('ot_sidebar', w ? 'narrow' : 'wide');
+      return !w;
+    });
   const close = () => {
     setOpen(false);
     menuBtn.current?.focus();
@@ -104,28 +114,36 @@ export function Layout({ children }: { children: ReactNode }) {
 
   return (
     <div className="min-h-dvh">
-      {/* 태블릿: 축소 사이드바 / 데스크톱: 전체 사이드바 */}
-      <aside className="fixed inset-y-0 left-0 z-30 hidden w-[72px] flex-col bg-gradient-to-b from-side-from to-side-to px-2 py-6 text-side-fg md:flex desk:w-60 desk:px-4">
-        <div className="desk:hidden">
-          <Brand compact />
+      {/* 태블릿·데스크톱 사이드바: 위 버튼으로 접고 펼 수 있어요 (태블릿은 기본 접힘, 데스크톱은 기본 펼침) */}
+      <aside
+        className={cx(
+          'fixed inset-y-0 left-0 z-30 hidden flex-col bg-gradient-to-b from-side-from to-side-to py-5 text-side-fg transition-[width] duration-200 md:flex',
+          wide ? 'w-60 px-4' : 'w-[72px] px-2'
+        )}
+      >
+        <div className={cx('flex', wide ? 'items-start justify-between gap-2 px-2' : 'flex-col items-center gap-3')}>
+          <Brand compact={!wide} />
+          <button
+            onClick={toggleWide}
+            aria-label={wide ? '메뉴 접기' : '메뉴 펼치기'}
+            aria-expanded={wide}
+            title={wide ? '메뉴 접기' : '메뉴 펼치기'}
+            className="grid size-11 shrink-0 place-items-center rounded-xl text-side-muted hover:bg-white/10 hover:text-side-fg"
+          >
+            {wide ? <PanelLeftClose size={20} aria-hidden /> : <PanelLeftOpen size={20} aria-hidden />}
+          </button>
         </div>
-        <div className="hidden px-2 desk:block">
-          <Brand />
+        <div className="scrollbar-none mt-6 flex-1 overflow-y-auto">
+          <NavItems compact={!wide} />
         </div>
-        <div className="mt-8 flex-1 overflow-y-auto">
-          <div className="desk:hidden">
-            <NavItems compact />
+        {wide && (
+          <div className="mt-4 rounded-2xl bg-white/10 p-4">
+            <p className="text-sm font-semibold">오늘도 좋은 음식과, 좋은 술로 ♡</p>
+            <div className="mt-2">
+              <DataStatus />
+            </div>
           </div>
-          <div className="hidden desk:block">
-            <NavItems />
-          </div>
-        </div>
-        <div className="mt-4 hidden rounded-2xl bg-white/10 p-4 desk:block">
-          <p className="text-sm font-semibold">오늘도 좋은 음식과, 좋은 술로 ♡</p>
-          <div className="mt-2">
-            <DataStatus />
-          </div>
-        </div>
+        )}
       </aside>
 
       {/* 모바일 상단바 */}
@@ -153,7 +171,7 @@ export function Layout({ children }: { children: ReactNode }) {
         </div>
       )}
 
-      <main key={loc.pathname} className="px-4 pb-28 pt-4 md:ml-[72px] md:px-6 md:pb-8 desk:ml-60 desk:px-8 desk:pt-6">
+      <main key={loc.pathname} className={cx('px-4 pb-28 pt-4 transition-[margin] duration-200 md:px-6 md:pb-8 desk:px-8 desk:pt-6', wide ? 'md:ml-60' : 'md:ml-[72px]')}>
         <div className="mx-auto max-w-[1600px]">{children}</div>
       </main>
 
