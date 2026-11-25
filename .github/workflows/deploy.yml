@@ -5,7 +5,7 @@ on:
     branches: [main]
   schedule:
     - cron: '0 21 * * *' # 매일 한국시간 오전 6시
-  workflow_dispatch: # Actions 탭에서 '지금 실행' 가능
+  workflow_dispatch: # Actions 탭에서 '지금 실행' 가능 (브랜치 선택 시 수집만 테스트)
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: collect-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -27,32 +27,39 @@ jobs:
           cache: npm
       - run: npm ci
 
-      - name: 블로그 후기, 가게 정보 수집
+      - name: 가게 찾기 · 콜키지 검증 · 메뉴 사진
         if: github.event_name != 'push'
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
           KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: npm run collect
 
       - name: 수집 결과 저장소에 커밋
         if: github.event_name != 'push'
         run: |
-          git config user.name "kimsiljang-bot"
+          git config user.name "our-table-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data
+          git add public/data data
           git diff --cached --quiet || (git commit -m "데이터 자동 갱신 $(date +%F)" && git push)
 
       - name: 빌드
         env:
+          GITHUB_PAGES: '1'
           VITE_KAKAO_JS_KEY: ${{ secrets.KAKAO_JS_KEY }}
+          VITE_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
         with:
           path: dist
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:

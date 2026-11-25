@@ -1,0 +1,106 @@
+@import 'tailwindcss';
+
+/* 테마: 기본은 웜 아이보리 + 딥 버건디, .dark 는 다크 차콜 + 코랄핑크 + 라벤더 */
+:root {
+  --c-bg: #f8f3ec;
+  --c-card: #ffffff;
+  --c-card2: #fbf7f2;
+  --c-line: #ece1d6;
+  --c-fg: #2a1a1f;
+  --c-muted: #8b7b7e;
+  --c-brand: #7a1f3d;
+  --c-brand-2: #a33a5c;
+  --c-brand-ink: #ffffff;
+  --c-brand-soft: #f7e4e9;
+  --c-accent: #b0476a;
+  --c-accent-soft: #fbe9ee;
+  --c-side: #4a1229;
+  --c-side-2: #2e0a19;
+  --c-side-fg: #f8e8ec;
+  --c-side-muted: #d8b4c0;
+  --c-ok: #1f8a4c;
+  --c-ok-soft: #e4f4ea;
+  --c-warn: #b7791f;
+  --c-warn-soft: #fbefd9;
+  --c-hero-1: #f3e6dc;
+  --c-hero-2: #e9d3c8;
+  color-scheme: light;
+}
+.dark {
+  --c-bg: #16181f;
+  --c-card: #252830;
+  --c-card2: #20222b;
+  --c-line: #333541;
+  --c-fg: #f5f5f7;
+  --c-muted: #aaaab8;
+  --c-brand: #fb7185;
+  --c-brand-2: #f9a8b6;
+  --c-brand-ink: #21151c;
+  --c-brand-soft: #442b3a;
+  --c-accent: #c4b5fd;
+  --c-accent-soft: #332c3d;
+  --c-side: #20222b;
+  --c-side-2: #1a1c24;
+  --c-side-fg: #f5f5f7;
+  --c-side-muted: #b8b8c6;
+  --c-ok: #4ade80;
+  --c-ok-soft: #1d3b2a;
+  --c-warn: #fbbf24;
+  --c-warn-soft: #3b2f17;
+  --c-hero-1: #302537;
+  --c-hero-2: #63414f;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--c-bg);
+  --color-card: var(--c-card);
+  --color-card2: var(--c-card2);
+  --color-line: var(--c-line);
+  --color-fg: var(--c-fg);
+  --color-muted: var(--c-muted);
+  --color-brand: var(--c-brand);
+  --color-brand-2: var(--c-brand-2);
+  --color-brand-ink: var(--c-brand-ink);
+  --color-brand-soft: var(--c-brand-soft);
+  --color-accent: var(--c-accent);
+  --color-accent-soft: var(--c-accent-soft);
+  --color-side: var(--c-side);
+  --color-side-2: var(--c-side-2);
+  --color-side-fg: var(--c-side-fg);
+  --color-side-muted: var(--c-side-muted);
+  --color-ok: var(--c-ok);
+  --color-ok-soft: var(--c-ok-soft);
+  --color-warn: var(--c-warn);
+  --color-warn-soft: var(--c-warn-soft);
+  --color-hero-1: var(--c-hero-1);
+  --color-hero-2: var(--c-hero-2);
+  --font-sans: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
+  --font-display: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+button {
+  cursor: pointer;
+}
+:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 2px;
+}
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
