@@ -449,7 +449,7 @@
         "y": "37.26323186932701"
       },
       "area": "수원 인계동",
-      "hits": 8,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -2222,6 +2222,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "12045294": {
+      "place": {
+        "address_name": "서울 종로구 연지동 246",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "12045294",
+        "phone": "02-763-4278",
+        "place_name": "팔도회집",
+        "place_url": "http://place.map.kakao.com/12045294",
+        "road_address_name": "서울 종로구 종로31길 28",
+        "x": "126.999723795369",
+        "y": "37.5721438078369"
+      },
+      "area": "을지로",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-26"
+    },
     "12055448": {
       "place": {
         "address_name": "서울 성동구 성수동1가 656-591",
@@ -2524,7 +2544,7 @@
         "y": "37.37032446316103"
       },
       "area": "정자동",
-      "hits": 6,
+      "hits": 5,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -4936,9 +4956,84 @@
         "y": "37.54946570812747"
       },
       "area": "합정",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "free",
+          "freeBottles": null,
+          "drinkTypes": [
+            "와인",
+            "사케",
+            "소주·전통주",
+            "맥주"
+          ],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 16,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-26"
+        },
+        "evidence": [
+          {
+            "title": "[서울]합정역맛집 ‘퓨전선술집’ 또간집 인생도미회 먹으러 재방....",
+            "url": "https://blog.naver.com/s_minn/224267315187",
+            "date": "2026-04-27",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "합정 [퓨전선술집] 서울 숨은 숙성회 맛집 워크인 후기│신기루 추....",
+            "url": "https://blog.naver.com/warigari_0413/224264989920",
+            "date": "2026-04-25",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "[합정] 퓨전선술집 (허영만의 백반기행 숙성 사시미 맛집 솔직한 후....",
+            "url": "https://blog.naver.com/kyuni0912/224226599163",
+            "date": "2026-04-11",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "[서울]합정역술집 퓨전선술집 인생 도미회 만남",
+            "url": "https://blog.naver.com/s_minn/224182647430",
+            "date": "2026-02-13",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "합정역술집 노포 찐맛집 퓨전선술집",
+            "url": "https://blog.naver.com/hhhyeonii/224181258792",
+            "date": "2026-02-12",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "숙성사시미와 메로구이가 맛있는 합정 노포 맛집 퓨전선술집",
+            "url": "https://blog.naver.com/hye5nni/224149437676",
+            "date": "2026-01-16",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": [
+          "데이트"
+        ]
+      },
+      "verifiedAt": "2026-11-26",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      }
     },
     "17180659": {
       "place": {
@@ -5995,6 +6090,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "20036932": {
+      "place": {
+        "address_name": "경기 수원시 영통구 영통동 1039-7",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "20036932",
+        "phone": "",
+        "place_name": "수원다찌",
+        "place_url": "http://place.map.kakao.com/20036932",
+        "road_address_name": "경기 수원시 영통구 청명남로50번길 5-2",
+        "x": "127.07715032642896",
+        "y": "37.25366597053939"
+      },
+      "area": "영통",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-26"
+    },
     "20089888": {
       "place": {
         "address_name": "경기 성남시 분당구 서현동 247-1",
@@ -6766,7 +6881,7 @@
         "y": "37.2680139488386"
       },
       "area": "수원역",
-      "hits": 8,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -6864,7 +6979,7 @@
         "y": "37.553702008954"
       },
       "area": "합정",
-      "hits": 56,
+      "hits": 58,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -7357,7 +7472,7 @@
         "y": "37.37896314969401"
       },
       "area": "수내역",
-      "hits": 34,
+      "hits": 33,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -7510,7 +7625,7 @@
         "y": "37.381133506033464"
       },
       "area": "서현역",
-      "hits": 4,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -7997,7 +8112,7 @@
         "y": "37.49272256178499"
       },
       "area": "위례",
-      "hits": 6,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -8519,7 +8634,7 @@
         "y": "37.2643015895764"
       },
       "area": "수원 인계동",
-      "hits": 52,
+      "hits": 53,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -10789,7 +10904,7 @@
         "y": "37.39771620649867"
       },
       "area": "판교역",
-      "hits": 34,
+      "hits": 33,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -10923,7 +11038,7 @@
         "y": "37.4108950409866"
       },
       "area": "야탑역",
-      "hits": 6,
+      "hits": 5,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -11797,9 +11912,37 @@
         "y": "37.441488484971075"
       },
       "area": "성남 신흥동",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "none",
+          "freeBottles": null,
+          "drinkTypes": [],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 0,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-26"
+        },
+        "evidence": [
+          {
+            "title": "신흥역 맛집 김과장고깃집 가성비 미친 성남 삼겹살 후기",
+            "url": "https://blog.naver.com/wooyumyum/224428595530",
+            "date": "2026-10-01",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": []
+      },
+      "verifiedAt": "2026-11-26"
     },
     "27466005": {
       "place": {
@@ -12131,9 +12274,81 @@
         "y": "37.43084757783676"
       },
       "area": "성남 모란",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "none",
+          "freeBottles": null,
+          "drinkTypes": [],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 0,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-26"
+        },
+        "evidence": [
+          {
+            "title": "신흥역 맛집 김과장고깃집 가성비 미친 성남 삼겹살 후기",
+            "url": "https://blog.naver.com/wooyumyum/224428595530",
+            "date": "2026-10-01",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "[성남] 가성비 모란고기집 추천 삼겹살 맛있는 김과장고깃집 모란직....",
+            "url": "https://blog.naver.com/myawesomelif3/224400196004",
+            "date": "2026-09-03",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "[야탑역 맛집]구워주는 고기집 '고반식당 야탑점' 모둠 세트 내돈내....",
+            "url": "https://blog.naver.com/tnals585/224347269519",
+            "date": "2026-07-16",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "모란맛집 :) 솥뚜껑 삼겹살 육즙이 예술인 가성비 김과장고깃집 모....",
+            "url": "https://blog.naver.com/0_0jini/224264870274",
+            "date": "2026-04-28",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "성남 모란역 김과장고깃집 삼겹살 추천 맛집 회식장소 가성비 솥뚜....",
+            "url": "https://blog.naver.com/secretjuuju/224083378315",
+            "date": "2025-11-21",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "모란역 가성비맛집 노포감성 김과장 고깃집 모란직영점 후기",
+            "url": "https://blog.naver.com/ssk6599/224029440578",
+            "date": "2025-10-23",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": [
+          "분위기",
+          "주차",
+          "단체"
+        ]
+      },
+      "verifiedAt": "2026-11-26",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      }
     },
     "27589555": {
       "place": {
@@ -12266,7 +12481,7 @@
         "y": "37.2866072950197"
       },
       "area": "수원 인계동",
-      "hits": 16,
+      "hits": 17,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -12558,7 +12773,7 @@
         "y": "37.5192119431584"
       },
       "area": "여의도",
-      "hits": 3,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -12676,7 +12891,7 @@
         "y": "37.5218148512411"
       },
       "area": "신사동",
-      "hits": 13,
+      "hits": 14,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -13629,7 +13844,7 @@
         "y": "37.52033857670919"
       },
       "area": "여의도",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -14081,7 +14296,7 @@
         "y": "37.518756613911464"
       },
       "area": "신사동",
-      "hits": 10,
+      "hits": 11,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -14629,7 +14844,7 @@
         "y": "37.36133758694464"
       },
       "area": "정자동",
-      "hits": 6,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -15471,7 +15686,7 @@
         "y": "37.26532426518665"
       },
       "area": "수원 인계동",
-      "hits": 25,
+      "hits": 26,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -15608,7 +15823,7 @@
         "y": "37.38139839648758"
       },
       "area": "수내역",
-      "hits": 7,
+      "hits": 6,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -15847,7 +16062,7 @@
         "y": "37.268343858087185"
       },
       "area": "수원역",
-      "hits": 22,
+      "hits": 20,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -18084,7 +18299,7 @@
         "y": "37.5457367343772"
       },
       "area": "합정",
-      "hits": 469,
+      "hits": 468,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -18746,7 +18961,7 @@
         "y": "37.2634238205249"
       },
       "area": "수원 인계동",
-      "hits": 27,
+      "hits": 28,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -19043,7 +19258,7 @@
         "y": "37.5047378538793"
       },
       "area": "잠실",
-      "hits": 6,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -19977,7 +20192,7 @@
         "y": "37.5608248747538"
       },
       "area": "연남동",
-      "hits": 125,
+      "hits": 124,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -20792,7 +21007,7 @@
         "y": "37.2634525524834"
       },
       "area": "수원 인계동",
-      "hits": 41,
+      "hits": 42,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -21203,7 +21418,7 @@
         "y": "37.3903255775258"
       },
       "area": "서판교",
-      "hits": 35,
+      "hits": 33,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -23326,7 +23541,7 @@
         "y": "37.26493178700701"
       },
       "area": "수원 인계동",
-      "hits": 23,
+      "hits": 22,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -23730,9 +23945,56 @@
         "y": "37.3968924401068"
       },
       "area": "판교역",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "none",
+          "freeBottles": null,
+          "drinkTypes": [],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 1,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-26"
+        },
+        "evidence": [
+          {
+            "title": "판교역 이자카야 사쿠라테이엔 딱새우 후기",
+            "url": "https://blog.naver.com/jsvlar/224380306354",
+            "date": "2026-08-16",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "판교 맛집 추천 식당 리스트 10곳",
+            "url": "https://blog.naver.com/j1ewalk/224132331555",
+            "date": "2026-01-05",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "삼평동 맛집 베스트 추천 top 10",
+            "url": "https://hotel-iu.tistory.com/7844",
+            "date": "2025-01-27",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": []
+      },
+      "verifiedAt": "2026-11-26",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      }
     },
     "482557997": {
       "place": {
@@ -23770,7 +24032,7 @@
         "y": "37.411734638445026"
       },
       "area": "야탑역",
-      "hits": 29,
+      "hits": 30,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -23988,7 +24250,7 @@
         "y": "37.3939264723571"
       },
       "area": "백현동",
-      "hits": 38,
+      "hits": 39,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -26494,7 +26756,7 @@
         "y": "37.5125549527106"
       },
       "area": "잠실",
-      "hits": 3,
+      "hits": 2,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -26793,7 +27055,7 @@
         "y": "37.5095972949274"
       },
       "area": "잠실",
-      "hits": 38,
+      "hits": 39,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -27334,9 +27596,56 @@
         "y": "37.39766335927138"
       },
       "area": "판교역",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "none",
+          "freeBottles": null,
+          "drinkTypes": [],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 1,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-26"
+        },
+        "evidence": [
+          {
+            "title": "판교역 이자카야 사쿠라테이엔 딱새우 후기",
+            "url": "https://blog.naver.com/jsvlar/224380306354",
+            "date": "2026-08-16",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "판교 맛집 추천 식당 리스트 10곳",
+            "url": "https://blog.naver.com/j1ewalk/224132331555",
+            "date": "2026-01-05",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "삼평동 맛집 베스트 추천 top 10",
+            "url": "https://hotel-iu.tistory.com/7844",
+            "date": "2025-01-27",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": []
+      },
+      "verifiedAt": "2026-11-26",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      }
     },
     "643073931": {
       "place": {
@@ -28848,7 +29157,7 @@
         "y": "37.2468351239809"
       },
       "area": "영통",
-      "hits": 1,
+      "hits": 0,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -30070,7 +30379,7 @@
         "y": "37.49820458397177"
       },
       "area": "강남역",
-      "hits": 3,
+      "hits": 2,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -31484,7 +31793,7 @@
         "y": "37.55428144176397"
       },
       "area": "합정",
-      "hits": 21,
+      "hits": 22,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -31909,7 +32218,7 @@
         "y": "37.4108900371308"
       },
       "area": "야탑역",
-      "hits": 32,
+      "hits": 31,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -32679,7 +32988,7 @@
         "y": "37.3468564647742"
       },
       "area": "미금역",
-      "hits": 8,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -32832,7 +33141,7 @@
         "y": "37.2981173102251"
       },
       "area": "광교",
-      "hits": 2,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -33299,7 +33608,7 @@
         "y": "37.41084980804417"
       },
       "area": "야탑역",
-      "hits": 34,
+      "hits": 33,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -33892,7 +34201,7 @@
         "y": "37.362127150821806"
       },
       "area": "정자동",
-      "hits": 8,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -34251,7 +34560,7 @@
         "y": "37.43192587629053"
       },
       "area": "성남 모란",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -34647,7 +34956,7 @@
         "y": "37.3867288814895"
       },
       "area": "서현역",
-      "hits": 34,
+      "hits": 33,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -35513,7 +35822,7 @@
         "y": "37.39732066642212"
       },
       "area": "판교역",
-      "hits": 4,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -36269,7 +36578,7 @@
         "y": "37.569050818571924"
       },
       "area": "종로",
-      "hits": 34,
+      "hits": 30,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -36581,7 +36890,7 @@
         "y": "37.5210146876137"
       },
       "area": "여의도",
-      "hits": 48,
+      "hits": 50,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -36834,7 +37143,7 @@
         "y": "37.5349971929501"
       },
       "area": "이태원",
-      "hits": 12,
+      "hits": 14,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -37630,7 +37939,7 @@
         "y": "37.26552912653312"
       },
       "area": "수원 인계동",
-      "hits": 1,
+      "hits": 2,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -38576,7 +38885,7 @@
         "y": "37.5191698574638"
       },
       "area": "여의도",
-      "hits": 6,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -39291,7 +39600,7 @@
         "y": "37.364603141377785"
       },
       "area": "정자동",
-      "hits": 27,
+      "hits": 28,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -40517,7 +40826,7 @@
         "y": "37.5064251089858"
       },
       "area": "잠실",
-      "hits": 4,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -40742,7 +41051,7 @@
         "y": "37.29170158506528"
       },
       "area": "광교",
-      "hits": 34,
+      "hits": 33,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -41019,7 +41328,7 @@
         "y": "37.49478545757078"
       },
       "area": "강남역",
-      "hits": 67,
+      "hits": 72,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -41573,7 +41882,7 @@
         "y": "37.5615401788009"
       },
       "area": "연남동",
-      "hits": 11,
+      "hits": 12,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -41754,7 +42063,7 @@
         "y": "37.265566936031"
       },
       "area": "수원 인계동",
-      "hits": 22,
+      "hits": 20,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -42045,7 +42354,7 @@
         "y": "37.37960561845528"
       },
       "area": "수내역",
-      "hits": 49,
+      "hits": 48,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -43227,7 +43536,7 @@
         "y": "37.447894335793414"
       },
       "area": "성남 신흥동",
-      "hits": 3,
+      "hits": 2,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -43448,7 +43757,7 @@
         "y": "37.2645161980618"
       },
       "area": "수원 인계동",
-      "hits": 28,
+      "hits": 24,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -44433,7 +44742,7 @@
         "y": "37.387685864038005"
       },
       "area": "서현역",
-      "hits": 6,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -44523,7 +44832,7 @@
         "y": "37.34740501083523"
       },
       "area": "미금역",
-      "hits": 5,
+      "hits": 6,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -46915,7 +47224,7 @@
         "y": "37.39413578931001"
       },
       "area": "판교역",
-      "hits": 28,
+      "hits": 25,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -48080,7 +48389,7 @@
         "y": "37.5229117923318"
       },
       "area": "신사동",
-      "hits": 1,
+      "hits": 2,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49348,7 +49657,7 @@
         "y": "37.51956626403234"
       },
       "area": "신사동",
-      "hits": 69,
+      "hits": 70,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49444,7 +49753,7 @@
         "y": "37.3845713462609"
       },
       "area": "정자동",
-      "hits": 57,
+      "hits": 58,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49779,7 +50088,7 @@
         "y": "37.47446611897799"
       },
       "area": "위례",
-      "hits": 6,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49982,7 +50291,7 @@
         "y": "37.5504179897527"
       },
       "area": "합정",
-      "hits": 1,
+      "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -50182,7 +50491,7 @@
         "y": "37.37204648870636"
       },
       "area": "정자동",
-      "hits": 3,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -50844,7 +51153,7 @@
         "y": "37.411215540718345"
       },
       "area": "야탑역",
-      "hits": 27,
+      "hits": 29,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -51173,7 +51482,7 @@
         "y": "37.5493502616148"
       },
       "area": "성수동",
-      "hits": 45,
+      "hits": 43,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -51385,7 +51694,7 @@
         "y": "37.2879315127006"
       },
       "area": "행궁동",
-      "hits": 31,
+      "hits": 30,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -51687,7 +51996,7 @@
         "y": "37.3979911218905"
       },
       "area": "판교역",
-      "hits": 29,
+      "hits": 30,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -52383,7 +52692,7 @@
         "y": "37.5692490386235"
       },
       "area": "종로",
-      "hits": 5,
+      "hits": 6,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -54882,9 +55191,79 @@
         "y": "37.2638897106761"
       },
       "area": "수원 인계동",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "conditional",
+          "freeBottles": null,
+          "drinkTypes": [
+            "와인"
+          ],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 2,
+          "paidMentions": 1,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-26"
+        },
+        "evidence": [
+          {
+            "title": "[수원/술집] 내돈내산 : 나혜석거리 이자카야 '아자스 철판꼬치' 야....",
+            "url": "https://blog.naver.com/dbsl4775/224489068215",
+            "date": "2026-11-23",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "수원 인계동 고기집 단체 회식 장소 추천 서울 3대 닭갈비 신림춘천....",
+            "url": "https://blog.naver.com/blossom_mom/224053385645",
+            "date": "2025-10-25",
+            "source": "naver-blog",
+            "signal": "paid"
+          },
+          {
+            "title": "수원 인계동 닭갈비 맛집 신림춘천집 나혜석거리점.",
+            "url": "https://blog.naver.com/mr2223/223955472454",
+            "date": "2025-08-01",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "[일상로그]2025 연초의 먹부림",
+            "url": "https://blog.naver.com/daheenamic-/223722139312",
+            "date": "2025-01-23",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "광교카페거리 맛집 / 광교중앙역 맛집 뭉텅 광교점 :: 가성비 좋은 ....",
+            "url": "https://blog.naver.com/jinzhi94/223522446631",
+            "date": "2024-07-23",
+            "source": "naver-blog",
+            "signal": "conditional"
+          },
+          {
+            "title": "영통 맛집 닭갈비 장인의 신림춘천집 & 소고기의 정점 국보회관",
+            "url": "https://blog.naver.com/totohal019/223065888704",
+            "date": "2023-04-05",
+            "source": "naver-blog",
+            "signal": "free"
+          }
+        ],
+        "tags": []
+      },
+      "verifiedAt": "2026-11-26",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      }
     },
     "1711932218": {
       "place": {
@@ -55130,7 +55509,7 @@
         "y": "37.5286949246729"
       },
       "area": "여의도",
-      "hits": 16,
+      "hits": 17,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -55658,7 +56037,7 @@
         "y": "37.5110800927465"
       },
       "area": "잠실",
-      "hits": 22,
+      "hits": 20,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -55833,7 +56212,7 @@
         "y": "37.3975107617368"
       },
       "area": "판교역",
-      "hits": 87,
+      "hits": 88,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -55947,7 +56326,7 @@
         "y": "37.2786283307857"
       },
       "area": "행궁동",
-      "hits": 883,
+      "hits": 880,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -56727,7 +57106,7 @@
         "y": "37.528269859433905"
       },
       "area": "여의도",
-      "hits": 1,
+      "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -57837,7 +58216,7 @@
         "y": "37.5417127505397"
       },
       "area": "이태원",
-      "hits": 76,
+      "hits": 78,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -58556,7 +58935,7 @@
         "y": "37.3902785165099"
       },
       "area": "서판교",
-      "hits": 64,
+      "hits": 65,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -58887,7 +59266,7 @@
         "y": "37.569242559434784"
       },
       "area": "을지로",
-      "hits": 29,
+      "hits": 30,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -59034,7 +59413,7 @@
         "y": "37.54968708204191"
       },
       "area": "합정",
-      "hits": 7,
+      "hits": 6,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -59151,7 +59530,7 @@
         "y": "37.287052825094754"
       },
       "area": "광교",
-      "hits": 1,
+      "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -59886,7 +60265,7 @@
         "y": "37.41154670444494"
       },
       "area": "서판교",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -60001,7 +60380,7 @@
         "y": "37.549837145357344"
       },
       "area": "합정",
-      "hits": 1,
+      "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -61019,7 +61398,7 @@
         "y": "37.548742370939074"
       },
       "area": "합정",
-      "hits": 11,
+      "hits": 12,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -61116,9 +61495,37 @@
         "y": "37.51311622641356"
       },
       "area": "잠실",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "none",
+          "freeBottles": null,
+          "drinkTypes": [],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 0,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-26"
+        },
+        "evidence": [
+          {
+            "title": "서울 송파구 잠실 롯데타워 와인 마시기 좋은 레스토랑",
+            "url": "https://blog.naver.com/silverr_rain/224017503366",
+            "date": "2025-09-22",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": []
+      },
+      "verifiedAt": "2026-11-26"
     },
     "1944466400": {
       "place": {
@@ -61560,7 +61967,7 @@
         "y": "37.56875705133095"
       },
       "area": "종로",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -61915,7 +62322,7 @@
         "y": "37.393762512563484"
       },
       "area": "백현동",
-      "hits": 34,
+      "hits": 33,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -63295,7 +63702,7 @@
         "y": "37.4756108024759"
       },
       "area": "위례",
-      "hits": 5,
+      "hits": 6,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -63769,7 +64176,7 @@
         "y": "37.27466240519368"
       },
       "area": "광교",
-      "hits": 25,
+      "hits": 26,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -64151,7 +64558,7 @@
         "y": "37.569429104479"
       },
       "area": "종로",
-      "hits": 4,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {

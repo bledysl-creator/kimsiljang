@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "source": "네이버 블로그·지역 검색(NAVER API HUB), 카카오 로컬 API 자동 수집 · 블로그는 제목/링크/날짜만",
   "lastRun": {
     "status": "success",
-    "startedAt": "2026-11-25T12:57:32.305Z",
-    "finishedAt": "2026-11-25T13:04:08.045Z",
-    "count": 407,
+    "startedAt": "2026-11-25T22:51:16.878Z",
+    "finishedAt": "2026-11-25T22:55:51.569Z",
+    "count": 412,
     "error": null
   },
-  "lastSuccessAt": "2026-11-25",
+  "lastSuccessAt": "2026-11-26",
   "restaurants": [
     {
       "id": "k26913121",
@@ -10657,6 +10657,102 @@
         "데이트",
         "단체",
         "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k17079032",
+      "name": "퓨전선술집",
+      "region": "서울",
+      "area": "마포구 합정동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점",
+      "priceFor2": null,
+      "address": "서울 마포구 월드컵로1길 7",
+      "lat": 37.54946570812747,
+      "lng": 126.91246514846281,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/17079032"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "소주·전통주",
+          "맥주"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 16,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-26"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[서울]합정역맛집 ‘퓨전선술집’ 또간집 인생도미회 먹으러 재방....",
+          "url": "https://blog.naver.com/s_minn/224267315187",
+          "date": "2026-04-27",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "합정 [퓨전선술집] 서울 숨은 숙성회 맛집 워크인 후기│신기루 추....",
+          "url": "https://blog.naver.com/warigari_0413/224264989920",
+          "date": "2026-04-25",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[합정] 퓨전선술집 (허영만의 백반기행 숙성 사시미 맛집 솔직한 후....",
+          "url": "https://blog.naver.com/kyuni0912/224226599163",
+          "date": "2026-04-11",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[서울]합정역술집 퓨전선술집 인생 도미회 만남",
+          "url": "https://blog.naver.com/s_minn/224182647430",
+          "date": "2026-02-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "합정역술집 노포 찐맛집 퓨전선술집",
+          "url": "https://blog.naver.com/hhhyeonii/224181258792",
+          "date": "2026-02-12",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "숙성사시미와 메로구이가 맛있는 합정 노포 맛집 퓨전선술집",
+          "url": "https://blog.naver.com/hye5nni/224149437676",
+          "date": "2026-01-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트"
       ],
       "menus": []
     },
@@ -28334,6 +28430,97 @@
       "menus": []
     },
     {
+      "id": "k1707397684",
+      "name": "신림춘천집 나혜석거리점",
+      "region": "수원",
+      "area": "팔달구 인계동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 닭요리",
+      "priceFor2": null,
+      "address": "경기 수원시 팔달구 권광로 184",
+      "lat": 37.2638897106761,
+      "lng": 127.033730493835,
+      "phone": "031-222-1998",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1707397684"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-26"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[수원/술집] 내돈내산 : 나혜석거리 이자카야 '아자스 철판꼬치' 야....",
+          "url": "https://blog.naver.com/dbsl4775/224489068215",
+          "date": "2026-11-23",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 인계동 고기집 단체 회식 장소 추천 서울 3대 닭갈비 신림춘천....",
+          "url": "https://blog.naver.com/blossom_mom/224053385645",
+          "date": "2025-10-25",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "수원 인계동 닭갈비 맛집 신림춘천집 나혜석거리점.",
+          "url": "https://blog.naver.com/mr2223/223955472454",
+          "date": "2025-08-01",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[일상로그]2025 연초의 먹부림",
+          "url": "https://blog.naver.com/daheenamic-/223722139312",
+          "date": "2025-01-23",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "광교카페거리 맛집 / 광교중앙역 맛집 뭉텅 광교점 :: 가성비 좋은 ....",
+          "url": "https://blog.naver.com/jinzhi94/223522446631",
+          "date": "2024-07-23",
+          "source": "naver-blog",
+          "signal": "conditional"
+        },
+        {
+          "title": "영통 맛집 닭갈비 장인의 신림춘천집 & 소고기의 정점 국보회관",
+          "url": "https://blog.naver.com/totohal019/223065888704",
+          "date": "2023-04-05",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
+      "menus": []
+    },
+    {
       "id": "k1814498690",
       "name": "차고145",
       "region": "성남",
@@ -30042,6 +30229,74 @@
       "menus": []
     },
     {
+      "id": "k478111300",
+      "name": "사쿠라테이엔 판교2호점",
+      "region": "성남",
+      "area": "분당구 삼평동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점",
+      "priceFor2": null,
+      "address": "경기 성남시 분당구 대왕판교로606번길 45",
+      "lat": 37.3968924401068,
+      "lng": 127.11192486390509,
+      "phone": "010-4824-6780",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/478111300"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-26"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "판교역 이자카야 사쿠라테이엔 딱새우 후기",
+          "url": "https://blog.naver.com/jsvlar/224380306354",
+          "date": "2026-08-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "판교 맛집 추천 식당 리스트 10곳",
+          "url": "https://blog.naver.com/j1ewalk/224132331555",
+          "date": "2026-01-05",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "삼평동 맛집 베스트 추천 top 10",
+          "url": "https://hotel-iu.tistory.com/7844",
+          "date": "2025-01-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
+      "menus": []
+    },
+    {
       "id": "k547780820",
       "name": "하시",
       "region": "수원",
@@ -30215,6 +30470,74 @@
       "tags": [
         "단체"
       ],
+      "menus": []
+    },
+    {
+      "id": "k636522836",
+      "name": "사쿠라테이엔 판교본점",
+      "region": "성남",
+      "area": "분당구 삼평동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점",
+      "priceFor2": null,
+      "address": "경기 성남시 분당구 판교역로192번길 16",
+      "lat": 37.39766335927138,
+      "lng": 127.11134665059764,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/636522836"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-26"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "판교역 이자카야 사쿠라테이엔 딱새우 후기",
+          "url": "https://blog.naver.com/jsvlar/224380306354",
+          "date": "2026-08-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "판교 맛집 추천 식당 리스트 10곳",
+          "url": "https://blog.naver.com/j1ewalk/224132331555",
+          "date": "2026-01-05",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "삼평동 맛집 베스트 추천 top 10",
+          "url": "https://hotel-iu.tistory.com/7844",
+          "date": "2025-01-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
       "menus": []
     },
     {
@@ -33046,6 +33369,99 @@
       "firstSeen": "2026-11-25",
       "isSample": false,
       "tags": [],
+      "menus": []
+    },
+    {
+      "id": "k27588020",
+      "name": "김과장고깃집 모란직영점",
+      "region": "성남",
+      "area": "중원구 성남동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "경기 성남시 중원구 성남대로1130번길 21",
+      "lat": 37.43084757783676,
+      "lng": 127.13179191551184,
+      "phone": "010-6251-3739",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/27588020"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-26"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-26",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "신흥역 맛집 김과장고깃집 가성비 미친 성남 삼겹살 후기",
+          "url": "https://blog.naver.com/wooyumyum/224428595530",
+          "date": "2026-10-01",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[성남] 가성비 모란고기집 추천 삼겹살 맛있는 김과장고깃집 모란직....",
+          "url": "https://blog.naver.com/myawesomelif3/224400196004",
+          "date": "2026-09-03",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[야탑역 맛집]구워주는 고기집 '고반식당 야탑점' 모둠 세트 내돈내....",
+          "url": "https://blog.naver.com/tnals585/224347269519",
+          "date": "2026-07-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "모란맛집 :) 솥뚜껑 삼겹살 육즙이 예술인 가성비 김과장고깃집 모....",
+          "url": "https://blog.naver.com/0_0jini/224264870274",
+          "date": "2026-04-28",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "성남 모란역 김과장고깃집 삼겹살 추천 맛집 회식장소 가성비 솥뚜....",
+          "url": "https://blog.naver.com/secretjuuju/224083378315",
+          "date": "2025-11-21",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "모란역 가성비맛집 노포감성 김과장 고깃집 모란직영점 후기",
+          "url": "https://blog.naver.com/ssk6599/224029440578",
+          "date": "2025-10-23",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "분위기",
+        "주차",
+        "단체"
+      ],
       "menus": []
     },
     {
