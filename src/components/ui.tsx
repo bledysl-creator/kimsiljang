@@ -17,6 +17,16 @@ export function CorkageBadge({ status, className }: { status: CorkageStatus; cla
   );
 }
 
+/** 폐업 의심 (자동 교차 확인). 확정이 아니에요 */
+export function ClosureBadge({ r }: { r: Restaurant }) {
+  if (r.closure.status !== 'suspected') return null;
+  return (
+    <span className="inline-flex items-center gap-1 rounded-md border border-st-disputed/40 bg-card px-2 py-0.5 text-xs font-bold text-st-disputed" title={r.closure.signals.join(' · ')}>
+      <span aria-hidden>⚠</span> 폐업 의심
+    </span>
+  );
+}
+
 /** 블로그 후기 신호 (확인 상태와 별개) */
 export function ReviewBadge({ signal, count }: { signal: ReviewSignal; count: number }) {
   if (signal === 'none') return null;

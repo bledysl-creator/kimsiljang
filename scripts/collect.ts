@@ -16,13 +16,15 @@
 // 선택: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY 가 있으면 restaurants 테이블에도 올려요.
 
 import { readFile, writeFile } from 'node:fs/promises';
-import type { CollectionRun, CorkageInfo, Drink, Evidence, Food, Region, Restaurant, RestaurantDataset } from '../src/types';
-import { normalizeRestaurant, reviewSignalOf } from '../src/lib/normalize';
+import type { ClosureCheck, CollectionRun, CorkageInfo, Drink, Evidence, Food, Region, Restaurant, RestaurantDataset } from '../src/types';
+import { closureOf, normalizeRestaurant, reviewSignalOf } from '../src/lib/normalize';
 
 const root = new URL('../', import.meta.url);
 const { NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, KAKAO_REST_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
 const MAX_VERIFY = Number(process.env.MAX_VERIFY ?? 200);
 const REVERIFY_DAYS = 5;
+/** 영업 여부 교차 확인 주기 (주 1회, CLAUDE.md 7절) */
+const CLOSURE_CHECK_DAYS = 7;
 
 // ---- 우선 수집 지역 (서울, 성남, 분당, 판교, 수원) ----
 const AREAS: { name: string; group: string }[] = [
@@ -119,6 +121,24 @@ interface KPlace {
   x: string;
   y: string;
   place_url: string;
+}
+
+/** 좌표 반경 안에서 같은 카카오 장소 id 가 아직 검색되는지. API 오류면 null */
+async function kakaoStillListed(p: KPlace): Promise<boolean | null> {
+  const q = encodeURIComponent(coreName(p.place_name));
+  const d = await getJson('kakao-local', `https://dapi.kakao.com/v2/local/search/keyword.json?query=${q}&x=${p.x}&y=${p.y}&radius=500&size=15`, kakaoHeaders());
+  if (!d) return null;
+  return (d.documents ?? []).some((x: KPlace) => x.id === p.id);
+}
+
+/** 네이버 지역 검색에 같은 이름이 같은 동네로 나오는지. API 오류면 null */
+async function naverStillListed(p: KPlace): Promise<boolean | null> {
+  const name = coreName(p.place_name);
+  const town = areaToken(p.address_name);
+  const d = await getJson('naver-local', `${NAVER}/local?query=${encodeURIComponent(`${name} ${town}`)}&display=5`, naverHeaders());
+  if (!d) return null;
+  const key = squash(name);
+  return (d.items ?? []).some((i: Record<string, string>) => squash(strip(i.title)).includes(key));
 }
 
 async function kakaoPlaces(query: string, page = 1): Promise<KPlace[]> {
@@ -278,6 +298,7 @@ interface PoolItem {
   firstSeen: string;
   verifiedAt?: string;
   result?: ReturnType<typeof judge>;
+  closure?: ClosureCheck;
 }
 interface State {
   version?: number;
@@ -444,6 +465,21 @@ async function main() {
     return r.corkage.status === 'unknown' && r.evidence.length >= 3;
   });
 
+  // 6) 영업 여부 교차 확인: 카카오(같은 장소 id) + 네이버 지역 검색 + 최근 후기 날짜
+  console.log('4) 영업 여부 교차 확인');
+  let closureChecked = 0;
+  for (const [, it] of keep) {
+    if (it.closure && daysSince(it.closure.checkedAt) < CLOSURE_CHECK_DAYS) continue;
+    const kakaoFound = await kakaoStillListed(it.place);
+    // 카카오에 그대로 있으면 네이버는 안 불러요 (호출 절약)
+    const naverFound = kakaoFound === true ? null : await naverStillListed(it.place);
+    const latestPost = it.result?.evidence[0]?.date ?? null;
+    it.closure = closureOf({ kakaoFound, naverFound: kakaoFound === true ? true : naverFound, latestPost, today: today() });
+    closureChecked++;
+  }
+  const suspected = keep.filter(([, it]) => it.closure?.status === 'suspected').length;
+  console.log(`  확인 ${closureChecked}곳 · 폐업 의심 ${suspected}곳`);
+
   const restaurants: Restaurant[] = keep.map(([id, it]) => {
     const p = it.place;
     const m = manualByKakao.get(id);
@@ -465,6 +501,7 @@ async function main() {
       phone: p.phone,
       sources,
       corkage: m?.drinks?.length ? { ...corkage, drinkTypes: m.drinks } : corkage,
+      closure: it.closure ?? { status: 'unknown', checkedAt: null, signals: [] },
       evidence: r.evidence,
       photos: [],
       firstSeen: it.firstSeen,

@@ -2,7 +2,7 @@ import type { Scored } from '@/lib/score';
 import type { Restaurant } from '@/types';
 import { money } from '@/lib/constants';
 import { useStore } from '@/store/AppStore';
-import { CorkageBadge, DataBadge, FitBadge, HeartButton, PhotoBox, ReviewBadge, cx } from './ui';
+import { ClosureBadge, CorkageBadge, DataBadge, FitBadge, HeartButton, PhotoBox, ReviewBadge, cx } from './ui';
 
 export function conditionText(r: Restaurant) {
   const c = r.corkage;
@@ -51,6 +51,7 @@ export function RestaurantRow({ s, active }: { s: Scored; active?: boolean }) {
         <div className="mt-1 flex flex-wrap gap-1.5">
           <CorkageBadge status={r.corkage.status} />
           <ReviewBadge signal={r.corkage.reviewSignal} count={r.corkage.freeMentions} />
+          <ClosureBadge r={r} />
         </div>
         <div className="mt-1.5 flex items-end justify-between gap-2">
           <div className="min-w-0 space-y-0.5 text-[13px] text-muted">
@@ -95,6 +96,7 @@ export function RestaurantTile({ s }: { s: Scored }) {
         <h3 className="truncate text-[17px] font-bold">{r.name}</h3>
         <CorkageBadge status={r.corkage.status} />
         <ReviewBadge signal={r.corkage.reviewSignal} count={r.corkage.freeMentions} />
+          <ClosureBadge r={r} />
         <p className="text-sm text-muted">
           {s.coverage >= 0.5 ? <b className="text-brand">적합도 {s.score}%</b> : '적합도 정보 부족'} · {r.priceFor2 != null ? `2인 ${money(r.priceFor2)}` : r.food}
         </p>

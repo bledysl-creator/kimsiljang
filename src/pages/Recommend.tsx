@@ -90,7 +90,7 @@ export function PrefsEditor() {
 export default function Recommend() {
   const { restaurants, prefs } = useStore();
   const [onlyConfirmed, setOnlyConfirmed] = useState(false);
-  const pool = restaurants.filter((r) => r.corkage.status !== 'paid' && (!onlyConfirmed || isFreeConfirmed(r.corkage.status)));
+  const pool = restaurants.filter((r) => r.corkage.status !== 'paid' && r.closure.status !== 'suspected' && (!onlyConfirmed || isFreeConfirmed(r.corkage.status)));
   const list = rank(pool, prefs).slice(0, 20);
 
   return (

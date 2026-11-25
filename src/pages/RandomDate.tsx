@@ -11,7 +11,7 @@ import type { Scored } from '@/lib/score';
 export default function RandomDate() {
   const { results } = useFilters();
   // 현재 필터 + 무료 확인(무료/조건부 무료) 조건을 모두 만족한 후보만 (CLAUDE.md 3절)
-  const pool = results.filter((s) => isFreeConfirmed(s.r.corkage.status));
+  const pool = results.filter((s) => isFreeConfirmed(s.r.corkage.status) && s.r.closure.status !== 'suspected');
   const [pick, setPick] = useState<Scored | null | 'none'>(null);
   const [spinning, setSpinning] = useState(false);
   const timer = useRef<number | undefined>(undefined);

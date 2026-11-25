@@ -5,7 +5,7 @@ import { useStore } from '@/store/AppStore';
 import { scoreRestaurant } from '@/lib/score';
 import { CORKAGE_META, money } from '@/lib/constants';
 import type { MyVerification } from '@/types';
-import { CorkageBadge, DataBadge, FitBadge, GhostButton, HeartButton, PhotoBox, PrimaryButton, ReviewBadge, inputCls } from './ui';
+import { ClosureBadge, CorkageBadge, DataBadge, FitBadge, GhostButton, HeartButton, PhotoBox, PrimaryButton, ReviewBadge, inputCls } from './ui';
 import { checkedText } from './RestaurantCard';
 
 const NEED = <span className="text-muted">확인 필요</span>;
@@ -84,6 +84,7 @@ export function DetailModal() {
               <div className="mt-2 flex flex-wrap items-center gap-1.5">
                 <CorkageBadge status={c.status} />
                 <ReviewBadge signal={c.reviewSignal} count={c.freeMentions} />
+                <ClosureBadge r={r} />
               </div>
             </div>
             <div className="flex flex-col items-end gap-2">
@@ -135,7 +136,17 @@ export function DetailModal() {
                   NEED
                 )}
               </Row>
-              <Row k="영업정보">{NEED}</Row>
+              <Row k="영업 여부">
+                {r.closure.status === 'ok' && <span>카카오 장소 검색에 있어요 ({r.closure.checkedAt} 확인)</span>}
+                {r.closure.status === 'suspected' && (
+                  <span className="font-semibold text-st-disputed">
+                    ⚠ 폐업 의심 ({r.closure.checkedAt})
+                    <span className="block text-xs font-normal text-muted">{r.closure.signals.join(' · ')}. 확정이 아니니 가기 전에 전화로 확인해 주세요.</span>
+                  </span>
+                )}
+                {r.closure.status === 'unknown' && NEED}
+              </Row>
+              <Row k="영업시간">{NEED}</Row>
               <Row k="2인 예상">{r.priceFor2 != null ? `약 ${money(r.priceFor2)}` : NEED}</Row>
               <Row k="분위기">{r.tags.length ? `${r.tags.join(', ')} (후기 기반 추정)` : NEED}</Row>
               <Row k="메뉴">{r.menus.length ? r.menus.join(', ') : NEED}</Row>

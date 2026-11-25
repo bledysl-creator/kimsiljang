@@ -23,6 +23,7 @@ const base = {
   phone: '',
   sources: [],
   evidence: [],
+  closure: { status: 'ok', checkedAt: '2026-11-25', signals: [] },
   photos: [],
   menus: [],
   firstSeen: '2026-11-25',
