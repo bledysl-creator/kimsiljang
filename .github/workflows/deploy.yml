@@ -52,6 +52,10 @@ jobs:
           for i in 1 2 3; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0; sleep $((i * 5)); done
           exit 1
 
+      - name: 최신 데이터 반영
+        # 수집 봇이 방금 올린 데이터 커밋이 있으면 그 위에서 빌드해요 (예전 데이터로 덮어 배포하지 않도록)
+        run: git pull --ff-only origin "${GITHUB_REF_NAME}" || echo "최신 커밋을 가져오지 못해 현재 커밋으로 빌드해요"
+
       - name: 린트 · 테스트
         run: npm run lint && npm test
 
