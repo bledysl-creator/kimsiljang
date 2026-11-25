@@ -51,3 +51,11 @@ describe('필터', () => {
     expect(activeFilters(f({ region: '서울', parking: true })).map((a) => a.key)).toEqual(['region', 'parking']);
   });
 });
+
+describe('폐업 의심 필터', () => {
+  const sus = { ...SAMPLE_RESTAURANTS[0], id: 'sus', closure: { status: 'suspected' as const, checkedAt: '2026-11-25', signals: ['x'] } };
+  it('기본은 숨김, 끄면 보여요', () => {
+    expect(matches(sus, DEFAULT_FILTERS)).toBe(false);
+    expect(matches(sus, { ...DEFAULT_FILTERS, hideSuspected: false })).toBe(true);
+  });
+});

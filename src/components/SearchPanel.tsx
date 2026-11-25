@@ -139,6 +139,9 @@ export function FilterChips({ extra }: { extra?: ReactNode }) {
         ]}
       />
       <SelectChip label="반입 주종" value={filters.drink ?? ''} active={!!filters.drink} onChange={(v) => set('drink', (v || null) as Drink | null)} options={[{ v: '', t: '반입 주종' }, ...DRINKS.map((d) => ({ v: d, t: d }))]} />
+      <Chip active={!filters.hideSuspected} onClick={() => set('hideSuspected', !filters.hideSuspected)}>
+        폐업 의심 포함
+      </Chip>
       {extra}
     </div>
   );

@@ -172,7 +172,10 @@ export function Layout({ children }: { children: ReactNode }) {
       )}
 
       <main key={loc.pathname} className={cx('px-4 pb-28 pt-4 transition-[margin] duration-200 md:px-6 md:pb-8 desk:px-8 desk:pt-6', wide ? 'md:ml-60' : 'md:ml-[72px]')}>
-        <div className="mx-auto max-w-[1600px]">{children}</div>
+        <div className="mx-auto max-w-[1600px]">
+          {children}
+          <SiteFooter />
+        </div>
       </main>
 
       {/* 모바일 하단 탭 */}
@@ -192,6 +195,18 @@ export function Layout({ children }: { children: ReactNode }) {
         </button>
       </nav>
     </div>
+  );
+}
+
+function SiteFooter() {
+  const { lastSuccessAt } = useStore();
+  return (
+    <footer className="mt-10 border-t border-line pb-2 pt-5 text-center text-xs leading-relaxed text-muted">
+      <p>매일 오전 7시(한국 시간) 자동 업데이트{lastSuccessAt && ` · 마지막 업데이트 ${lastSuccessAt}`}</p>
+      <p className="mt-0.5">
+        {SERVICE_NAME} · 제작자 <b className="font-semibold text-fg">웅냥냥</b>
+      </p>
+    </footer>
   );
 }
 

@@ -42,6 +42,20 @@ export interface CorkageInfo {
   reviewCheckedAt: string | null;
 }
 
+/**
+ * 영업 여부 교차 확인 (자동). 폐업을 '확정'하지는 않아요 (CLAUDE.md 4절).
+ * - ok        : 카카오 장소 검색에 아직 나와요
+ * - suspected : 서로 다른 두 출처에서 안 보여요 → 폐업 의심
+ * - unknown   : 아직 확인 전이거나 API 오류
+ */
+export type ClosureStatus = 'ok' | 'suspected' | 'unknown';
+export interface ClosureCheck {
+  status: ClosureStatus;
+  checkedAt: string | null;
+  /** 판단 근거 (예: '카카오 장소 검색에서 안 보임') */
+  signals: string[];
+}
+
 export interface Evidence {
   title: string;
   url: string;
@@ -78,6 +92,7 @@ export interface Restaurant {
   phone: string;
   sources: SourceLink[];
   corkage: CorkageInfo;
+  closure: ClosureCheck;
   evidence: Evidence[];
   photos: MenuPhoto[];
   /** 블로그 후기 2개 이상에서 나온 분위기·편의 태그 */

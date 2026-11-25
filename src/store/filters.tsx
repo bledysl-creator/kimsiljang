@@ -23,6 +23,8 @@ export interface Filters {
   budget: number | null;
   drink: Drink | null;
   bounds: Bounds | null;
+  /** 폐업 의심 가게 숨기기 (기본 켜짐) */
+  hideSuspected: boolean;
   sort: SortKey;
 }
 
@@ -36,6 +38,7 @@ export const DEFAULT_FILTERS: Filters = {
   budget: null,
   drink: null,
   bounds: null,
+  hideSuspected: true,
   sort: 'fit',
 };
 
@@ -56,6 +59,7 @@ const MOOD_TAGS: Record<Mood, string[]> = {
 };
 
 export function matches(r: Restaurant, f: Filters) {
+  if (f.hideSuspected && r.closure.status === 'suspected') return false;
   if (f.region !== '전체') {
     if (f.region === '분당·판교') {
       if (!BUNDANG_PANGYO.test(`${r.area} ${r.address}`)) return false;
@@ -99,6 +103,7 @@ export function activeFilters(f: Filters): { key: keyof Filters; label: string }
   if (f.budget) out.push({ key: 'budget', label: `2인 ${f.budget / 10000}만원 이하` });
   if (f.drink) out.push({ key: 'drink', label: `반입 ${f.drink}` });
   if (f.bounds) out.push({ key: 'bounds', label: '지도 영역' });
+  if (!f.hideSuspected) out.push({ key: 'hideSuspected', label: '폐업 의심 포함' });
   return out;
 }
 

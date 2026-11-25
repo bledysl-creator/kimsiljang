@@ -1,6 +1,6 @@
 // 데이터 정규화 — 예전 수집 형식(v1)과 새 형식(CLAUDE.md 4절)을 모두 읽어 새 형식으로 맞춰요.
 // 기존 실제 데이터를 지우지 않고 그대로 쓰기 위한 변환이에요 (CLAUDE.md 2.4-3).
-import type { CorkageInfo, Drink, Evidence, Food, Region, Restaurant, ReviewSignal, SourceLink } from '@/types';
+import type { ClosureCheck, CorkageInfo, Drink, Evidence, Food, Region, Restaurant, ReviewSignal, SourceLink } from '@/types';
 
 const FOOD_MAP: Record<string, Food> = {
   '양식·다이닝': '양식',
@@ -98,6 +98,10 @@ export function normalizeRestaurant(r: Any): Restaurant {
     phone: String(r.phone ?? ''),
     sources: sourcesOf(r),
     corkage: corkageOf(r.corkage, r.drinks),
+    closure:
+      r.closure && ['ok', 'suspected', 'unknown'].includes(r.closure.status)
+        ? { status: r.closure.status, checkedAt: r.closure.checkedAt ?? null, signals: Array.isArray(r.closure.signals) ? r.closure.signals : [] }
+        : { status: 'unknown', checkedAt: null, signals: [] },
     evidence: evidenceOf(r.evidence),
     // 예전 형식의 images(외부 핫링크)는 쓰지 않아요. 직접 등록한 photos 만.
     photos: Array.isArray(r.photos) ? r.photos : [],
@@ -106,4 +110,24 @@ export function normalizeRestaurant(r: Any): Restaurant {
     firstSeen: String(r.firstSeen ?? ''),
     isSample: false,
   };
+}
+
+/**
+ * 폐업 교차 확인 판단 (수집 스크립트와 테스트가 같이 써요)
+ * - kakaoFound / naverFound: true(찾음) · false(못 찾음) · null(API 오류로 확인 못 함)
+ * - latestPost: 가장 최근 블로그 후기 날짜
+ * 두 개 이상의 독립된 신호가 있을 때만 '폐업 의심'이에요. 확정은 하지 않아요.
+ */
+export function closureOf(input: { kakaoFound: boolean | null; naverFound: boolean | null; latestPost: string | null; today: string }): ClosureCheck {
+  const { kakaoFound, naverFound, latestPost, today } = input;
+  const signals: string[] = [];
+  const staleDays = latestPost ? (Date.parse(today) - Date.parse(latestPost)) / 864e5 : null;
+  const stale = staleDays != null && staleDays > 540;
+  if (kakaoFound === false) signals.push('카카오 장소 검색에서 안 보임');
+  if (naverFound === false) signals.push('네이버 지역 검색에서 안 보임');
+  if (stale) signals.push('최근 1년 반 동안 블로그 후기 없음');
+  if (kakaoFound === null && naverFound === null) return { status: 'unknown', checkedAt: today, signals: ['API 오류로 확인 못 함'] };
+  if (kakaoFound === true) return { status: 'ok', checkedAt: today, signals };
+  if (kakaoFound === false && (naverFound === false || stale)) return { status: 'suspected', checkedAt: today, signals };
+  return { status: 'unknown', checkedAt: today, signals };
 }

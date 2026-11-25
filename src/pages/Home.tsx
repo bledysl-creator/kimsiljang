@@ -11,7 +11,7 @@ import { Card, Empty, ListState } from '@/components/ui';
 export default function Home() {
   const { restaurants, realCount, wishes, visits, prefs, lastSuccessAt, lastRun, loading, loadError, reload } = useStore();
   const nav = useNavigate();
-  const confirmed = restaurants.filter((r) => isFreeConfirmed(r.corkage.status));
+  const confirmed = restaurants.filter((r) => isFreeConfirmed(r.corkage.status) && r.closure.status !== 'suspected');
   const top = rank(confirmed, prefs).slice(0, 4);
   const newCount = restaurants.filter((r) => !r.isSample && lastSuccessAt && r.firstSeen === lastSuccessAt.slice(0, 10)).length;
 
