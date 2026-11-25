@@ -1,13 +1,12 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import type { Session } from '@supabase/supabase-js';
 import type { CellarItem, CollectionRun, MyVerification, Preferences, Restaurant, RestaurantDataset, Visit } from '@/types';
-import { SAMPLE_RESTAURANTS } from '@/data/sample';
 import { DEFAULT_PREFS, localRepo, supabaseRepo, type UserRepo } from '@/lib/userRepo';
 import { supabase } from '@/lib/supabase';
 import { normalizeRestaurant } from '@/lib/normalize';
 
 interface Store {
-  /** 화면에 보이는 전체 목록 (실제 + 설정에 따라 가상) */
+  /** 화면에 보이는 전체 목록 (실제 수집 데이터만) */
   restaurants: Restaurant[];
   realCount: number;
   dataUpdatedAt: string | null;
@@ -18,8 +17,6 @@ interface Store {
   reload(): void;
   verifications: Record<string, MyVerification>;
   saveVerification(id: string, v: MyVerification | null): void;
-  showSamples: boolean;
-  setShowSamples(v: boolean): void;
 
   wishes: Set<string>;
   toggleWish(id: string): void;
@@ -53,7 +50,6 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
   const [loadError, setLoadError] = useState<string | null>(null);
   const [reloadKey, setReloadKey] = useState(0);
   const [verifications, setVerifications] = useState<Record<string, MyVerification>>({});
-  const [showSamples, setShowSamplesState] = useState(() => localStorage.getItem('ot_samples') !== '0');
 
   const [wishes, setWishes] = useState<Set<string>>(new Set());
   const [visits, setVisits] = useState<Visit[]>([]);
@@ -130,8 +126,7 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
 
   // 우리가 직접 확인한 정보가 있으면 그게 우선이에요
   const restaurants = useMemo(() => {
-    const base = showSamples || real.length === 0 ? [...real, ...SAMPLE_RESTAURANTS] : real;
-    return base.map((r) => {
+    return real.map((r) => {
       const v = verifications[r.id];
       if (!v) return r;
       return {
@@ -147,7 +142,7 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
         },
       };
     });
-  }, [real, showSamples, verifications]);
+  }, [real, verifications]);
 
   const value: Store = {
     restaurants,
@@ -167,11 +162,6 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
         return n;
       });
       run(repo.saveVerification(id, v));
-    },
-    showSamples,
-    setShowSamples(v) {
-      localStorage.setItem('ot_samples', v ? '1' : '0');
-      setShowSamplesState(v);
     },
     wishes,
     toggleWish(id) {

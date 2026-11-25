@@ -75,10 +75,10 @@ function NavItems({ compact, onNavigate }: { compact?: boolean; onNavigate?: () 
 }
 
 function DataStatus() {
-  const { realCount, storage, showSamples, lastSuccessAt } = useStore();
+  const { realCount, storage, lastSuccessAt } = useStore();
   return (
     <p className="text-[11px] leading-relaxed text-side-muted">
-      실제 수집 {realCount}곳{showSamples || realCount === 0 ? ' · 가상 예시 포함' : ''}
+      실제 수집 {realCount}곳
       <br />
       마지막 수집 {lastSuccessAt ?? '없음'}
       <br />

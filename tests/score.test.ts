@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { SAMPLE_RESTAURANTS } from '../src/data/sample';
+import { SAMPLE_RESTAURANTS } from './fixtures';
 import { WEIGHTS, rank, scoreRestaurant } from '../src/lib/score';
 import { DEFAULT_PREFS } from '../src/lib/userRepo';
 import type { Preferences, Restaurant } from '../src/types';

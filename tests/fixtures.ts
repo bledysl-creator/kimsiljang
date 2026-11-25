@@ -1,6 +1,5 @@
-// ⚠️ 가상 데이터: 화면 확인용 예시예요. 실제 가게가 아니에요. (isSample: true)
-// CLAUDE.md 1절: 실제 API 데이터가 충분해지기 전에는 이 예시를 지우지 않아요. 설정에서 숨길 수 있어요.
-import type { CorkageInfo, Restaurant } from '@/types';
+// 테스트 전용 가상 가게 (앱에는 나오지 않아요)
+import type { CorkageInfo, Restaurant } from '../src/types';
 
 const ck = (status: CorkageInfo['status'], extra: Partial<CorkageInfo> = {}): CorkageInfo => ({
   status,
