@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+/* 디자인 토큰 — CLAUDE.md 2.1 (버건디 지도형 시안) */
+@theme {
+  --color-bg: #f8f4ef;
+  --color-card: #ffffff;
+  --color-card2: #fbf8f5;
+  --color-line: #e9dfda;
+  --color-fg: #291c20;
+  --color-muted: #756b6c;
+  --color-brand: #801f3c;
+  --color-brand-active: #913d50;
+  --color-brand-soft: #f9e4e8;
+  --color-brand-ink: #ffffff;
+  --color-side-from: #32131d;
+  --color-side-to: #581e31;
+  --color-side-fg: #fbeef1;
+  --color-side-muted: #e2c4cc;
+
+  --color-st-free: #20764d;
+  --color-st-cond: #a66b18;
+  --color-st-paid: #66666d;
+  --color-st-unknown: #7063a6;
+  --color-st-disputed: #b42318;
+
+  --font-sans: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
+  --radius-card: 16px;
+  --shadow-card: 0 1px 3px rgba(41, 28, 32, 0.06);
+
+  /* 768 미만 모바일 / 768~1199 태블릿(축소 사이드바) / 1200 이상 데스크톱 */
+  --breakpoint-desk: 75rem;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+button {
+  cursor: pointer;
+}
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, #f1e9e4 25%, #f8f2ee 50%, #f1e9e4 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}

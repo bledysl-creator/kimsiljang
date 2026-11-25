@@ -1,0 +1,30 @@
+{
+  "_comment": "직접 전화·방문·공식 안내로 확인한 가게를 넣으면 자동 수집 결과보다 우선하고 '확인 완료' 상태가 돼요. name 과 area 만 있어도 카카오에서 주소·좌표를 찾아 채워요. 후기만 보고 넣지 마세요.",
+  "_example": {
+    "name": "가게 이름",
+    "area": "정자동",
+    "corkage": {
+      "status": "verified_free",
+      "freeBottles": 1,
+      "extraFee": "초과 시 병당 1만원",
+      "glassIce": "와인잔 제공",
+      "conditions": [
+        "주말 불가"
+      ],
+      "verifiedAt": "2026-11-25",
+      "verificationMethod": "phone"
+    },
+    "priceFor2": 70000,
+    "menus": [
+      "대방어회"
+    ],
+    "drinks": [
+      "와인",
+      "사케"
+    ],
+    "tags": [
+      "데이트"
+    ]
+  },
+  "places": []
+}
