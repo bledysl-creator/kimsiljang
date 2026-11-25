@@ -3,9 +3,9 @@
   "source": "네이버 블로그·지역 검색(NAVER API HUB), 카카오 로컬 API 자동 수집 · 블로그는 제목/링크/날짜만",
   "lastRun": {
     "status": "success",
-    "startedAt": "2026-11-25T12:45:42.820Z",
-    "finishedAt": "2026-11-25T12:55:51.447Z",
-    "count": 339,
+    "startedAt": "2026-11-25T12:57:32.305Z",
+    "finishedAt": "2026-11-25T13:04:08.045Z",
+    "count": 407,
     "error": null
   },
   "lastSuccessAt": "2026-11-25",
@@ -399,6 +399,103 @@
       "menus": []
     },
     {
+      "id": "k1413137451",
+      "name": "램샾",
+      "region": "서울",
+      "area": "송파구 문정동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "서울 송파구 송파대로22길 12",
+      "lat": 37.487753034498155,
+      "lng": 127.12320230762585,
+      "phone": "070-8848-8533",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1413137451"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 36,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[문정] 특별한 날 연말모임에 좋은 양고기집  폭샾램샾",
+          "url": "https://blog.naver.com/hwlim009797/224456228105",
+          "date": "2026-10-28",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "문정 양고기 맛집 : 램샾폭샾 문정역점 (내돈내산, 콜키지 프리, 룸 ....",
+          "url": "https://blog.naver.com/tae_kim_/224441367571",
+          "date": "2026-10-14",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "문정동 양갈비 램샾폭샾에서 양고기랑 돼지고기 다 먹은 솔직후기",
+          "url": "https://blog.naver.com/ghkduddl0508/224385853533",
+          "date": "2026-08-22",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[내돈내산] 양고기부터 돼지, 소까지! 분위기 깡패 맛집 추천 램샾 & ....",
+          "url": "https://blog.naver.com/ohappy43/224380101481",
+          "date": "2026-08-16",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "문정역 맛집 양고기 램샾폭샾 주차 콜키지프리 법조타운 회식 추천",
+          "url": "https://blog.naver.com/hwamme/224372934966",
+          "date": "2026-08-09",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[문정역] 송파 맛집 고깃집 데이트 장소 추천! 양고기와 돼지고기 환....",
+          "url": "https://blog.naver.com/hooa2345/224365590134",
+          "date": "2026-08-02",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "조용한",
+        "룸",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1352135383",
       "name": "램가 본점",
       "region": "성남",
@@ -693,6 +790,103 @@
       "menus": []
     },
     {
+      "id": "k197317277",
+      "name": "미츠토리 분당정자점",
+      "region": "성남",
+      "area": "분당구 정자동",
+      "food": "기타",
+      "category": "술집",
+      "priceFor2": null,
+      "address": "경기 성남시 분당구 성남대로331번길 13",
+      "lat": 37.3652861012398,
+      "lng": 127.106308052482,
+      "phone": "010-6580-3130",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/197317277"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 34,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "정자역 미츠토리 - 정자역 이자카야 맛집",
+          "url": "https://blog.naver.com/givemebliss/224491480518",
+          "date": "2026-11-25",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "분당 술집 추천, 회식부터 단체모임까지 분위기 좋은 미츠토리 정자....",
+          "url": "https://blog.naver.com/jeju_stone/224459188480",
+          "date": "2026-11-01",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "정자역 모임 분위기 좋은 이자카야 미츠토리 정자점 야키토리 후기",
+          "url": "https://blog.naver.com/sunmi282/224459099724",
+          "date": "2026-10-31",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "정자역 이자카야 미츠토리 정자점, 단체모임부터 콜키지까지 좋았....",
+          "url": "https://blog.naver.com/jeju_stone/224457988997",
+          "date": "2026-10-30",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "정자역술집 추천, 친구들과 모임 즐긴 미츠토리 정자점",
+          "url": "https://blog.naver.com/sunmi282/224457971066",
+          "date": "2026-10-29",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "정자역맛집 미츠토리 정자점, 콜키지 무료 연말회식 단체모임 추천",
+          "url": "https://blog.naver.com/jeju_stone/224456935305",
+          "date": "2026-10-28",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
       "id": "k841466009",
       "name": "봉고기정육식당",
       "region": "성남",
@@ -881,6 +1075,106 @@
         "주차",
         "단체",
         "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k2125620083",
+      "name": "원기옥 성수낙낙점",
+      "region": "서울",
+      "area": "성동구 성수동2가",
+      "food": "한식",
+      "category": "한식",
+      "priceFor2": null,
+      "address": "서울 성동구 아차산로17길 48",
+      "lat": 37.5463938501055,
+      "lng": 127.065889477544,
+      "phone": "02-468-2999",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/2125620083"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키",
+          "소주·전통주",
+          "맥주"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 34,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "12월 첫 송년회, 10명 넘으면 여기 — 성수·종각·서촌 단체 룸 3곳",
+          "url": "https://blog.naver.com/tastelog_official/224490847692",
+          "date": "2026-11-25",
+          "source": "naver-blog",
+          "signal": "conditional"
+        },
+        {
+          "title": "성수동 전골 맛집 원기옥 성수낙낙점｜보양전골 대 사이즈 솔직 후....",
+          "url": "https://blog.naver.com/codms_s/224425587770",
+          "date": "2026-09-29",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "광화문 가족식사 룸예약 추천 원기옥, 정갈한 보양식사 후기 (디팰....",
+          "url": "https://blog.naver.com/smap76/224378164329",
+          "date": "2026-08-14",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "종로 광화문역 맛집 콜키지프리 한식집 추천 원기옥",
+          "url": "https://blog.naver.com/oyucouple/224352325238",
+          "date": "2026-07-20",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[성수] 보양식 찾으신다면 원기옥 성수낙낙점",
+          "url": "https://blog.naver.com/qiqiq_0/224348658756",
+          "date": "2026-07-16",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "성수동 한식 맛집 원기옥 성수낙낙점 , 통창 뷰 분위기에 반하고 퀄....",
+          "url": "https://blog.naver.com/likejinseo/224343737364",
+          "date": "2026-07-11",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "룸",
+        "주차",
+        "단체"
       ],
       "menus": []
     },
@@ -2429,6 +2723,103 @@
       "menus": []
     },
     {
+      "id": "k1045424605",
+      "name": "징기스 수원인계점",
+      "region": "수원",
+      "area": "팔달구 인계동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "경기 수원시 팔달구 인계로108번길 49",
+      "lat": 37.26552912653312,
+      "lng": 127.0287200187527,
+      "phone": "031-235-5606",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1045424605"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 31,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "수원 인계동 맛집 징기스 양고기 내돈내산",
+          "url": "https://blog.naver.com/ms-_-108/224453166767",
+          "date": "2026-10-25",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 양갈비 맛집 징기스 인계점 잡내 없는 양고기 모듬 세트C 솔직....",
+          "url": "https://blog.naver.com/kkk20s/224453404809",
+          "date": "2026-10-25",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "인계동 분위기좋은룸술집, 인계동 이자카야 [ 그랜드 동경 ]",
+          "url": "https://blog.naver.com/dlqmsdl6399/224430203013",
+          "date": "2026-10-03",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "내돈내산 솔직후기 세줄요약: 징기스 수원 인계점",
+          "url": "https://blog.naver.com/restaurant-review/224413866192",
+          "date": "2026-09-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 인계동 양고기 맛집 징기스 구워주는 고기집 주차 내돈내산",
+          "url": "https://blog.naver.com/ajdandxod12/224394447930",
+          "date": "2026-08-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 인계동 양갈비 맛집 ‘징기스’",
+          "url": "https://blog.naver.com/soning2_/224366743764",
+          "date": "2026-08-03",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "주차",
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1706812298",
       "name": "우대포 판교직영점",
       "region": "성남",
@@ -3785,6 +4176,103 @@
       "menus": []
     },
     {
+      "id": "k1991126883",
+      "name": "유니네고깃간 강남역점",
+      "region": "서울",
+      "area": "강남구 역삼동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "서울 강남구 강남대로98길 12",
+      "lat": 37.500616437138,
+      "lng": 127.027682304813,
+      "phone": "0507-1345-1806",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1991126883"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 30,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "강남역 고기집 유니네고깃간 강남역점 I 그릴링 서비스 & 청모 육회 ....",
+          "url": "https://blog.naver.com/suemine/224470554830",
+          "date": "2026-11-10",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[강남역 고기집] 삼겹살 목살 가브리살 등 직접 구워주는 강남역 고....",
+          "url": "https://blog.naver.com/acc1973/224463253527",
+          "date": "2026-11-03",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "강남역 고기집 삼겹살 맛집 유니네 고깃간｜커플세트부터 청장뚝배....",
+          "url": "https://blog.naver.com/buzzbee330/224459163301",
+          "date": "2026-10-30",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[강남역 고기집] 두툼한 삼겹살 다 구워주시는! 유니네 고깃간 강남....",
+          "url": "https://blog.naver.com/will9902/224455404159",
+          "date": "2026-10-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "강남역 고기집 유니네고깃간, 구워주는 삼겹살 맛집 모임 장소로 추....",
+          "url": "https://blog.naver.com/heraning/224453364249",
+          "date": "2026-10-25",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "강남역 고기집 유니네 고깃간 강남역점, 관자와 임실치즈 커플세트 ....",
+          "url": "https://blog.naver.com/jiae7658/224444173811",
+          "date": "2026-10-17",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "주차",
+        "단체",
+        "늦게까지"
+      ],
+      "menus": []
+    },
+    {
       "id": "k388449263",
       "name": "뭉텅 연남점",
       "region": "서울",
@@ -4837,6 +5325,104 @@
       "tags": [
         "데이트",
         "분위기",
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1454097242",
+      "name": "평돈식당 수원인계점",
+      "region": "수원",
+      "area": "팔달구 인계동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 갈비",
+      "priceFor2": null,
+      "address": "경기 수원시 팔달구 인계로124번길 19",
+      "lat": 37.266506198695865,
+      "lng": 127.03093572110214,
+      "phone": "0502-5551-7017",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1454097242"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키",
+          "소주·전통주"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 28,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "평돈식당 수원인계점",
+          "url": "https://blog.naver.com/onejhh/224459310074",
+          "date": "2026-10-30",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 인계동 수제갈비 맛집 평돈식당 주차 가능한 고기집",
+          "url": "https://blog.naver.com/camtono_/224383015453",
+          "date": "2026-08-19",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 인계동맛집. 48시간 장독 숙성 돼지갈비 평돈식당 인계점.",
+          "url": "https://blog.naver.com/jyr0508/224344961219",
+          "date": "2026-07-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "인계동 갈비집 평돈식당 단체회식추천 가성비 수제돼지갈비",
+          "url": "https://blog.naver.com/kkini13/224327103451",
+          "date": "2026-06-25",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 인생 돼지갈비를 찾았다 인계동 수제갈비 맛집 평돈식당, 회식....",
+          "url": "https://blog.naver.com/toer_ballet/224291661512",
+          "date": "2026-05-20",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "인계동에서 회식하기 좋은 넓고 깔끔한 갈빗집, 평돈식당 수원인계....",
+          "url": "https://blog.naver.com/perform7181/224281008852",
+          "date": "2026-05-10",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "주차",
         "단체",
         "뷰"
       ],
@@ -6205,6 +6791,102 @@
       "menus": []
     },
     {
+      "id": "k1623422144",
+      "name": "88조개 잠실새내역본점",
+      "region": "서울",
+      "area": "송파구 잠실동",
+      "food": "회·해산물",
+      "category": "한식 > 해물,생선 > 조개",
+      "priceFor2": null,
+      "address": "서울 송파구 백제고분로7길 32-10",
+      "lat": 37.5102775788807,
+      "lng": 127.082498871019,
+      "phone": "02-422-3179",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1623422144"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인",
+          "소주·전통주",
+          "맥주"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 26,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[잠실 맛집] 잠실 가성비 좋은 조개구이 맛집ㅣ잠실새내 술집ㅣ잠실....",
+          "url": "https://blog.naver.com/kzzimong/224387741978",
+          "date": "2026-08-23",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "잠실 조개찜 88조개 잠실야구장 픽드랍 잠실새내 조개구이 맛집",
+          "url": "https://blog.naver.com/coco_8600/224377726893",
+          "date": "2026-08-14",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[잠실 조개구이] 해산물이 이렇게 푸짐해도 돼? 88조개 해신탕, 조개....",
+          "url": "https://blog.naver.com/487_11/224378581515",
+          "date": "2026-08-14",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "잠실 맛집 콜키지프리(1병)조개찜 맛있는 88조개",
+          "url": "https://blog.naver.com/cabotin_8494/224373745525",
+          "date": "2026-08-10",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "잠실새내 조개찜 88조개, 2년 만의 재방문 찐후기+콜키지 프리",
+          "url": "https://blog.naver.com/munilitssu/224264818509",
+          "date": "2026-04-25",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "잠실새내 조개찜 잠실새내 회식 하기좋은 야장에서 즐기는 푸짐한 '....",
+          "url": "https://blog.naver.com/ilikesoju_/224235976137",
+          "date": "2026-03-31",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k504391622",
       "name": "다이키",
       "region": "서울",
@@ -6975,6 +7657,105 @@
         "데이트",
         "분위기",
         "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1781241752",
+      "name": "육담온 이태원점",
+      "region": "서울",
+      "area": "용산구 이태원동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "서울 용산구 이태원로19길 1",
+      "lat": 37.5345610969139,
+      "lng": 126.991808534474,
+      "phone": "02-790-8007",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1781241752"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인",
+          "위스키",
+          "소주·전통주",
+          "맥주"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 24,
+        "paidMentions": 2,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "역에서 3분 걸었을뿐인데 육담온 이태원점 이태원역고기집 날 멈춰....",
+          "url": "https://blog.naver.com/apby01161/224095975103",
+          "date": "2025-12-02",
+          "source": "naver-blog",
+          "signal": "conditional"
+        },
+        {
+          "title": "육담온 이태원점 리뷰 - 이태원맛집 중 최고의 고기 맛집으로 데이....",
+          "url": "https://blog.naver.com/asslamang1/224093894359",
+          "date": "2025-12-01",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "이태원맛집 육담온 이태원점에서 한우와 와인을 즐겼어요",
+          "url": "https://blog.naver.com/wusl1122/224093094128",
+          "date": "2025-11-30",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "이태원 맛집, 때깔 좋은 고기와 눈이 즐거운 공간으로 유혹하는 곳 ....",
+          "url": "https://blog.naver.com/dmstlf170813/224093489739",
+          "date": "2025-11-30",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "이태원고깃집 가성비탄탄한 육담온 이태원점",
+          "url": "https://blog.naver.com/hyokyung0920/224090249424",
+          "date": "2025-11-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "한입 먹고 심쿵한 이태원고깃집 육담온 이태원점 소고기 먹으러 가....",
+          "url": "https://blog.naver.com/yyg90213/224090489963",
+          "date": "2025-11-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "단체",
+        "뷰"
       ],
       "menus": []
     },
@@ -7955,6 +8736,102 @@
       "menus": []
     },
     {
+      "id": "k868486733",
+      "name": "어썸로즈 가로수길점",
+      "region": "서울",
+      "area": "강남구 신사동",
+      "food": "양식",
+      "category": "양식",
+      "priceFor2": null,
+      "address": "서울 강남구 압구정로10길 40",
+      "lat": 37.5209145587415,
+      "lng": 127.02200433177,
+      "phone": "02-518-0619",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/868486733"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 21,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "여친에게 이쁨받는 서울 크리스마스 분위기 좋은 식당 5곳 추천",
+          "url": "https://blog.naver.com/e___ve/224483014589",
+          "date": "2026-11-21",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[가로수길데이트] 어썸로즈 | 평일 저녁 분위기 끝판왕 신사역 한우 ....",
+          "url": "https://blog.naver.com/myanh135/224480283363",
+          "date": "2026-11-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "압구정 맛집 어썸로즈 신사역점｜강남 데이트 소개팅 추천 재방문 ....",
+          "url": "https://blog.naver.com/dana96/224473872644",
+          "date": "2026-11-12",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[가로수길] 어썸로즈 | 낮에도 해질녘의 분위기를 느낄 수 있는 신사....",
+          "url": "https://blog.naver.com/bora1300/224464755336",
+          "date": "2026-11-04",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "가로수길 파스타와 스테이크, 어썸로즈",
+          "url": "https://blog.naver.com/oneul_777/224456856627",
+          "date": "2026-10-28",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "강남 신사) 어썸로즈 ㅣ 분위기 좋은 가로수길 파스타 맛집 ㅣ 강남 ....",
+          "url": "https://blog.naver.com/r0yal_d0ll/224442722453",
+          "date": "2026-10-15",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k883655997",
       "name": "분당한우정육식당",
       "region": "성남",
@@ -8141,6 +9018,103 @@
       "tags": [
         "데이트",
         "분위기",
+        "룸",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1655317727",
+      "name": "서울안심정육 서여의도점",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "서울 영등포구 국회대로74길 10",
+      "lat": 37.5302758940529,
+      "lng": 126.92095236121571,
+      "phone": "0507-1445-1520",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1655317727"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키",
+          "맥주"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 21,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "여의도 맛집, 서울안심정육 서여의도점 가격 주차 할인 이벤트",
+          "url": "https://blog.naver.com/goldbar529/224478882710",
+          "date": "2026-11-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 콜키지 프리 맛집 7곳 / 와인 무료 병수와 반입 조건",
+          "url": "https://blog.naver.com/honestreview13/224449480071",
+          "date": "2026-10-22",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "여의도 회식장소 추천 ! 서울안심정육 서여의도점 한우 숯불구이 점....",
+          "url": "https://blog.naver.com/hhjung0309/224387596307",
+          "date": "2026-08-23",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "여의도맛집 서울안심정육 모임,회식하기 좋은 여의도 한우 룸식당",
+          "url": "https://blog.naver.com/lovelypoky/224380064085",
+          "date": "2026-08-16",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[국회의사당역 맛집] 고급진 한우 룸식당 서울안심정육 서여의도점 ....",
+          "url": "https://blog.naver.com/turtle_life/224380287237",
+          "date": "2026-08-16",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "여의도 맛집 서울안심정육 서여의도점 등안새 세트 후기 구워주는 ....",
+          "url": "https://blog.naver.com/yej1188/224379696420",
+          "date": "2026-08-15",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
         "룸",
         "단체"
       ],
@@ -9403,6 +10377,101 @@
       "menus": []
     },
     {
+      "id": "k1460260868",
+      "name": "타닌",
+      "region": "서울",
+      "area": "송파구 문정동",
+      "food": "양식",
+      "category": "술집 > 와인바",
+      "priceFor2": null,
+      "address": "서울 송파구 법원로4길 17",
+      "lat": 37.48315682705,
+      "lng": 127.122496023723,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1460260868"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 17,
+        "paidMentions": 2,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[삼성동] 봉은사역 근처 코엑스의 숨겨진 친절한 한우 새우살 콜키....",
+          "url": "https://blog.naver.com/tryeatmore/224461210940",
+          "date": "2026-11-02",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "문정역 와인바, oree(오레)  분위기 좋은 문정동 와인바",
+          "url": "https://blog.naver.com/ar0ng2/224269136651",
+          "date": "2026-04-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "와인과 함께 즐기는 고품격 요리의 향연, 문정동맛집 양대산맥 송파....",
+          "url": "https://blog.naver.com/kims88kr/224208779359",
+          "date": "2026-03-08",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "문정동 와인바 타닌, 계속 생각나는 맛있는 안주와 와인",
+          "url": "https://blog.naver.com/wonder_about/224149935928",
+          "date": "2026-01-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[몽중헌 방이점] 콜키지와 함께  with 새마을구판장",
+          "url": "https://blog.naver.com/rooroovino/224143776847",
+          "date": "2026-01-12",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "문정동 느좋 술집들 소개할게요",
+          "url": "https://blog.naver.com/damizzang__/224006256561",
+          "date": "2025-09-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "분위기",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1836979145",
       "name": "효원식당 분당정자점",
       "region": "성남",
@@ -10178,6 +11247,100 @@
       "menus": []
     },
     {
+      "id": "k1247032398",
+      "name": "아루히 니와",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "일식·이자카야",
+      "category": "일식 > 초밥,롤",
+      "priceFor2": null,
+      "address": "서울 영등포구 여의나루로 42",
+      "lat": 37.5214694204797,
+      "lng": 126.924972958655,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1247032398"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인",
+          "사케"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 15,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "여의도 아루히 니와 디너 2부 후기 : 좋은 의미로 미친 오마카세",
+          "url": "https://blog.naver.com/junjun_26/224489030415",
+          "date": "2026-11-23",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "여의도 아루히니와 후기 | 가성비 스시 오마카세, 예약부터 메뉴 사....",
+          "url": "https://blog.naver.com/dear_nana_/224483628337",
+          "date": "2026-11-19",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서울 가성비 오마카세·일식당 TOP 5! 가격·콜키지·캐치테이블 예약 ....",
+          "url": "https://blog.naver.com/reviewwang123/224481066335",
+          "date": "2026-11-17",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[서울 여의도/아루히 니와] 흥이 나는 오마카세 내돈내산 솔직후기",
+          "url": "https://blog.naver.com/skqlsj7/224469574942",
+          "date": "2026-11-08",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "회사랑 살아있네 여의도｜영등포구 회 위치·메뉴 정리",
+          "url": "https://blog.naver.com/haktopia/224466090518",
+          "date": "2026-11-05",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "여의도 오마카세 아루히 니와, 특별했던 저녁",
+          "url": "https://blog.naver.com/cho_2716/224461140212",
+          "date": "2026-11-01",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1498913843",
       "name": "바다약방 잠실새내점",
       "region": "서울",
@@ -10266,6 +11429,101 @@
       "tags": [
         "데이트",
         "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k18257217",
+      "name": "강강술래 홍대점",
+      "region": "서울",
+      "area": "마포구 서교동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 갈비",
+      "priceFor2": null,
+      "address": "서울 마포구 잔다리로6길 25",
+      "lat": 37.5523564337032,
+      "lng": 126.92056917003,
+      "phone": "02-3143-6635",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/18257217"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 14,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "합정역 맛집 강강술래 홍대점 단독룸 있는 고기집 홍대 맛집 추천",
+          "url": "https://blog.naver.com/whitesunga/224443684861",
+          "date": "2026-10-16",
+          "source": "naver-blog",
+          "signal": "conditional"
+        },
+        {
+          "title": "서교동 돼지갈비 먹으러 다녀온 날",
+          "url": "https://blog.naver.com/yui0810_09/224390875326",
+          "date": "2026-08-26",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "서교동 돼지갈비 맛집 복단지양념구이 먹었어요",
+          "url": "https://blog.naver.com/dh951130/224365734439",
+          "date": "2026-08-02",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "홍대 맛집 데이트 고기집 추천 ! 갈비가 맛있는 강강술래 홍대점",
+          "url": "https://blog.naver.com/zzzzxh/224365118721",
+          "date": "2026-08-01",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "홍대 맛집 강강술래 숯불갈비 구워주는 모임하기 좋은 홍대 고기집",
+          "url": "https://blog.naver.com/mat_do_ri/224362177287",
+          "date": "2026-07-29",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "마포구 갈비탕 강강술래 홍대점 홍대 레드로드 데이트 맛집 후기",
+          "url": "https://blog.naver.com/talkfusion03/224337195916",
+          "date": "2026-07-05",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "룸",
         "단체"
       ],
       "menus": []
@@ -10937,6 +12195,102 @@
       "tags": [
         "룸",
         "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1464212890",
+      "name": "열",
+      "region": "서울",
+      "area": "서초구 서초동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 삼겹살",
+      "priceFor2": null,
+      "address": "서울 서초구 서초대로78길 48",
+      "lat": 37.49349015633518,
+      "lng": 127.02860579801317,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1464212890"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 14,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "강남역 맛집 룸식당 신논현역 구워주는 고기집 흑우정 강남역본점",
+          "url": "https://blog.naver.com/belief87/224487846452",
+          "date": "2026-11-23",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[서초 오마카세] 스시소라 서초점, 생일 콜키지 디너",
+          "url": "https://blog.naver.com/sawon_lee/224485813215",
+          "date": "2026-11-21",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "사당역 육회 | 뭉티기 품절 전에 가야 하는 이유, 함평육회 사당역점",
+          "url": "https://blog.naver.com/es98ksb0157/224486380131",
+          "date": "2026-11-21",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "역삼 청첩장 모임 | 고기 구워주는 고깃집열 청모 추천",
+          "url": "https://blog.naver.com/today_bookcase/224483797902",
+          "date": "2026-11-19",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "교대역 맛집 회식 희열서초교대점 한우 꽃갈비살과 금태솥밥 한 상",
+          "url": "https://blog.naver.com/peachbaby0131/224478752572",
+          "date": "2026-11-16",
+          "source": "naver-blog",
+          "signal": "conditional"
+        },
+        {
+          "title": "혼자 놀기 EP.29 강남에서 앱이 시키는 대로만 하루 놀았다 | 딘타이....",
+          "url": "https://blog.naver.com/mulggol_k/224465818096",
+          "date": "2026-11-08",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "룸",
         "단체"
       ],
       "menus": []
@@ -12099,6 +13453,101 @@
         "주차",
         "단체",
         "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1326633930",
+      "name": "도파민",
+      "region": "서울",
+      "area": "강남구 신사동",
+      "food": "양식",
+      "category": "술집 > 와인바",
+      "priceFor2": null,
+      "address": "서울 강남구 선릉로155길 13",
+      "lat": 37.5253477461077,
+      "lng": 127.038576604081,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1326633930"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 12,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "백제쌀국수에 끓인 우유 넣고 10분 불린 거 10월",
+          "url": "https://blog.naver.com/simireum/224490504122",
+          "date": "2026-11-24",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[신사 이끼롤까스]신사역 혼밥 가로수길 점심 맛집 고구마치즈 돈까....",
+          "url": "https://blog.naver.com/otium_sil/224479798958",
+          "date": "2026-11-18",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "청담역 고기집 길목, 신사 뻐꾸기 통마늘닭똥집",
+          "url": "https://blog.naver.com/haisleyy/224479760204",
+          "date": "2026-11-16",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "잠원동맛집 산솔 신사본점｜연말단체모임 하기 좋은 강원도 감성 ....",
+          "url": "https://blog.naver.com/lizdoll/224470957526",
+          "date": "2026-11-10",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[코엑스/삼성역] 배달음식 반입되는 와인바 청모 장소 추천l 골목길 ....",
+          "url": "https://blog.naver.com/nanunaeonge/224460303709",
+          "date": "2026-10-31",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "놀아도 놀아도 놀고싶어요…",
+          "url": "https://blog.naver.com/chu_jaeeun/224445819003",
+          "date": "2026-10-18",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "분위기",
+        "주차",
+        "단체"
       ],
       "menus": []
     },
@@ -14409,6 +15858,198 @@
       "menus": []
     },
     {
+      "id": "k953592773",
+      "name": "바다회사랑 서교점",
+      "region": "서울",
+      "area": "마포구 서교동",
+      "food": "회·해산물",
+      "category": "한식 > 해물,생선 > 회",
+      "priceFor2": null,
+      "address": "서울 마포구 동교로 143",
+      "lat": 37.5554494589204,
+      "lng": 126.917790877068,
+      "phone": "02-325-6565",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/953592773"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": "후기상 2만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 8,
+        "paidMentions": 5,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "바다회사랑 연남점, 서교점, 홍대점 지점별 주말 웨이팅 꿀팁 및 비....",
+          "url": "https://blog.naver.com/lhs94et/224486843437",
+          "date": "2026-11-23",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[W&D] 연남동 서울 3대 겨울 대방어 맛집 평일 방문 후기 웨이팅 방법 ....",
+          "url": "https://blog.naver.com/ped_joon/224483890611",
+          "date": "2026-11-22",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "서울 대방어 맛집 지도 8곳 구별 위치 영업시간 웨이팅 꿀팁 총정리",
+          "url": "https://blog.naver.com/unfoe/224485637056",
+          "date": "2026-11-21",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "바다회사랑 연남점 대방어 방문 전 가격과 웨이팅 확인법",
+          "url": "https://blog.naver.com/octopus_80/224474543725",
+          "date": "2026-11-12",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "바다회사랑 홍대점 대방어, 웨이팅 2시간 기다려 먹은 맛",
+          "url": "https://blog.naver.com/mjmj_s2_/224470710602",
+          "date": "2026-11-10",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서울 대방어 맛집 9곳 | 광진·강남·송파·마포·노량진 (영업시간·....",
+          "url": "https://blog.naver.com/baguettebasket/224471547499",
+          "date": "2026-11-10",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1300764967",
+      "name": "테이스팅룸 IFC몰점",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "양식",
+      "category": "양식 > 이탈리안",
+      "priceFor2": null,
+      "address": "서울 영등포구 국제금융로 10",
+      "lat": 37.5245655293673,
+      "lng": 126.925390689404,
+      "phone": "02-6137-5654",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1300764967"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": "후기상 병당 3만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 8,
+        "paidMentions": 7,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "여의도 크리스마스 맛집 TOP 6｜파스타와 와인으로 즐기는 연말 모임....",
+          "url": "https://blog.naver.com/siseon874/224478776319",
+          "date": "2026-11-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[내돈내산]테이스팅룸 ifc몰 N번째 방문하는 여의도 플랫브레드 파스....",
+          "url": "https://blog.naver.com/lilkim00/224406422922",
+          "date": "2026-09-09",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "압구정역 맛집 치즈룸 안다즈 파스타 존맛",
+          "url": "https://blog.naver.com/go95830/224389746154",
+          "date": "2026-08-25",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 룸식당 어슬 여의도, 팔레토 자리에 새로 생긴 신상 맛집 리....",
+          "url": "https://blog.naver.com/speedysnail/224384017540",
+          "date": "2026-08-20",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[여의도] 유럽같은 분위기에서 즐긴 파스타, \"테이스팅룸 IFC몰점\"",
+          "url": "https://blog.naver.com/seanevergetwet__/224377432609",
+          "date": "2026-08-15",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 평일 저녁 데이트 맛집 7곳 / 직장인 커플을 위한 예약 식당",
+          "url": "https://blog.naver.com/honestreview13/224374618760",
+          "date": "2026-08-11",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "룸",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1315083198",
       "name": "스시소라 광화문점",
       "region": "서울",
@@ -14501,6 +16142,103 @@
       "tags": [
         "데이트",
         "주차"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1376253571",
+      "name": "로우앤슬로우",
+      "region": "서울",
+      "area": "용산구 이태원동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "서울 용산구 보광로 126",
+      "lat": 37.53401162895581,
+      "lng": 126.99421849699539,
+      "phone": "02-793-2268",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1376253571"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인",
+          "맥주"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [
+          "와인만 가능"
+        ],
+        "freeMentions": 8,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "로코스비비큐 경리단길 혼밥 런치 맛집 성시경 먹을텐데",
+          "url": "https://blog.naver.com/jingjing1023/224423327271",
+          "date": "2026-09-26",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "이태원 로우앤슬로우, 양까지 푸짐했던 텍사스 바비큐",
+          "url": "https://blog.naver.com/kkangdolbubu/224352972099",
+          "date": "2026-07-21",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "상수 맛집 [로코스비비큐 상수점] 상수역 텍사스 바비큐 맛집 방문 ....",
+          "url": "https://blog.naver.com/y64884/224334497024",
+          "date": "2026-07-02",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "all that jazz of may",
+          "url": "https://blog.naver.com/slowlyheee/224302295080",
+          "date": "2026-06-01",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[홍대/상수]  상수역 신상맛집 로코스비비큐, 텍사스 바베큐 제대로 ....",
+          "url": "https://blog.naver.com/almangooo/224295249613",
+          "date": "2026-05-24",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "돈스파이크의 BBQ전문점 - 이태원 로우앤슬로우",
+          "url": "https://blog.naver.com/soonysoon/224231674652",
+          "date": "2026-03-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "단체"
       ],
       "menus": []
     },
@@ -15075,6 +16813,101 @@
       "menus": []
     },
     {
+      "id": "k507944603",
+      "name": "하모네꼬",
+      "region": "서울",
+      "area": "마포구 연남동",
+      "food": "기타",
+      "category": "가정,생활 > 식품판매",
+      "priceFor2": null,
+      "address": "서울 마포구 성미산로15길 58-19",
+      "lat": 37.56413835738898,
+      "lng": 126.91734103459409,
+      "phone": "02-337-3551",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/507944603"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 7,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": [
+          "최근 1년 반 동안 블로그 후기 없음"
+        ]
+      },
+      "evidence": [
+        {
+          "title": "연남 하모네꼬 사적인술모임 호셀리또 무제한 파티  | 대혜자 와인....",
+          "url": "https://blog.naver.com/nnuring/223877072449",
+          "date": "2025-05-25",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[3월말 일상] 먹고 마시고, 피크민 팝업, 여의도 벚꽃 개화",
+          "url": "https://blog.naver.com/specialad/223812678366",
+          "date": "2025-03-28",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "연남동 와인 마시기 좋은 하몽 맛집 하모네꼬",
+          "url": "https://blog.naver.com/specialad/223810500925",
+          "date": "2025-03-27",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "연남동 맛집 - 하모네꼬 하몽 바다회사랑 방어 겨울제철",
+          "url": "https://blog.naver.com/gaziland-jju/223709666920",
+          "date": "2024-12-30",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "대흥역 하모네꼬 코스와 콜키지 후기",
+          "url": "https://blog.naver.com/itis6z/223133377070",
+          "date": "2023-06-19",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[마포맛집/ 경의선숲길맛집/ 연남동맛집/ 스페인 하몽전문점/ 하몽....",
+          "url": "https://blog.naver.com/hny6433/223034913299",
+          "date": "2023-03-04",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k785573131",
       "name": "일편등심 강남",
       "region": "서울",
@@ -15357,6 +17190,103 @@
       "menus": []
     },
     {
+      "id": "k1351376307",
+      "name": "신카이테라스 이태원",
+      "region": "서울",
+      "area": "용산구 이태원동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점",
+      "priceFor2": null,
+      "address": "서울 용산구 이태원로27가길 46",
+      "lat": 37.53505940791925,
+      "lng": 126.99268533466798,
+      "phone": "0503-7153-3373",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1351376307"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 7,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "이태원 야장 술집 신카이테라스 방문 후기! 분위기 좋은 이자카야 ....",
+          "url": "https://blog.naver.com/simpleisbetter_mei/224380092759",
+          "date": "2026-08-16",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "이태원 야장 술집 신카이테라스 이태원, 메인거리 내려다보는 통창 ....",
+          "url": "https://blog.naver.com/better-days/224343821397",
+          "date": "2026-07-12",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "이태원 야장 술집 : 안주가 맛있고 분위기 좋은 신카이테라스 이태....",
+          "url": "https://blog.naver.com/mangzi_/224333599283",
+          "date": "2026-07-02",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[이태원 야장 술집] 신카이 테라스 방문 후기(메뉴부터 맛도리에 분....",
+          "url": "https://blog.naver.com/topipi-/224306724175",
+          "date": "2026-06-05",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "이태원 경리단길 맛집 야장 이자카야 단체모임하기 좋은 신카이 테....",
+          "url": "https://blog.naver.com/foodnromance/224289474302",
+          "date": "2026-05-18",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "이태원 야장 술집 신카이 테라스 이태원, 단체모임까지 완벽했던 곳",
+          "url": "https://blog.naver.com/rubi14/224288223286",
+          "date": "2026-05-17",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1622140124",
       "name": "바롤로",
       "region": "서울",
@@ -15631,6 +17561,100 @@
       "firstSeen": "2026-11-25",
       "isSample": false,
       "tags": [],
+      "menus": []
+    },
+    {
+      "id": "k1973344100",
+      "name": "논두렁오리주물럭 잠실새내직영점",
+      "region": "서울",
+      "area": "송파구 잠실동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 오리",
+      "priceFor2": null,
+      "address": "서울 송파구 백제고분로9길 23",
+      "lat": 37.5097123364172,
+      "lng": 127.08165222919,
+      "phone": "02-6956-8832",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1973344100"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 7,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "논두렁오리주물럭 잠실새내직영점 잠실새내맛집 오리고기의 특유....",
+          "url": "https://blog.naver.com/dssr1204/224486182794",
+          "date": "2026-11-21",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[서울 송파 잠실_고깃집]  '논두렁오리주물럭'  오리주물럭",
+          "url": "https://blog.naver.com/sangbe87/224479729933",
+          "date": "2026-11-16",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "잠실새내 맛집 논두렁오리주물럭 잠실새내직영점 생오리주물럭에 ....",
+          "url": "https://blog.naver.com/cabotin_8494/224452848890",
+          "date": "2026-10-25",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "잠실새내 내돈내산 맛집 : ‘논두렁오리주물럭’ 애견동물 동반 가....",
+          "url": "https://blog.naver.com/dpwls8332/224405790759",
+          "date": "2026-09-10",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "잠실 맛집 논두렁오리주물럭 잠실새내직영점 양념오리 62,000원 한마....",
+          "url": "https://blog.naver.com/hakkilove-/224375506897",
+          "date": "2026-08-14",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "콜키지 프리 잠실새내 오리주물럭 맛집, 논두렁오리주물럭 잠실새....",
+          "url": "https://blog.naver.com/cowboy655/224327379961",
+          "date": "2026-06-25",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "룸",
+        "단체"
+      ],
       "menus": []
     },
     {
@@ -16791,6 +18815,104 @@
       "menus": []
     },
     {
+      "id": "k981681229",
+      "name": "스시키무",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "일식·이자카야",
+      "category": "일식",
+      "priceFor2": null,
+      "address": "서울 영등포구 국제금융로 86",
+      "lat": 37.5201941032677,
+      "lng": 126.931743340561,
+      "phone": "010-5954-6654",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/981681229"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "맥주"
+        ],
+        "extraFee": "후기상 병당 2만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 6,
+        "paidMentions": 11,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[서울/영등포구] 샛강역 여의도 장어덮밥 맛집 스시키무",
+          "url": "https://blog.naver.com/youngjin9610/224429365637",
+          "date": "2026-10-02",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "여의도 장어덮밥 여의도 맛집 스시키무 프리미엄 장어덮밥 맛집 후....",
+          "url": "https://blog.naver.com/ggo_chae/224322842888",
+          "date": "2026-06-21",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "여의도 스시키무 갓성비 오마카세 디너 후기",
+          "url": "https://blog.naver.com/youngsj_/224280831804",
+          "date": "2026-05-12",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 스시 오마카세 - 스시키무",
+          "url": "https://blog.naver.com/soonysoon/224168794126",
+          "date": "2026-02-05",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[여의도] 스시키무 - 장어가 특별한 오마카세 맛집",
+          "url": "https://blog.naver.com/drtitan/224167311853",
+          "date": "2026-02-02",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[여의도]스시키무_스시 오마카세 내돈내산 맛집_생일날",
+          "url": "https://blog.naver.com/seoring-/224104685948",
+          "date": "2025-12-10",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "룸",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1007010121",
       "name": "스시야",
       "region": "성남",
@@ -17356,6 +19478,103 @@
       "tags": [
         "단체",
         "늦게까지"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1990658906",
+      "name": "코치",
+      "region": "서울",
+      "area": "성동구 성수동2가",
+      "food": "일식·이자카야",
+      "category": "일식",
+      "priceFor2": null,
+      "address": "서울 성동구 성덕정17길 11",
+      "lat": 37.53818493709204,
+      "lng": 127.05515928911136,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1990658906"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": "후기상 병당 2만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 6,
+        "paidMentions": 12,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "내 사랑은 자로 잰 듯이 반듯해",
+          "url": "https://blog.naver.com/cherrish__u/224476910809",
+          "date": "2026-11-14",
+          "source": "naver-blog",
+          "signal": "conditional"
+        },
+        {
+          "title": "성수동 맛집 예약 대란 분석과 플랫폼 대기 대안 가이드",
+          "url": "https://blog.naver.com/shsh0512/224467990226",
+          "date": "2026-11-07",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "군자 혼술바 제비, 혼자 가도 재밌는 북카페 감성 군자역 칵테일바 @....",
+          "url": "https://blog.naver.com/lolrabbit/224463024922",
+          "date": "2026-11-03",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "25년 상반기 일상",
+          "url": "https://blog.naver.com/tkatjd26/224424671797",
+          "date": "2026-09-28",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "성수 맛집 성시경 먹을텐데 야키토리 '코치' 내돈내산 방문 후기(예....",
+          "url": "https://blog.naver.com/mango0126-/224410335728",
+          "date": "2026-09-13",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "bad boy라 불러도 돼?",
+          "url": "https://blog.naver.com/ddeddi_97/224406563616",
+          "date": "2026-09-10",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "단체"
       ],
       "menus": []
     },
@@ -17941,6 +20160,92 @@
       "menus": []
     },
     {
+      "id": "k725042568",
+      "name": "설램양갈비 수원망포점",
+      "region": "수원",
+      "area": "영통구 영통동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 갈비",
+      "priceFor2": null,
+      "address": "경기 수원시 영통구 영통로218번길 52",
+      "lat": 37.2468351239809,
+      "lng": 127.06010271052,
+      "phone": "010-7225-5481",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/725042568"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 5,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "망포동 양고기 맛집 설램 양갈비·양등심 후기  분위기 좋은 망포역 ....",
+          "url": "https://blog.naver.com/h2o5/224421373754",
+          "date": "2026-09-24",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "망포역 맛집 설램 양갈비 부드러웠던 영통 양고기 가족외식 후기",
+          "url": "https://blog.naver.com/hein52/224415020911",
+          "date": "2026-09-17",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "망포역맛집 설램 양갈비 재방문 2인 세트 후기 콜키지 프리",
+          "url": "https://blog.naver.com/sosoyo97/224393968843",
+          "date": "2026-08-29",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "설램 망포점 잡내 없는 프리미엄 양갈비 콜키지 프리 이벤트 중, 와....",
+          "url": "https://blog.naver.com/anjgkfrjdjqtsl6740/223972269234",
+          "date": "2025-08-16",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "망포역맛집 설램 양갈비 회식, 데이트 하기 좋은 곳 콜키지프리",
+          "url": "https://blog.naver.com/77dbs77/223918215352",
+          "date": "2025-07-01",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k833241913",
       "name": "스시유타카",
       "region": "서울",
@@ -18414,6 +20719,100 @@
       "menus": []
     },
     {
+      "id": "k1865202250",
+      "name": "토리키치 광교호수공원점",
+      "region": "수원",
+      "area": "영통구 하동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점 > 토리키치",
+      "priceFor2": null,
+      "address": "경기 수원시 영통구 법조로 38",
+      "lat": 37.287052825094754,
+      "lng": 127.06240474567105,
+      "phone": "0507-1392-2503",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1865202250"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 5,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "천안 청수동 술집 별밤 분위기 이자카야 토리키치 90년대생 플레이....",
+          "url": "https://blog.naver.com/lunahae/224277696003",
+          "date": "2026-05-07",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "9월 3주차 블챌ㄹㄹ",
+          "url": "https://blog.naver.com/wn7060/224016691872",
+          "date": "2025-09-21",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "2025. 08 (2)",
+          "url": "https://blog.naver.com/shape-of-blue/223977569842",
+          "date": "2025-08-20",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[옥수/술집] 가성비좋은 성동구데이트 코스, 주류 무한리필  맛집_토....",
+          "url": "https://blog.naver.com/daejangduck/223920602357",
+          "date": "2025-07-03",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "3.1.zip",
+          "url": "https://blog.naver.com/dkxha6750/223415758879",
+          "date": "2024-04-15",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "신상 스시야 미들급 스시 오마카세 신사 스시 쥬고야 런치",
+          "url": "https://blog.naver.com/missjeongmin/223309898335",
+          "date": "2024-01-02",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k2078452841",
       "name": "세이류",
       "region": "서울",
@@ -18504,6 +20903,100 @@
       "firstSeen": "2026-11-25",
       "isSample": false,
       "tags": [],
+      "menus": []
+    },
+    {
+      "id": "k17950425",
+      "name": "홍대화덕피자",
+      "region": "서울",
+      "area": "마포구 합정동",
+      "food": "양식",
+      "category": "양식 > 피자",
+      "priceFor2": null,
+      "address": "서울 마포구 독막로7길 5",
+      "lat": 37.5482104103333,
+      "lng": 126.918468749292,
+      "phone": "02-333-2282",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/17950425"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 4,
+        "paidMentions": 4,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "합정 상수역 맛집 홍대 화덕피자, 재재재재재방문 후기",
+          "url": "https://blog.naver.com/orange2793/224481223621",
+          "date": "2026-11-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "합정 맛집 홍대 피자 합정동맛집 서울화덕피자맛집 홍대화덕피자",
+          "url": "https://blog.naver.com/apr_405/224474978088",
+          "date": "2026-11-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "식스센스B사이드 떡볶이피자 실화? 홍대 피지피지 주차 꿀팁 정보",
+          "url": "https://blog.naver.com/mimi-mumu/224459900074",
+          "date": "2026-10-31",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "합정 맛집 홍대 피자 홍대화덕피자 재방문 데이트 추천",
+          "url": "https://blog.naver.com/bubblys2/224452901027",
+          "date": "2026-10-25",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[홍대 맛집] 상수역 화덕피자, 파스타 맛집 추천! 데이트, 단체모임....",
+          "url": "https://blog.naver.com/milkomeda17/224438365351",
+          "date": "2026-10-13",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "합정 맛집 홍대피자 - 홍대화덕피자",
+          "url": "https://blog.naver.com/unasuna/224437029597",
+          "date": "2026-10-10",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "단체"
+      ],
       "menus": []
     },
     {
@@ -19698,6 +22191,102 @@
       "menus": []
     },
     {
+      "id": "k1644061627",
+      "name": "도약",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 삼겹살",
+      "priceFor2": null,
+      "address": "서울 영등포구 의사당대로 38",
+      "lat": 37.5251928065369,
+      "lng": 126.918832057033,
+      "phone": "070-8287-1157",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1644061627"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 4,
+        "paidMentions": 6,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "도약 여의도본점 | 여의도 회식 고깃집 | 여의도 데이트 맛집 추천",
+          "url": "https://blog.naver.com/347126/224410375317",
+          "date": "2026-09-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 고기집 도약 숙성에 진심인 모듬세트에 해남묵은지 필수",
+          "url": "https://blog.naver.com/lunaticrrr/224407760707",
+          "date": "2026-09-11",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[여의도] 단체 회식장소로 좋은 여의도 고기집 도약",
+          "url": "https://blog.naver.com/ekgpdl330/224402938949",
+          "date": "2026-09-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 고기집 도약 여의도공원 근처 숙성고기 즐기고 온 후기",
+          "url": "https://blog.naver.com/thdud791/224402442001",
+          "date": "2026-09-06",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "여의도 회식 강력추천 고기집 서비스 맛 모두 잡았다 도약 서여의도....",
+          "url": "https://blog.naver.com/jinsetae/224398854904",
+          "date": "2026-09-02",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "도약 서여의도점 | 여의도 회식장소 추천, 정갈한 분위기 속 와사비 ....",
+          "url": "https://blog.naver.com/inaesze/224373596568",
+          "date": "2026-08-10",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1711932218",
       "name": "열정타코",
       "region": "서울",
@@ -20492,6 +23081,195 @@
       "menus": []
     },
     {
+      "id": "k468234564",
+      "name": "플러피 여의도",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "양식",
+      "category": "양식",
+      "priceFor2": null,
+      "address": "서울 영등포구 국제금융로8길 31",
+      "lat": 37.519745924580356,
+      "lng": 126.92806623732982,
+      "phone": "02-6484-5970",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/468234564"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 3,
+        "paidMentions": 2,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[서울/여의도]여의도 모임장소 데이트 소개팅에 적합한 여의도 SK증....",
+          "url": "https://blog.naver.com/dduba_b/224285355804",
+          "date": "2026-05-14",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "뇨끼와 피자가 맛있는 여의도파스타맛집, 플러피 여의도",
+          "url": "https://blog.naver.com/eyhij_kim/224040428553",
+          "date": "2025-10-14",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 파스타 맛집 플러피 쉬림프 엔쵸비 오일 링귀니 시그니처 플....",
+          "url": "https://blog.naver.com/reason12/224031869952",
+          "date": "2025-10-04",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "여의도 소개팅 장소로 좋은 플러피 | 주차 가능한 여의도파스타맛집",
+          "url": "https://blog.naver.com/y___x/223981700505",
+          "date": "2025-08-24",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "인생맛집 플러피 여의도 솔직후기 피자 뇨끼 대박 벚꽃데이트코스",
+          "url": "https://blog.naver.com/one-mango/223782576385",
+          "date": "2025-03-04",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "여의도 소개팅 장소로 유명한 파스타 맛집 [ 플러피 여의도 ] (feat. ....",
+          "url": "https://blog.naver.com/beyoutiful_soyoungjo/223665334504",
+          "date": "2024-11-18",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k603846716",
+      "name": "무국적식당 주철",
+      "region": "서울",
+      "area": "송파구 문정동",
+      "food": "양식",
+      "category": "양식",
+      "priceFor2": null,
+      "address": "서울 송파구 송파대로 167",
+      "lat": 37.484817882315085,
+      "lng": 127.12113967432707,
+      "phone": "0502-5553-4501",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/603846716"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 3,
+        "paidMentions": 5,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "문정동 술집 무국적식당 주철후기",
+          "url": "https://blog.naver.com/zzeebu_aunt/224429355768",
+          "date": "2026-10-02",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "문정역 주점 색다른 안주 맛집 무국적식당 주철",
+          "url": "https://blog.naver.com/nayees88/224424078766",
+          "date": "2026-09-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[식당] 문정 무국적식당 주철, 문정 허영만백반기행 퓨전요리주점 ....",
+          "url": "https://blog.naver.com/ssong306/224420755386",
+          "date": "2026-09-23",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "무국적식당 주철 방문 후기, 경계를 허무는 퓨전 요리 전문점",
+          "url": "https://blog.naver.com/carfore/224244581531",
+          "date": "2026-04-08",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "문정역 허영만 식객 맛집 무국적식당 주철 소개팅 추천 술집",
+          "url": "https://blog.naver.com/antdaily/223954651185",
+          "date": "2025-08-01",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "허영만 선생님도 다녀간 무국적식당주철에서 행복한 시간 맛도리 ....",
+          "url": "https://blog.naver.com/jeh00314/223823839183",
+          "date": "2025-04-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "분위기",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k703841013",
       "name": "스시사토",
       "region": "성남",
@@ -20950,6 +23728,168 @@
       "menus": []
     },
     {
+      "id": "k1359418377",
+      "name": "정원숯불한우",
+      "region": "성남",
+      "area": "중원구 성남동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "경기 성남시 중원구 산성대로 136",
+      "lat": 37.43402985452005,
+      "lng": 127.13429231883639,
+      "phone": "031-751-9997",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1359418377"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": "후기상 1만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 3,
+        "paidMentions": 4,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "성남 | 25.12.07 연말모임 단체룸 가족외식 - 정원숯불한우 - 성남사랑....",
+          "url": "https://blog.naver.com/lnh0329/224102402316",
+          "date": "2025-12-08",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "모란역 소고기 맛집 친절하고 맛있는 정원숯불한우 내돈내산",
+          "url": "https://blog.naver.com/soondooong/223831164743",
+          "date": "2025-04-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[정원숯불한우] 경기도 분당 모란 고기&밑반찬맛집집",
+          "url": "https://blog.naver.com/kakao241/223482672185",
+          "date": "2024-06-18",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "성남 모란역, 정원숯불한우 돼지갈비 가족외식추천 밑반찬10가지 한....",
+          "url": "https://blog.naver.com/s21207pray/223183809285",
+          "date": "2023-08-15",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[소소한일상] 모란역 정원숯불한우",
+          "url": "https://drkkoma.tistory.com/358",
+          "date": "2023-08-09",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[성남_맛집]성남동 정원숯불한우",
+          "url": "https://blog.naver.com/i1214n/223113971442",
+          "date": "2023-05-28",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "룸",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1462050631",
+      "name": "담가화로구이 성남신흥점",
+      "region": "성남",
+      "area": "수정구 신흥동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "경기 성남시 수정구 시민로 165",
+      "lat": 37.4427059492861,
+      "lng": 127.14256497051,
+      "phone": "031-778-6869",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1462050631"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 3,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "성남 신흥동 숨은 맛집 | 쏭파스타 2인세트 가성비 좋은 파스타 맛집....",
+          "url": "https://blog.naver.com/justdahaebom/224388594024",
+          "date": "2026-08-27",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "성남 신흥동 숨은 맛집 쏭파스타 여기 왜 안가? 고등어 파스타 핵존....",
+          "url": "https://blog.naver.com/wndud6135/224388980620",
+          "date": "2026-08-24",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[성남이마트맛집] 가성비 2인 세트로 즐긴 신선한 하프샐러드와 파....",
+          "url": "https://blog.naver.com/sunnolja19/224383523709",
+          "date": "2026-08-19",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
+      "menus": []
+    },
+    {
       "id": "k1592105734",
       "name": "사라",
       "region": "성남",
@@ -21045,6 +23985,87 @@
         "주차",
         "단체",
         "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1667629675",
+      "name": "도하스비스트로",
+      "region": "기타 경기",
+      "area": "기흥구 영덕동",
+      "food": "양식",
+      "category": "양식 > 이탈리안",
+      "priceFor2": null,
+      "address": "경기 용인시 기흥구 흥덕1로79번길 2",
+      "lat": 37.2749917759344,
+      "lng": 127.071496141384,
+      "phone": "031-215-0818",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1667629675"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 3,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": [
+          "최근 1년 반 동안 블로그 후기 없음"
+        ]
+      },
+      "evidence": [
+        {
+          "title": "흥덕 맛집 광교호수공원 맛집 도하스 비스트로 내돈내산 솔직후기",
+          "url": "https://blog.naver.com/jejy0128/223099499523",
+          "date": "2023-05-11",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "흥덕 가성비 좋은 파스타 도하스비스트로",
+          "url": "https://blog.naver.com/3050pp/223024417584",
+          "date": "2023-02-24",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "20230205 캔달잭슨 빈트너스 리저브 카베르네 소비뇽 with  도하스 비스....",
+          "url": "https://blog.naver.com/eggkuki/223011567944",
+          "date": "2023-02-10",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "영덕동/흥덕맛집 도하스 비스트로 • 콜키지프리",
+          "url": "https://blog.naver.com/ag_ee/222962438957",
+          "date": "2022-12-22",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트"
       ],
       "menus": []
     },
@@ -22471,6 +25492,104 @@
       "menus": []
     },
     {
+      "id": "k408054206",
+      "name": "아타리",
+      "region": "서울",
+      "area": "성동구 성수동2가",
+      "food": "일식·이자카야",
+      "category": "일식",
+      "priceFor2": null,
+      "address": "서울 성동구 성덕정19길 13",
+      "lat": 37.5375571286737,
+      "lng": 127.056663672479,
+      "phone": "010-6321-4604",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/408054206"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키",
+          "맥주"
+        ],
+        "extraFee": "후기상 2만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 11,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "신논현 강남역 술집 이자카야고코 콜키지프리 야키토리 맛집♡",
+          "url": "https://blog.naver.com/fallwinter-/224438908418",
+          "date": "2026-10-15",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "성수 야끼토리 코스 맛집 추천!! 디너 35000원, 콜키지 2만원 가성비 ....",
+          "url": "https://blog.naver.com/northpole-penguin/224394927588",
+          "date": "2026-10-13",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "뚝도시장 [코치]",
+          "url": "https://blog.naver.com/isaac49/224316342316",
+          "date": "2026-06-15",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "성수 데이트 맛집:)  야끼토리 강추 \"아타리\"",
+          "url": "https://blog.naver.com/5959jji/224247838647",
+          "date": "2026-04-10",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서울 성수 야키토리 오마카세 흑백요리사 통닭맨 출연! 또 먹고 싶....",
+          "url": "https://blog.naver.com/ring_070/224165400666",
+          "date": "2026-01-30",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[코치 성수] 야키토리",
+          "url": "https://blog.naver.com/jjjung270/224162510495",
+          "date": "2026-01-28",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "주차",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
       "id": "k442811132",
       "name": "무월 수원행궁점",
       "region": "수원",
@@ -23247,6 +26366,99 @@
         "분위기",
         "단체",
         "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k745143994",
+      "name": "탭샵바 청계천삼일빌딩",
+      "region": "서울",
+      "area": "종로구 관철동",
+      "food": "양식",
+      "category": "술집 > 와인바",
+      "priceFor2": null,
+      "address": "서울 종로구 청계천로 85",
+      "lat": 37.5686310289547,
+      "lng": 126.987150296263,
+      "phone": "010-9592-1860",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/745143994"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "종각역 와인바 추천 탭샵바 가성비로 즐기기에 완전 좋은 곳",
+          "url": "https://blog.naver.com/muk_dori30/224320880965",
+          "date": "2026-06-19",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[을지로/종로 직장인 맛집] 와인을 싸게 즐길 수 있는 탭샵바 내돈내....",
+          "url": "https://blog.naver.com/lover5855/224314859839",
+          "date": "2026-06-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "탭샵바 청계천삼일빌딩점 모임하기 좋은 가성비 와인바 와인 추천",
+          "url": "https://blog.naver.com/0225sm/224283309595",
+          "date": "2026-05-12",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[종로/을지로] 종로 가성비 와인바 “탭샵바 청계천삼일빌딩”",
+          "url": "https://blog.naver.com/hyemmnni/223977139417",
+          "date": "2025-08-20",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "탭샵바 종로 청계천 근처 와인 위스키 사기 좋은 가성비 와인바 추....",
+          "url": "https://blog.naver.com/grii271/223950670658",
+          "date": "2025-07-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[서울/종각] 내맘대로 골라마시는 종각 와인바, 탭샵바 청계천삼일....",
+          "url": "https://blog.naver.com/ori_ducks/223630498593",
+          "date": "2024-10-23",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "단체"
       ],
       "menus": []
     },
@@ -24281,6 +27493,99 @@
       "menus": []
     },
     {
+      "id": "k1211030468",
+      "name": "라스위스",
+      "region": "서울",
+      "area": "종로구 통의동",
+      "food": "양식",
+      "category": "양식",
+      "priceFor2": null,
+      "address": "서울 종로구 자하문로6길 11-36",
+      "lat": 37.57865572202422,
+      "lng": 126.97260807716255,
+      "phone": "02-730-4162",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1211030468"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": "후기상 3만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 7,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "서울에서 프랑스 가정식을  맛보고 싶다면 서촌 라스위스(feat. 민들....",
+          "url": "https://blog.naver.com/jujube702/224293367667",
+          "date": "2026-05-22",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "경복궁 근처 맛집 우아라 안국역 포장 맛집 한정식 데이트 서울 서....",
+          "url": "https://blog.naver.com/kswjh/224288137373",
+          "date": "2026-05-17",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "라스위스 서촌",
+          "url": "https://blog.naver.com/sophie032/224185784468",
+          "date": "2026-02-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서촌맛집 라 스위스 현지인 쉐프가 만드는 스위스 가정식 서촌데이....",
+          "url": "https://blog.naver.com/mazique/224089280676",
+          "date": "2025-11-26",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서촌 맛집, 경복궁역 분위기 좋은 맛집 - 라 스위스 서촌",
+          "url": "https://blog.naver.com/efseung/224038040480",
+          "date": "2025-10-11",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서촌 스위스 코스요리 주중 디너 추천 라스위스 (가스트로통) 내돈....",
+          "url": "https://blog.naver.com/jiinnggi/223831819509",
+          "date": "2025-04-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1253143354",
       "name": "스시다케루",
       "region": "성남",
@@ -24372,6 +27677,100 @@
       "isSample": false,
       "tags": [
         "데이트"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1284688158",
+      "name": "돼지맨숀",
+      "region": "성남",
+      "area": "분당구 삼평동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "경기 성남시 분당구 동판교로177번길 25",
+      "lat": 37.39732066642212,
+      "lng": 127.11356193032874,
+      "phone": "031-706-4775",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1284688158"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": "후기상 20,000원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 3,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "판교 아브뉴프랑 맛집 돼지맨숀 삼겹살에 청어알을 올려 먹는 특별....",
+          "url": "https://blog.naver.com/hello_trip_/224477399486",
+          "date": "2026-11-15",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "<돼지맨숀> 분당판교 삼평동/ 아브뉴프랑 직접 구워주는 한돈& 이베....",
+          "url": "https://blog.naver.com/lutsia5/224422244817",
+          "date": "2026-09-25",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[분당/삼평]돼지맨숀 판교아브뉴프랑점-내 인생 돼지 목살 판교 맛....",
+          "url": "https://blog.naver.com/inoii/223900836399",
+          "date": "2025-06-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "판교 아브뉴프랑 맛집 돼지맨숀 판교아브뉴프랑점 솔직후기",
+          "url": "https://blog.naver.com/limkyungmi10/223873932279",
+          "date": "2025-05-22",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "분당맛집, 판교맛집 돼지맨숀 판교아브뉴프랑점  객실 가격 위치 할....",
+          "url": "https://blog.naver.com/12bnny/223821303078",
+          "date": "2025-04-03",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "판교 아브뉴프랑 돼지고기 회식으로 돼지맨숀 !",
+          "url": "https://blog.naver.com/qufquf_/223186521264",
+          "date": "2023-08-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "주차",
+        "단체"
       ],
       "menus": []
     },
@@ -24601,6 +28000,67 @@
       "menus": []
     },
     {
+      "id": "k1546123058",
+      "name": "푸줏간생고기",
+      "region": "서울",
+      "area": "마포구 합정동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "서울 마포구 월드컵로3길 28",
+      "lat": 37.5504179897527,
+      "lng": 126.911160365711,
+      "phone": "02-322-9285",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1546123058"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "2026년 맛집 투어 정산",
+          "url": "https://blog.naver.com/lightempire/224399928227",
+          "date": "2026-09-03",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "26년 2월 일상 (압구정 파씨오네, 남원통닭, 백일도, 하루, 생일기념 ....",
+          "url": "https://blog.naver.com/hyday14/224200592569",
+          "date": "2026-03-01",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
+      "menus": []
+    },
+    {
       "id": "k1577181127",
       "name": "화옥",
       "region": "수원",
@@ -24783,6 +28243,97 @@
       "menus": []
     },
     {
+      "id": "k1594329054",
+      "name": "광화문미진숯불막창",
+      "region": "서울",
+      "area": "종로구 청진동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 곱창,막창",
+      "priceFor2": null,
+      "address": "서울 종로구 종로5길 29",
+      "lat": 37.5716358267015,
+      "lng": 126.980429223721,
+      "phone": "02-737-9599",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1594329054"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "광화문 종각 막창 맛집 미진숯불막창, 6시 기준 캐치테이블 웨이팅 3....",
+          "url": "https://blog.naver.com/morakkim211/224457051756",
+          "date": "2026-10-28",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "광화문 미진숯불막창 야장 회식장소 막창 맛집",
+          "url": "https://blog.naver.com/yoon_dino/224261719268",
+          "date": "2026-04-22",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서울 야장 맛집 추천 광화문 미진숯불막창 야장 재방문 후기(ft 야장....",
+          "url": "https://blog.naver.com/aprl14/224231053865",
+          "date": "2026-03-28",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "광화문 막창 맛집 서울 야장 맛집 '광화문 미진숯불막창 야장' 웨이....",
+          "url": "https://blog.naver.com/loveeachotter/224221906993",
+          "date": "2026-03-19",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "광화문 미진 숯불 막창 솔직 후기｜숯불에 구워 먹는 막창 전문점",
+          "url": "https://blog.naver.com/minyoung_1020/224159970589",
+          "date": "2026-01-26",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "광화문 미진숯불막창 회식강추! 막내수고덜어주는 초벌구이맛집 내....",
+          "url": "https://blog.naver.com/sulkiyellow/224118861689",
+          "date": "2025-12-22",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1814498690",
       "name": "차고145",
       "region": "성남",
@@ -24850,6 +28401,176 @@
       "firstSeen": "2026-11-25",
       "isSample": false,
       "tags": [],
+      "menus": []
+    },
+    {
+      "id": "k1861709104",
+      "name": "한남물터",
+      "region": "서울",
+      "area": "용산구 한남동",
+      "food": "회·해산물",
+      "category": "한식 > 해물,생선 > 회",
+      "priceFor2": null,
+      "address": "서울 용산구 대사관로 65",
+      "lat": 37.53344761805766,
+      "lng": 127.0054510903537,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1861709104"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키",
+          "맥주"
+        ],
+        "extraFee": "후기상 병당 30,000원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 10,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "한남동 횟집 해산물 맛집, 한남 물터 세비체, 줄돔회 낚시 체험  후....",
+          "url": "https://blog.naver.com/ge_gee00/224482588426",
+          "date": "2026-11-22",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "한남동 횟집 해산물 한남물터 직접 물고기 잡는 이색 술집",
+          "url": "https://blog.naver.com/careplanner79/224484786190",
+          "date": "2026-11-20",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "한남동 횟집 해산물 한남물터",
+          "url": "https://blog.naver.com/jbangd/224473876431",
+          "date": "2026-11-12",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[한남물터/한남동 횟집 해산물]은갈치 튀김/신상 해산물 한식주점/....",
+          "url": "https://blog.naver.com/mmkmmk92/224467787657",
+          "date": "2026-11-06",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "한남동 횟집 낚시체험 해산물 분위기 좋은 소개팅 술집 맛집 한남 ....",
+          "url": "https://blog.naver.com/zuyaioi8/224457994047",
+          "date": "2026-10-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "한남동 술집 요리주점 한남동 숙성회 맛집 한남 물터",
+          "url": "https://blog.naver.com/gpfus505/224457684021",
+          "date": "2026-10-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "주차",
+        "단체",
+        "늦게까지"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1996765902",
+      "name": "초장집 합정점",
+      "region": "서울",
+      "area": "마포구 합정동",
+      "food": "회·해산물",
+      "category": "한식 > 해물,생선 > 회",
+      "priceFor2": null,
+      "address": "서울 마포구 양화로6길 38",
+      "lat": 37.54881254900248,
+      "lng": 126.91628177855655,
+      "phone": "02-322-9685",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1996765902"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "겨울엔 대방어지! 서울 대방어 맛집 Top 6 (연남·석계·강남·당산·노....",
+          "url": "https://blog.naver.com/inthecielo/224487152104",
+          "date": "2026-11-22",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "서울 대방어 맛집 20곳 & 먹는 법 비교 | 연남 바다회사랑 현장 웨이....",
+          "url": "https://blog.naver.com/nn78621/224472236060",
+          "date": "2026-11-10",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "네이버 블로그 사이트맵 - 생성 방법",
+          "url": "https://blog.naver.com/jyh1751/224412749610",
+          "date": "2026-09-15",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "룸"
+      ],
       "menus": []
     },
     {
@@ -26868,6 +30589,100 @@
       "menus": []
     },
     {
+      "id": "k965284303",
+      "name": "스시히로",
+      "region": "성남",
+      "area": "분당구 삼평동",
+      "food": "일식·이자카야",
+      "category": "일식 > 초밥,롤",
+      "priceFor2": null,
+      "address": "경기 성남시 분당구 대왕판교로 660",
+      "lat": 37.40046611328434,
+      "lng": 127.10681287507951,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/965284303"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케"
+        ],
+        "extraFee": "후기상 30,000원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 2,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[판교/삼평동] 스시히로",
+          "url": "https://blog.naver.com/withsafe/224227078717",
+          "date": "2026-03-23",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[판교/삼평동] 스시히로",
+          "url": "https://blog.naver.com/withsafe/224146871508",
+          "date": "2026-01-14",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[맛집 여행] 스시히로 : 판교 런치 오마카세 / 깔끔한 점심식사 한끼....",
+          "url": "https://blog.naver.com/blog1sang/223874965146",
+          "date": "2025-05-23",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "판교 스시 오마카세 스시히로 디너코스 후기",
+          "url": "https://blog.naver.com/bellline100/223826680259",
+          "date": "2025-04-08",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "삼평동 맛집 일본 현지에서 먹는 느낌의 스시 오마카세 스시히로",
+          "url": "https://blog.naver.com/cyzbrjf56/223784262988",
+          "date": "2025-03-05",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "콜키지 가능한 판교 유스페이스 디너 오마카세 맛집 스시히로 부모....",
+          "url": "https://blog.naver.com/anonan/223783801781",
+          "date": "2025-03-04",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1068851079",
       "name": "심양 청담본점",
       "region": "서울",
@@ -27057,6 +30872,76 @@
         "데이트",
         "분위기",
         "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1224736604",
+      "name": "스시이야시",
+      "region": "성남",
+      "area": "분당구 백현동",
+      "food": "일식·이자카야",
+      "category": "일식 > 초밥,롤",
+      "priceFor2": null,
+      "address": "경기 성남시 분당구 판교역로 136",
+      "lat": 37.3921454064014,
+      "lng": 127.110488145596,
+      "phone": "031-778-7017",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1224736604"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "분당 판교 맛집, 팔복 수내 홍탕과육과 양장피",
+          "url": "https://blog.naver.com/purejj99/224058532660",
+          "date": "2025-10-30",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[맛집추천] 판교 오마카세 스시다케루 (콜키지프리, 데이트, 기념일)",
+          "url": "https://blog.naver.com/susan240/223957981409",
+          "date": "2025-08-04",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[경기 | 판교] 스시이야시: 분당 백현동 기념일에 방문한 평일 런치 ....",
+          "url": "https://blog.naver.com/happyhyepic/223808556972",
+          "date": "2025-03-24",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트"
       ],
       "menus": []
     },
@@ -27327,6 +31212,99 @@
       "menus": []
     },
     {
+      "id": "k1463817167",
+      "name": "이창",
+      "region": "성남",
+      "area": "분당구 야탑동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점",
+      "priceFor2": null,
+      "address": "경기 성남시 분당구 장미로100번길 11-1",
+      "lat": 37.41246828752211,
+      "lng": 127.13209293402949,
+      "phone": "0507-1381-1734",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1463817167"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "야탑역맛집:)우니크림파스타 숙성회 맛집 이자카야 이창",
+          "url": "https://blog.naver.com/rkdud1592/224095480759",
+          "date": "2025-12-02",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "5월, 3번째 결기",
+          "url": "https://blog.naver.com/mings0115/223870195051",
+          "date": "2025-05-19",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[이자카야 이창] 야탑역 분위기 좋은 술집, 이자카야 이창",
+          "url": "https://blog.naver.com/mimmmmi96/223803555457",
+          "date": "2025-03-24",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "분당 맛집 :: 야탑 신상 이자카야, 이창",
+          "url": "https://blog.naver.com/evian___/223750864059",
+          "date": "2025-02-07",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "야탑역 맛집  | 분위기좋은 신상 이자카야 추천 | 야탑이창 | 야탑데....",
+          "url": "https://blog.naver.com/ara_o_o_/223733228392",
+          "date": "2025-01-21",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "분당 야탑 이창 | 야탑 먹자골목 분위기 좋은 이자카야 추천",
+          "url": "https://blog.naver.com/nr_0425/223622353628",
+          "date": "2024-10-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "분위기"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1526437250",
       "name": "이토",
       "region": "수원",
@@ -27523,6 +31501,102 @@
       "menus": []
     },
     {
+      "id": "k1590303732",
+      "name": "스시아라타",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "일식·이자카야",
+      "category": "일식 > 초밥,롤",
+      "priceFor2": null,
+      "address": "서울 영등포구 국제금융로8길 16",
+      "lat": 37.52120511736796,
+      "lng": 126.92884085062447,
+      "phone": "02-2636-9417",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1590303732"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": "후기상 3만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 9,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "여의도 스시 아라타, 가을 시작은 스시로",
+          "url": "https://blog.naver.com/hammygo/224437810089",
+          "date": "2026-10-11",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 스시아라타 런치 스시오마카세 주류메뉴판 주차 콜키지",
+          "url": "https://blog.naver.com/ksh64871/224432634873",
+          "date": "2026-10-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "(영등포/여의도) 여의도 숨은 오마카세 맛집, 스시아라타 디너 솔직 ....",
+          "url": "https://blog.naver.com/gye_lee/224426261000",
+          "date": "2026-09-29",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[여의도] 스시아라타 - 당일 예약 2부 런치 스시오마카세 (+무료주차/....",
+          "url": "https://blog.naver.com/kmd_kim/224402184376",
+          "date": "2026-09-14",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "<영등포>프라이빗하게 즐기기 좋은 스시 아라타 평일 런치 후기",
+          "url": "https://blog.naver.com/rilisa/224349565478",
+          "date": "2026-07-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[여의도] 기념일에 가기 좋은 여의도 오마카세 스시아라타 런치 방....",
+          "url": "https://blog.naver.com/createflow-/224318982640",
+          "date": "2026-06-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "주차"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1602357460",
       "name": "오레노유메 강남역점",
       "region": "서울",
@@ -27715,6 +31789,194 @@
       "menus": []
     },
     {
+      "id": "k1836636382",
+      "name": "권식족발",
+      "region": "서울",
+      "area": "성동구 성수동2가",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 족발,보쌈",
+      "priceFor2": null,
+      "address": "서울 성동구 아차산로7길 4",
+      "lat": 37.5455410825992,
+      "lng": 127.054329599976,
+      "phone": "02-465-8516",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1836636382"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "성수 회식장소 추천 성수역 뚝섬역 룸식당 단체 예약 6곳 1인 3만~7만....",
+          "url": "https://blog.naver.com/yhc9355/224481564276",
+          "date": "2026-11-18",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "성수역 맛집 성수 족발 핫플 술집 회식 장소 권식족발",
+          "url": "https://blog.naver.com/goodluck3827/224402836240",
+          "date": "2026-09-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "성수역맛집 권식족발 성수본점, 쯔양도 반한 야들야들 반반왕족발 ....",
+          "url": "https://blog.naver.com/hangyul--/224401709917",
+          "date": "2026-09-05",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[권식족발 성수본점] 성수역맛집 추천! 회식장소로도 제격인 성수족....",
+          "url": "https://blog.naver.com/play_ryu/224394324394",
+          "date": "2026-08-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "권식족발 성수본점",
+          "url": "https://blog.naver.com/rlatjddnd123/224337307476",
+          "date": "2026-07-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서울 성수동 데이트 코스 추천 쯔양 다녀간 권식 족발 반반 왕족발 ....",
+          "url": "https://blog.naver.com/sosojihyun/224316878562",
+          "date": "2026-06-15",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1887372192",
+      "name": "스시우미 잠실점",
+      "region": "서울",
+      "area": "송파구 신천동",
+      "food": "일식·이자카야",
+      "category": "일식 > 초밥,롤",
+      "priceFor2": null,
+      "address": "서울 송파구 잠실로 209",
+      "lat": 37.51395258674241,
+      "lng": 127.10639640575931,
+      "phone": "02-417-0887",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1887372192"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 2,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[내돈내산] 잠실 오마카세 추천 | '스시우미' 가격·예약 팁·코스 구....",
+          "url": "https://blog.naver.com/kimsukkyungee/224434145269",
+          "date": "2026-10-07",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "잠실 오마카세 '스시우미' 디너 내돈내산 후기/ 콜키지 가격",
+          "url": "https://blog.naver.com/hbyua925/224428364812",
+          "date": "2026-10-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "기념일에 가기 좋은 잠실 스시우미 오마카세 주말디너 2인 후기",
+          "url": "https://blog.naver.com/csy10325/224420649204",
+          "date": "2026-09-23",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "잠실 오마카세 스시우미 디너 후기 (기념일 식당 추천 / 메뉴 구성 / ....",
+          "url": "https://blog.naver.com/doeun722/224262745957",
+          "date": "2026-04-23",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[송파/신천]스시우미 잠실-잠실 오마카세 디너 짝꿍돈산 후기",
+          "url": "https://blog.naver.com/inoii/223941523340",
+          "date": "2025-08-01",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "잠실 소피텔 맛집 도꼭지 주차 룸 메뉴 추천",
+          "url": "https://blog.naver.com/paperplate/223883246775",
+          "date": "2025-05-30",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1913430660",
       "name": "속초종합어시장 야탑점",
       "region": "성남",
@@ -27782,6 +32044,197 @@
       "firstSeen": "2026-11-25",
       "isSample": false,
       "tags": [],
+      "menus": []
+    },
+    {
+      "id": "k1915795387",
+      "name": "진원소우 수원원천점",
+      "region": "수원",
+      "area": "영통구 원천동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "경기 수원시 영통구 중부대로447번길 9",
+      "lat": 37.269637611013,
+      "lng": 127.063936092611,
+      "phone": "031-217-9291",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1915795387"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": "후기상 1만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 7,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "원천동 맛집 “진원소우” 다녀왔어요 :) 원천동 맛집 원천동 소고....",
+          "url": "https://blog.naver.com/aasd321/224445017414",
+          "date": "2026-10-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 맛집 진원소우 수원원천점 소고기 무한리필 제대로 즐기기",
+          "url": "https://blog.naver.com/gagomukgohago/224347817137",
+          "date": "2026-07-15",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[수원 무한리필] 점심부터 퀄리티 대박 프리미엄 소고기로 배 채운 ....",
+          "url": "https://blog.naver.com/ehgml2792/224339544114",
+          "date": "2026-07-07",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "수원 원천동 무한리필 소고기 맛집 진원소우 수원원천점",
+          "url": "https://blog.naver.com/wild-rose-candy/224338302843",
+          "date": "2026-07-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "영통 광교 맛집 진원소우 수원원천점 소고기 무한리필 셀프바 내돈....",
+          "url": "https://blog.naver.com/gagomukgohago/224317965930",
+          "date": "2026-06-16",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "수원 원천동 고기집 소고기 무한리필 진원소우 가격 주차 정보 내돈....",
+          "url": "https://blog.naver.com/gesrms/224274866533",
+          "date": "2026-05-04",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k2022597703",
+      "name": "선셋무드",
+      "region": "서울",
+      "area": "용산구 이태원동",
+      "food": "양식",
+      "category": "술집 > 와인바",
+      "priceFor2": null,
+      "address": "서울 용산구 회나무로 41",
+      "lat": 37.5398355072538,
+      "lng": 126.99116752987021,
+      "phone": "010-5748-5054",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/2022597703"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "이태원 루프탑 와인바 선셋무드 해방촌 데이트 술집 분위기 좋은 곳",
+          "url": "https://blog.naver.com/yundu_joon/224424473099",
+          "date": "2026-09-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "이태원 해방촌 남산타워 일몰뷰 와인바, 선셋무드 루프탑 내돈내산 ....",
+          "url": "https://blog.naver.com/rannysroom/224417768766",
+          "date": "2026-09-20",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "이태원 경리단길 야경맛집 루프탑바 '선셋무드' | 해방촌 노을 뷰와 ....",
+          "url": "https://blog.naver.com/j_afterwork/224406295991",
+          "date": "2026-09-09",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[용산] 해방촌 경리단길 선셋무드 루프탑 테라스가 있는뷰좋은 와인....",
+          "url": "https://blog.naver.com/seulki0507/224368188573",
+          "date": "2026-08-04",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "해방촌 데이트 분위기 좋은 와인바 선셋무드  뷰 맛집 방문 리뷰",
+          "url": "https://blog.naver.com/onlyone180/223895453211",
+          "date": "2025-06-11",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[해방촌]해방촌 데이트 해방촌분위기 좋은 와인바 경리단길 데이트....",
+          "url": "https://blog.naver.com/hamkong79/223875808072",
+          "date": "2025-05-26",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "단체",
+        "뷰"
+      ],
       "menus": []
     },
     {
@@ -29053,6 +33506,83 @@
       "menus": []
     },
     {
+      "id": "k352881084",
+      "name": "23플래터",
+      "region": "서울",
+      "area": "마포구 서교동",
+      "food": "양식",
+      "category": "양식",
+      "priceFor2": null,
+      "address": "서울 마포구 잔다리로3안길 36",
+      "lat": 37.55047255776868,
+      "lng": 126.9194032981332,
+      "phone": "010-2333-5417",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/352881084"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 3,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "마포구 서교동 가성비 양식 맛집 : 23플래터 (2인팬치즈세트)",
+          "url": "https://blog.naver.com/ing_bin/224486349159",
+          "date": "2026-11-21",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "홍대양식 끝판왕 23플래터 만원대 파스타부터 애견동반까지 완벽",
+          "url": "https://blog.naver.com/beechtree4/224416214392",
+          "date": "2026-09-18",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "홍대 맛집 23플래터 피자 파스타 데이트 추천",
+          "url": "https://blog.naver.com/rime501/224047517235",
+          "date": "2025-10-20",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "홍대파스타 합정역맛집 '23플래터' 솔직후기 : 서교동 데이트 코스로....",
+          "url": "https://blog.naver.com/hye_jin108/224008318624",
+          "date": "2025-09-15",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트"
+      ],
+      "menus": []
+    },
+    {
       "id": "k371045540",
       "name": "어시장",
       "region": "서울",
@@ -29835,6 +34365,83 @@
       "menus": []
     },
     {
+      "id": "k851002057",
+      "name": "만도리 신라스테이 광화문",
+      "region": "서울",
+      "area": "종로구 수송동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 닭요리",
+      "priceFor2": null,
+      "address": "서울 종로구 율곡로4길 74",
+      "lat": 37.5726719966076,
+      "lng": 126.980584035781,
+      "phone": "02-6449-9989",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/851002057"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "종로 맛집 만도리 신라스테이 광화문점 대구야채찜닭 광화문 회식 ....",
+          "url": "https://blog.naver.com/kasey0423/224482069275",
+          "date": "2026-11-18",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "광화문 맛집 종로찜닭맛집으로 손꼽히는 줄서서먹는 닭도리탕 만도....",
+          "url": "https://blog.naver.com/eeestot/224397681379",
+          "date": "2026-09-01",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "종로 경복궁 맛집 한우 곱도리탕 전문점 만도리 신라스테이 광화문",
+          "url": "https://blog.naver.com/89___yamyam/224329651789",
+          "date": "2026-06-28",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "광화문 맛집 만도리 신라스테이 광화문 닭도리탕 맛집",
+          "url": "https://blog.naver.com/infinite120515/224303450291",
+          "date": "2026-06-02",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k857465051",
       "name": "스시소라 종로점",
       "region": "서울",
@@ -30281,6 +34888,103 @@
       "menus": []
     },
     {
+      "id": "k973757452",
+      "name": "콘디레",
+      "region": "서울",
+      "area": "용산구 이태원동",
+      "food": "기타",
+      "category": "술집",
+      "priceFor2": null,
+      "address": "서울 용산구 녹사평대로40길 55-7",
+      "lat": 37.5346545478702,
+      "lng": 126.988735589437,
+      "phone": "02-797-9998",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/973757452"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "소주·전통주"
+        ],
+        "extraFee": "후기상 병당 3만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 7,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "콘디레 | 분위기 좋은 이태원 다이닝 바, 데이트와 연말 대관 모임 ....",
+          "url": "https://blog.naver.com/ujc036/224477342030",
+          "date": "2026-11-14",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "녹사평 와인바 콘디레 와알못도 즐기기 좋은 가성비 와인바",
+          "url": "https://blog.naver.com/yoonji6764-/224363293886",
+          "date": "2026-07-30",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "이태원 술집 데이트하기 좋은 녹사평 와인바 콘디레",
+          "url": "https://blog.naver.com/niniuniverse/224356869972",
+          "date": "2026-07-24",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[이태원] 이태원 와인바 맥주 주류 페어링 안주 맛집 콘디레 스몰디....",
+          "url": "https://blog.naver.com/seulki0507/224349260199",
+          "date": "2026-07-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서울 용산 이태원 와인바 | 혼술하기 좋은 곳 술집 _ 콘디레",
+          "url": "https://blog.naver.com/jine4208/224321761163",
+          "date": "2026-06-20",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[이태원/녹사평] 콘디레 | 녹사평 와인바 추천 | 녹사평 파스타 맛집 ....",
+          "url": "https://blog.naver.com/bbarley1004/224319547596",
+          "date": "2026-06-18",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
       "id": "k976421522",
       "name": "멀멀",
       "region": "성남",
@@ -30374,6 +35078,101 @@
         "주차",
         "단체",
         "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k982174331",
+      "name": "로바타소브",
+      "region": "성남",
+      "area": "중원구 성남동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점",
+      "priceFor2": null,
+      "address": "경기 성남시 중원구 제일로63번길 28-1",
+      "lat": 37.432035043647,
+      "lng": 127.132662869056,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/982174331"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 4,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[로바타소브]모란역 이자카야 사시미플레이트와 토마토라구 후기",
+          "url": "https://blog.naver.com/play_ryu/224473402265",
+          "date": "2026-11-12",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[성남] 로바타소브 | 모란역 이자카야 추천 사시미 플레이트 킨메다....",
+          "url": "https://blog.naver.com/yayaa_9/224429712582",
+          "date": "2026-10-02",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[성남/모란 맛집] 모란 분위기 좋은 술집 로바타소브 | 모란역 맛집 ....",
+          "url": "https://blog.naver.com/sojuice-/224418824735",
+          "date": "2026-09-21",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "모란 이자카야 로바타소브에서 20만원 쓴 내돈내산 방문 후기(콜키....",
+          "url": "https://blog.naver.com/ariamond/224409358875",
+          "date": "2026-09-12",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "모란 이자카야 일식 \"로바타소브\"",
+          "url": "https://blog.naver.com/gamerds1/224394566986",
+          "date": "2026-08-30",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "모란 이자카야 일식 전문점 로바타소브 분위기 맛집 신상술집",
+          "url": "https://blog.naver.com/929_geg/224382666925",
+          "date": "2026-08-18",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "분위기"
       ],
       "menus": []
     },
@@ -30630,6 +35429,365 @@
       "isSample": false,
       "tags": [
         "데이트"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1346139956",
+      "name": "진원소우 잠실새내점",
+      "region": "서울",
+      "area": "송파구 잠실동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "서울 송파구 백제고분로7길 26",
+      "lat": 37.51054844591679,
+      "lng": 127.0816848095097,
+      "phone": "02-420-9291",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1346139956"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": "후기상 10,000원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 6,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[진원소우] 잠실새내 소고기 무한리필 진원소우 잠실새내점 솔직후....",
+          "url": "https://blog.naver.com/lazykirby/224478302038",
+          "date": "2026-11-15",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "잠실맛집 | 워크맨 보고 궁금했던 소고기 무한리필 맛집 <진원소우> ....",
+          "url": "https://blog.naver.com/honeymoura/224451488277",
+          "date": "2026-10-24",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "잠실새내 소고기 무한리필 진원소우, 75분 웨이팅 기다린 내돈내산 ....",
+          "url": "https://blog.naver.com/dladhkdfkr/224440382623",
+          "date": "2026-10-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "잠실역 소고기 맛집 진원소우 잠실새내점, 무한리필 프리미엄 냉장 ....",
+          "url": "https://blog.naver.com/noxzieun/224438347694",
+          "date": "2026-10-11",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[송파/잠실새내역 맛집] 잠실새내 소고기맛집 “진원소우 잠실새내....",
+          "url": "https://blog.naver.com/vbn02511/224433509712",
+          "date": "2026-10-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "잠실새내 소고기무한리필 맛집 진원소우 후기",
+          "url": "https://blog.naver.com/bitsal9/224344311219",
+          "date": "2026-07-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1356090195",
+      "name": "하시도",
+      "region": "수원",
+      "area": "장안구 영화동",
+      "food": "일식·이자카야",
+      "category": "일식 > 초밥,롤",
+      "priceFor2": null,
+      "address": "경기 수원시 장안구 팔달로259번길 25",
+      "lat": 37.28983750338964,
+      "lng": 127.01252697054835,
+      "phone": "010-2766-8715",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1356090195"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "수원 행궁동 초밥 하시도, 가성비 12,900원 점심특선과 후토마끼 내돈....",
+          "url": "https://blog.naver.com/mingsss_/224476141573",
+          "date": "2026-11-13",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 행궁동 맛집 내돈내산 감탄 나오는 숙성회 전문점",
+          "url": "https://blog.naver.com/messinger00/224395967066",
+          "date": "2026-08-31",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 영화동 맛집 북문 사시미(숙성회) 전문점 내돈내산 하시도",
+          "url": "https://blog.naver.com/messinger00/224366918924",
+          "date": "2026-08-03",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "행궁동 하시도 가성비 좋은 초밥 맛집 모둠초밥",
+          "url": "https://blog.naver.com/qkrgpal917/224232767281",
+          "date": "2026-03-28",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
+      "menus": []
+    },
+    {
+      "id": "k1394104262",
+      "name": "육끝 영통구청점",
+      "region": "수원",
+      "area": "영통구 매탄동",
+      "food": "한식",
+      "category": "한식",
+      "priceFor2": null,
+      "address": "경기 수원시 영통구 매탄로108번길 52",
+      "lat": 37.25933835680032,
+      "lng": 127.0451197113644,
+      "phone": "0502-5553-9099",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1394104262"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 4,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "시작은 육끝, 하지만 영통구청의 끝은 항상 병천순대",
+          "url": "https://blog.naver.com/shim92-/224406531876",
+          "date": "2026-09-12",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "영통구청 맛집 “육끝” 참숯에 굽는 갈비살 한판, 영통구청 송년회....",
+          "url": "https://blog.naver.com/soyeong_joy/224091485960",
+          "date": "2025-11-28",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "영통구청 맛집, 수원 소고기 맛집 육끝 영통구청점 방문기",
+          "url": "https://blog.naver.com/kkaje0402/224088884584",
+          "date": "2025-11-26",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "영통 고기집, 육끝 영통구청점",
+          "url": "https://blog.naver.com/musican_drum/224065451761",
+          "date": "2025-11-05",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "영통구청 맛집 육끝 영통구청점｜단체·회식 가능한 매탄동 소고기 ....",
+          "url": "https://blog.naver.com/my1uv33/224065262221",
+          "date": "2025-11-05",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[수원] 영통구청 가성비 찐 맛집  영통 고기집 추천 :: 육끝 영통구청....",
+          "url": "https://blog.naver.com/dpwlsqhd03/223971767714",
+          "date": "2025-08-15",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "룸",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1464800718",
+      "name": "스시시미즈",
+      "region": "서울",
+      "area": "강남구 신사동",
+      "food": "일식·이자카야",
+      "category": "일식 > 초밥,롤",
+      "priceFor2": null,
+      "address": "서울 강남구 언주로152길 11-3",
+      "lat": 37.5229117923318,
+      "lng": 127.034511928949,
+      "phone": "02-543-0887",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1464800718"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": "후기상 33,000원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 9,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "스시 시미즈｜신사동 압구정 도산공원 스시오마카세 런치 후기 (예....",
+          "url": "https://blog.naver.com/zzzzhoo/224455389066",
+          "date": "2026-10-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[서울/강남구]스시 시미즈",
+          "url": "https://blog.naver.com/closea/224351964687",
+          "date": "2026-07-20",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "미들급 스시야 중 최애, 신사역 [스시오마주] 런치 /콜키지/예약",
+          "url": "https://blog.naver.com/167cmmy/224351872978",
+          "date": "2026-07-20",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[강남] 도산공원 오마카세 스시 시미즈 런치 후기",
+          "url": "https://blog.naver.com/elecelec12/224278756086",
+          "date": "2026-05-08",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "압구정 오마카세 맛집, 스시 시미즈",
+          "url": "https://blog.naver.com/thfk0406/224131844532",
+          "date": "2026-01-02",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "압구정 디너 <스시 시미즈>",
+          "url": "https://blog.naver.com/paradis_0/224127946584",
+          "date": "2025-12-30",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "주차"
       ],
       "menus": []
     },
@@ -30990,6 +36148,195 @@
       "menus": []
     },
     {
+      "id": "k1731145272",
+      "name": "아블라",
+      "region": "수원",
+      "area": "영통구 원천동",
+      "food": "양식",
+      "category": "양식",
+      "priceFor2": null,
+      "address": "경기 수원시 영통구 광교호수공원로 277",
+      "lat": 37.28340892007238,
+      "lng": 127.05726304927954,
+      "phone": "010-6527-2114",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1731145272"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": "후기상 3만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 5,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "광교 원천동 스페인 코스 맛집 아블라｜런치·디너 코스 가격·예약 ....",
+          "url": "https://blog.naver.com/hooah2000/224458197626",
+          "date": "2026-10-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "광교 파인다이닝 스페인 코스요리 아블라/ 광교 데이트코스 수원 파....",
+          "url": "https://blog.naver.com/ratel-/223772111738",
+          "date": "2025-02-24",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[수원/원천동/광교] 스페인 파인다이닝(아블라)",
+          "url": "https://blog.naver.com/heee_920/223697674232",
+          "date": "2024-12-18",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "수원_아블라 : 광교 Habla, 스페니쉬 레스토랑, 입이 다녀온 스페인 여....",
+          "url": "https://blog.naver.com/a-log/223427621533",
+          "date": "2024-04-26",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "스페인 요리를 즐길 수 있는 광교호수공원맛집 아블라",
+          "url": "https://blog.naver.com/hide4541/223422086498",
+          "date": "2024-04-21",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "광교호수공원 맛집 '아블라' 스페인 코스요리, 데이트 추천! 평일 런....",
+          "url": "https://blog.naver.com/dreat-/223418865291",
+          "date": "2024-04-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1788142678",
+      "name": "스시미소 국회의사당점",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "회·해산물",
+      "category": "일식 > 초밥,롤",
+      "priceFor2": null,
+      "address": "서울 영등포구 국회대로 750",
+      "lat": 37.528269859433905,
+      "lng": 126.9164371071192,
+      "phone": "010-8853-7734",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1788142678"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 8,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[여의도 맛집] 가성비 퀄리티다잡은 런치 스시오마카세 '스시미소' ....",
+          "url": "https://blog.naver.com/yongyang2mom/224468887939",
+          "date": "2026-11-08",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "여의도맛집 - 스시미소 : 구성이 훌륭해서 빈틈없는 디너 스시 오마....",
+          "url": "https://blog.naver.com/vitamimim/224415724552",
+          "date": "2026-09-18",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[여의도] 스시아라타 - 당일 예약 2부 런치 스시오마카세 (+무료주차/....",
+          "url": "https://blog.naver.com/kmd_kim/224402184376",
+          "date": "2026-09-14",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "여의도 국회의사당 [스시미소] 평일 런치, 19종을 5만원 대에 먹을 수....",
+          "url": "https://blog.naver.com/ruupiz/224406576697",
+          "date": "2026-09-10",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[서울 여의도] 런치 5.5 가성비 스시 오마카세 맛집 ‘스시미소’",
+          "url": "https://blog.naver.com/cornersoftheearth/224399430387",
+          "date": "2026-09-03",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[여의도/아일렉스] 스시유타카 鮨ゆたか - 런치 스시오마카세 (+무료....",
+          "url": "https://blog.naver.com/kmd_kim/224373353738",
+          "date": "2026-08-31",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1812179080",
       "name": "토모",
       "region": "서울",
@@ -31074,6 +36421,562 @@
           "date": "2026-07-01",
           "source": "naver-blog",
           "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "조용한",
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1813555550",
+      "name": "경리단길와인",
+      "region": "서울",
+      "area": "용산구 이태원동",
+      "food": "양식",
+      "category": "술집 > 와인바",
+      "priceFor2": null,
+      "address": "서울 용산구 녹사평대로54길 6",
+      "lat": 37.5392756606163,
+      "lng": 126.9875536196624,
+      "phone": "02-6409-6964",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1813555550"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 3,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[내돈내산] 남산 와이너리 - 이태원 경리단길 분위기 좋은 와인바 | ....",
+          "url": "https://blog.naver.com/sksajtwu95/224432709594",
+          "date": "2026-10-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "해방촌 근처 맛집 슬로우잽, 이태원 경리단길에서 즐기는 와인과 파....",
+          "url": "https://blog.naver.com/jinmii0202/224423321288",
+          "date": "2026-09-26",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "해방촌 이태원 경리단길 와인, 이국적인 분위기의 소개팅 & 데이트 ....",
+          "url": "https://blog.naver.com/am_i_m/224422047756",
+          "date": "2026-09-25",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "이태원 경리단길 와인샵 와인앤코 그랜드하얏트 근처 와인샵 콜키....",
+          "url": "https://blog.naver.com/shinemackerell/224318773089",
+          "date": "2026-06-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "해방촌 경리단길 와인바 울버린시티 (콜키지 이용)",
+          "url": "https://blog.naver.com/o_sia/224309770561",
+          "date": "2026-06-08",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[이태원 | 맛집] FOTO Itaewon / 남산뷰의 분위기 있는 이태원와인바, 하....",
+          "url": "https://blog.naver.com/thorbet/223901622442",
+          "date": "2025-06-17",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1824692932",
+      "name": "판교화로",
+      "region": "성남",
+      "area": "분당구 운중동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "경기 성남시 분당구 운중로125번길 4-5",
+      "lat": 37.3922923194305,
+      "lng": 127.077568843788,
+      "phone": "031-707-0342",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1824692932"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 3,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "운중동 맛집 판교화로 꽃목살·꽃삼겹살 내돈내산 후기",
+          "url": "https://blog.naver.com/ddubuk_jeans/224160729485",
+          "date": "2026-01-26",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "분당 판교 탑티어 고기집 운중동 판교화로",
+          "url": "https://blog.naver.com/danhobak1211/223971194803",
+          "date": "2025-08-15",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[경기, 판교] 판교화로, 최고의 목살 삼겹살 돼지고기집",
+          "url": "https://blog.naver.com/freekikika/223963228235",
+          "date": "2025-08-08",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "서판교 고기집 운중동 모임 하기좋은 판교화로",
+          "url": "https://blog.naver.com/ekwellbeing/223709068148",
+          "date": "2024-12-30",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
+      "menus": []
+    },
+    {
+      "id": "k1839756277",
+      "name": "룸이자카야 요이",
+      "region": "서울",
+      "area": "서초구 서초동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점",
+      "priceFor2": null,
+      "address": "서울 서초구 강남대로65길 10",
+      "lat": 37.5004927064958,
+      "lng": 127.024952257812,
+      "phone": "02-532-5325",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1839756277"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 6,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "강남역 청모 하기좋은 고급스러운 분위기에 전좌석 프라이빗 룸 강....",
+          "url": "https://blog.naver.com/ilikesoju_/224474247424",
+          "date": "2026-11-12",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "강남역 맛집 룸 이자카야 요이 메뉴와 위치 정보",
+          "url": "https://blog.naver.com/fit_journey/224455766219",
+          "date": "2026-10-29",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "강남역 회식 하기 좋은 ‘강남역 룸 이자카야 요이’ 프라이빗하게 ....",
+          "url": "https://blog.naver.com/lama0909/224452647388",
+          "date": "2026-10-25",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "강남역 회식 룸 이자카야 요이 | 프라이빗 룸에서 즐기는 테마끼와 ....",
+          "url": "https://blog.naver.com/vuvuv_moment/224443400208",
+          "date": "2026-10-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[강남] 강남역 룸 이자카야 요이 | 강남역 룸술집 추천, 프라이빗한 ....",
+          "url": "https://blog.naver.com/hb218005hb/224441154065",
+          "date": "2026-10-14",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[강남] 강남역 룸 이자카야 요이 | 2인~30인 프라이빗룸에서 데이트부....",
+          "url": "https://blog.naver.com/ninalee_/224437628452",
+          "date": "2026-10-11",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "룸",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1875457428",
+      "name": "연남5701",
+      "region": "서울",
+      "area": "마포구 연남동",
+      "food": "양식",
+      "category": "술집 > 와인바",
+      "priceFor2": null,
+      "address": "서울 마포구 동교로23길 64",
+      "lat": 37.5585541744356,
+      "lng": 126.918919246456,
+      "phone": "02-333-8161",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1875457428"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "연남5701 _ 분위기 좋은 연남동 재즈바 라이브 공연 후기",
+          "url": "https://blog.naver.com/mongdong0214/224478625963",
+          "date": "2026-11-18",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "일상",
+          "url": "https://blog.naver.com/ununununununu/224401641876",
+          "date": "2026-09-05",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "연남동 재즈바ㅣ'연남 5701' 데이트 강력 추천 내돈내산",
+          "url": "https://blog.naver.com/silvercantstopeating/224277150177",
+          "date": "2026-05-07",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[서울/연남] 서울 3대 재즈바 연남 5701 (후기, 메뉴, 내돈내산)",
+          "url": "https://blog.naver.com/colorfuldile/224171668060",
+          "date": "2026-02-04",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "라이브 재즈바 연남5701│만원으로 즐기는 홍대 재즈바 공연",
+          "url": "https://blog.naver.com/ggagama08/224162071676",
+          "date": "2026-01-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[마포] 홍대 연남동 데이트 라이브 재즈 와인바, 연남 5701 평일 저녁 ....",
+          "url": "https://blog.naver.com/yum_zzi07/224078560684",
+          "date": "2025-11-17",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "주차",
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1908375882",
+      "name": "스프링비스트로",
+      "region": "서울",
+      "area": "마포구 합정동",
+      "food": "양식",
+      "category": "양식 > 이탈리안",
+      "priceFor2": null,
+      "address": "서울 마포구 양화로1길 25",
+      "lat": 37.549837145357344,
+      "lng": 126.91036437464031,
+      "phone": "0507-1352-4423",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1908375882"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": "후기상 병당 1만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 12,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "합정동 레스토랑 스프링비스트로ㅣ햇살 가득 분위기 좋은 합정역 ....",
+          "url": "https://blog.naver.com/bcg0325/224468075669",
+          "date": "2026-11-07",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "합정 맛집 소개팅 / 청모 장소 스프링 비스트로",
+          "url": "https://blog.naver.com/finerim/224446362592",
+          "date": "2026-10-19",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "합정 소개팅 스프링비스트로｜청첩장모임·소개팅하기 좋은 이탈리....",
+          "url": "https://blog.naver.com/yellowchaenii/224414076373",
+          "date": "2026-09-16",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[합정] 스프링비스트로 |와인과 함께 즐기기 좋았던 합정 레스토랑 ....",
+          "url": "https://blog.naver.com/mement5/224391872557",
+          "date": "2026-08-27",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "합정 스프링비스트로 소개팅 무조건 성공할 분위기 맛집 합정 레스....",
+          "url": "https://blog.naver.com/buttershortbread/224375442275",
+          "date": "2026-08-11",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "망원 합정 소개팅 양식 레스토랑 데이트 장소로 좋은 피자 맛집 스....",
+          "url": "https://blog.naver.com/ice2mechu/224375472037",
+          "date": "2026-08-11",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1910715579",
+      "name": "네즈",
+      "region": "서울",
+      "area": "마포구 합정동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점",
+      "priceFor2": null,
+      "address": "서울 마포구 성지3길 60",
+      "lat": 37.54608696933294,
+      "lng": 126.91619882574318,
+      "phone": "02-6956-1101",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1910715579"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": "후기상 30,000원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 7,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[합정 이자카야] 네즈 NEZU | 분위기 맛 모두 갖춘 연말 모임 좋은 이....",
+          "url": "https://blog.naver.com/imnodong/224489056313",
+          "date": "2026-11-23",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[서울/마포구] 합정 방어 맛집 네즈(NEZU)｜숙성방어사시미 고등어봉....",
+          "url": "https://blog.naver.com/hyunjung9566/224479551310",
+          "date": "2026-11-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "합정이자카야 네즈 NEZU 분위기 좋은 합정역 술집 | 사시미, 안주 맛....",
+          "url": "https://blog.naver.com/black_snake_/224459493092",
+          "date": "2026-10-30",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[합정역] 분위기 좋은, 합정 이자카야 추천, 모둠사시미 맛집 <네즈>",
+          "url": "https://blog.naver.com/seoul_mukbo/224459586330",
+          "date": "2026-10-30",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "합정 맛집ㅣ사시미, 튀김이 맛있는 합정 이자카야 '합정 네즈'ㅣ메....",
+          "url": "https://blog.naver.com/ichon_gourmet_/224456323595",
+          "date": "2026-10-28",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[합정역 이자카야 추천] 네즈 | 내돈내산 후기 | 재방문해도 대만족 |....",
+          "url": "https://blog.naver.com/hheehee_/224447238269",
+          "date": "2026-10-21",
+          "source": "naver-blog",
+          "signal": "paid"
         }
       ],
       "photos": [],
@@ -31176,6 +37079,102 @@
       "isSample": false,
       "tags": [
         "분위기",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1948098284",
+      "name": "필리오",
+      "region": "성남",
+      "area": "분당구 야탑동",
+      "food": "양식",
+      "category": "술집 > 와인바",
+      "priceFor2": null,
+      "address": "경기 성남시 분당구 장미로92번길 7-4",
+      "lat": 37.41267913916727,
+      "lng": 127.13127209864406,
+      "phone": "031-704-0062",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1948098284"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": "후기상 병당 5만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 12,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "분당 야탑 와인바 필리오 분위기 좋은 레스토랑 기념일 데이트 맛집",
+          "url": "https://blog.naver.com/ahnonday/224391066446",
+          "date": "2026-08-26",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "분당 필리오(FIGLIO) │ 특별한 날 가기 좋은 분위기 좋은 레스토랑",
+          "url": "https://blog.naver.com/m1nm2n/224201504030",
+          "date": "2026-03-02",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "11~12월 연말 먹은일기",
+          "url": "https://blog.naver.com/jhy4243/224180617740",
+          "date": "2026-02-11",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "<필리오> 특별한날 추천하는 야탑 데이트 코스 / 콜키지, 와인금액대....",
+          "url": "https://blog.naver.com/jinijini1217/224156354517",
+          "date": "2026-01-22",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "필리오 FIGLIO, 분당 분위기 있는 레스토랑 연말 송년회 추천",
+          "url": "https://blog.naver.com/whatmkwant_/224091563210",
+          "date": "2025-11-28",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[분당 야탑] 필리오 | 데이트 소개팅 맛집, 가을 분당 데이트 코스",
+          "url": "https://blog.naver.com/seraphina28/223976182500",
+          "date": "2025-08-19",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "주차",
         "단체"
       ],
       "menus": []
@@ -31345,6 +37344,173 @@
       "menus": []
     },
     {
+      "id": "k2005749800",
+      "name": "루시드",
+      "region": "서울",
+      "area": "종로구 운니동",
+      "food": "양식",
+      "category": "양식",
+      "priceFor2": null,
+      "address": "서울 종로구 삼일대로32길 45",
+      "lat": 37.57561938026472,
+      "lng": 126.98951166050858,
+      "phone": "0507-1419-9353",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/2005749800"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "none",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "종로 안국역 호주식 브런치 맛집 루시드 서울 솔직 후기",
+          "url": "https://blog.naver.com/bibidonc/224166771819",
+          "date": "2026-01-31",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "루시드 서울. LUCYD. 호주 감성 가득한 정성 브런치 맛집! 호주인 쉐프....",
+          "url": "https://blog.naver.com/minigun86/224158111785",
+          "date": "2026-01-24",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "종로 안국역 루시드 호주 쉐프가 만드는 브런치카페 (+비건메뉴)",
+          "url": "https://blog.naver.com/ssonghm122/223665442922",
+          "date": "2024-11-18",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
+      "menus": []
+    },
+    {
+      "id": "k2052514017",
+      "name": "로바다야끼소담 여의도점",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "일식·이자카야",
+      "category": "술집 > 일본식주점",
+      "priceFor2": null,
+      "address": "서울 영등포구 여의대방로65길 17",
+      "lat": 37.5197313012348,
+      "lng": 126.92921441298,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/2052514017"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "사케",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 4,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "여의도 이자카야 일식 로바다야끼소담 가성비 좋은 이색적인 분위....",
+          "url": "https://blog.naver.com/jn9426/224489009292",
+          "date": "2026-11-23",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도역 이자카야 일식 생선구이 야끼토리 전문점 / 로바다야끼 소....",
+          "url": "https://blog.naver.com/hohohahokitkit/224465776192",
+          "date": "2026-11-05",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "연말 모임 장소 추천 6곳 | 여의도·목동·발산·구디 회식 정리",
+          "url": "https://blog.naver.com/elsiii2/224457416113",
+          "date": "2026-10-29",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[구로디지털단지] 구디 술집 이자카야 로바다야끼소담 구로디지털....",
+          "url": "https://blog.naver.com/seulki0507/224446838192",
+          "date": "2026-10-19",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[여의도] 샛강역 이자카야 로바다야끼 소담 여의도 이자카야 일식 ....",
+          "url": "https://blog.naver.com/seulki0507/224445822567",
+          "date": "2026-10-18",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 샛강역 이자카야 술집 로바다야끼 소담에서 모듬꼬치와 사....",
+          "url": "https://blog.naver.com/gotitgood/224436469583",
+          "date": "2026-10-09",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "룸",
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
       "id": "k2075693799",
       "name": "잔잔 종각점",
       "region": "서울",
@@ -31423,6 +37589,93 @@
           "title": "종각 젊음의거리 술집 이자카야 잔잔 종각점",
           "url": "https://blog.naver.com/ckdud63/223880938825",
           "date": "2025-05-28",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "룸",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k2083765859",
+      "name": "그리던고기 광교상현역점",
+      "region": "기타 경기",
+      "area": "수지구 상현동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 삼겹살",
+      "priceFor2": null,
+      "address": "경기 용인시 수지구 광교중앙로296번길 4",
+      "lat": 37.2960411510104,
+      "lng": 127.069632573013,
+      "phone": "",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/2083765859"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 3,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-25"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-25",
+        "signals": [
+          "최근 1년 반 동안 블로그 후기 없음"
+        ]
+      },
+      "evidence": [
+        {
+          "title": "광교 상현역 맛집ㅣ고급진 프라이빗룸 회식 장소 추천 '그리던고기 ....",
+          "url": "https://blog.naver.com/hyetzii/223662770081",
+          "date": "2024-11-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "ㅣ그리던고기 광교상현역점ㅣ수원 상현역&광교 삼겹살 고기 맛집, ....",
+          "url": "https://blog.naver.com/sy_ceo_/223654825877",
+          "date": "2024-11-10",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "고급 진 룸식당 그리던 고기 광교상현역점 방문 후기",
+          "url": "https://blog.naver.com/witch082/223650057484",
+          "date": "2024-11-08",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "상현맛집 상현회식 장소로 너무 좋은 그리던고기 광교상현역점",
+          "url": "https://blog.naver.com/lunashop88/223635839264",
+          "date": "2024-10-27",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "광교 상현역 회식장소 추천 프라이빗 룸 고기집 그리던고기",
+          "url": "https://blog.naver.com/spspxm123/223622966525",
+          "date": "2024-10-17",
           "source": "naver-blog",
           "signal": "paid"
         }
