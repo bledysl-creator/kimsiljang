@@ -119,7 +119,12 @@ async function kakaoPlaces(query: string, page = 1): Promise<KPlace[]> {
 
 async function kakaoImages(query: string): Promise<MenuImage[]> {
   const d = await getJson('kakao-image', `https://dapi.kakao.com/v2/search/image?query=${encodeURIComponent(query)}&size=8&sort=accuracy`, kakaoHeaders());
-  return (d?.documents ?? []).map((i: Record<string, string>) => ({ thumb: i.thumbnail_url, sourceUrl: i.doc_url, sourceName: i.display_sitename || '다음 이미지' }));
+  const docs: Record<string, string>[] = d?.documents ?? [];
+  // 블로그·카페 사진(실제 방문 후기)을 먼저, 뉴스 등은 뒤로
+  const rank = (c: string) => (c === 'blog' ? 0 : c === 'cafe' ? 1 : 2);
+  return docs
+    .sort((a, b) => rank(a.collection) - rank(b.collection))
+    .map((i) => ({ thumb: i.thumbnail_url, sourceUrl: i.doc_url, sourceName: i.display_sitename || '다음 이미지' }));
 }
 
 // ---- 분류 ----
@@ -281,7 +286,7 @@ interface State {
   version?: number;
   pool: Record<string, PoolItem>;
 }
-const STATE_VERSION = 2; // 판정 규칙이 바뀌면 올려서 전부 다시 검증해요
+const STATE_VERSION = 3; // 판정 규칙이 바뀌면 올려서 전부 다시 검증해요
 interface ManualPlace {
   name: string;
   area: string;
@@ -310,7 +315,10 @@ async function main() {
   }
   const state = await readJson<State>('data/state.json', { pool: {} });
   if (state.version !== STATE_VERSION) {
-    for (const it of Object.values(state.pool)) delete it.verifiedAt;
+    for (const it of Object.values(state.pool)) {
+      delete it.verifiedAt;
+      delete it.imagesAt;
+    }
     state.version = STATE_VERSION;
   }
   const manual = (await readJson<{ places: ManualPlace[] }>('public/data/manual.json', { places: [] })).places;

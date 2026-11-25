@@ -1,5 +1,5 @@
 import { Heart, FlaskConical, Database } from 'lucide-react';
-import type { ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
 import type { CorkageStatus, Restaurant } from '@/types';
 import { CORKAGE_LABEL, CORKAGE_STYLE, FOOD_EMOJI } from '@/lib/constants';
 import { useStore } from '@/store/AppStore';
@@ -46,11 +46,12 @@ export function HeartButton({ id, className }: { id: string; className?: string 
 
 /** 메뉴 사진. 없으면 음식 이모지 일러스트 */
 export function FoodArt({ r, className, rounded = 'rounded-xl' }: { r: Restaurant; className?: string; rounded?: string }) {
-  const img = r.images[0];
+  const [broken, setBroken] = useState(false);
+  const img = broken ? undefined : r.images[0];
   if (img)
     return (
       <div className={cx('relative overflow-hidden bg-card2', rounded, className)}>
-        <img src={img.thumb} alt={`${r.name} 메뉴 사진`} loading="lazy" referrerPolicy="no-referrer" className="size-full object-cover" />
+        <img src={img.thumb} alt={`${r.name} 메뉴 사진`} loading="lazy" referrerPolicy="no-referrer" onError={() => setBroken(true)} className="size-full object-cover" />
       </div>
     );
   return (
