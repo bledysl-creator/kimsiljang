@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { SAMPLE_RESTAURANTS } from '../src/data/sample';
+import { SAMPLE_RESTAURANTS } from './fixtures';
 import { DEFAULT_FILTERS, activeFilters, matches, type Filters } from '../src/store/filters';
 
 const f = (p: Partial<Filters>): Filters => ({ ...DEFAULT_FILTERS, ...p });

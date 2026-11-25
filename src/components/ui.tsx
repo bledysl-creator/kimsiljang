@@ -1,4 +1,4 @@
-import { Database, FlaskConical, Heart, UtensilsCrossed } from 'lucide-react';
+import { FlaskConical, Heart, UtensilsCrossed } from 'lucide-react';
 import type { ReactNode } from 'react';
 import type { CorkageStatus, Restaurant, ReviewSignal } from '@/types';
 import { CORKAGE_META, REVIEW_LABEL } from '@/lib/constants';
@@ -28,17 +28,13 @@ export function ReviewBadge({ signal, count }: { signal: ReviewSignal; count: nu
   );
 }
 
-/** 가상/실제 데이터 구분 */
+/** 테스트용 가상 데이터 표시 (앱의 실제 데이터에는 아무것도 표시하지 않아요) */
 export function DataBadge({ r }: { r: Restaurant }) {
   return r.isSample ? (
     <span className="inline-flex items-center gap-1 rounded-md border border-dashed border-muted/60 px-1.5 py-0.5 text-[11px] font-semibold text-muted">
       <FlaskConical size={11} aria-hidden /> 가상 예시
     </span>
-  ) : (
-    <span className="inline-flex items-center gap-1 rounded-md bg-brand-soft px-1.5 py-0.5 text-[11px] font-semibold text-brand">
-      <Database size={11} aria-hidden /> 실제 수집
-    </span>
-  );
+  ) : null;
 }
 
 export function HeartButton({ id, className }: { id: string; className?: string }) {
@@ -169,7 +165,7 @@ export function ListState({ loading, error, onRetry }: { loading: boolean; error
         <p role="alert" className="text-sm">
           실제 수집 데이터를 불러오지 못했어요. ({error})
           <br />
-          <span className="text-muted">지금은 가상 예시만 보여요.</span>
+          <span className="text-muted">이전에 받아 둔 데이터가 없으면 목록이 비어 보여요.</span>
         </p>
         <GhostButton onClick={onRetry}>다시 시도</GhostButton>
       </Card>

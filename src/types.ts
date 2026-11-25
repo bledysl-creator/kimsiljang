@@ -84,7 +84,7 @@ export interface Restaurant {
   tags: string[];
   menus: string[];
   firstSeen: string;
-  /** true 면 화면 확인용 가상 데이터 */
+  /** true 면 테스트용 가상 데이터 (앱 데이터는 항상 false) */
   isSample: boolean;
 }
 

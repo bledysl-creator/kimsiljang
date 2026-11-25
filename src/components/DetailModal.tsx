@@ -92,7 +92,6 @@ export function DetailModal() {
             </div>
           </div>
 
-          {r.isSample && <p className="rounded-xl border border-dashed border-line bg-card2 p-3 text-sm text-muted">화면 확인용 가상 예시예요. 실제 가게가 아니에요.</p>}
 
           {/* 콜키지 */}
           <section aria-labelledby="ck">

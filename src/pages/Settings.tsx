@@ -39,7 +39,6 @@ function Collection() {
 }
 
 export default function Settings() {
-  const s = useStore();
   return (
     <div className="space-y-4">
       <PageHeader title="설정" subtitle="두 사람의 취향, 계정, 자동 수집 상태와 데이터 출처를 관리해요." />
@@ -51,16 +50,6 @@ export default function Settings() {
       </section>
       <div className="grid gap-4 lg:grid-cols-2">
         <Account />
-        <Card className="space-y-3">
-          <h2 className="font-bold">화면 데이터</h2>
-          <label className="flex min-h-11 items-center justify-between gap-3 text-sm">
-            <span>
-              가상 예시 데이터 함께 보기
-              <span className="block text-xs text-muted">실제 수집 데이터가 0곳이면 항상 보여요. 예시는 '가상 예시' 표시가 붙어요.</span>
-            </span>
-            <input type="checkbox" className="size-5 accent-brand" checked={s.showSamples} onChange={(e) => s.setShowSamples(e.target.checked)} />
-          </label>
-        </Card>
         <Collection />
         <Connections />
       </div>
