@@ -449,7 +449,7 @@
         "y": "37.26323186932701"
       },
       "area": "수원 인계동",
-      "hits": 7,
+      "hits": 6,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -504,7 +504,7 @@
         "y": "37.52079398220432"
       },
       "area": "여의도",
-      "hits": 26,
+      "hits": 25,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -1037,6 +1037,26 @@
       "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25"
+    },
+    "8938824": {
+      "place": {
+        "address_name": "서울 종로구 통의동 46-3",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "8938824",
+        "phone": "02-737-1717",
+        "place_name": "강구미주구리 본관",
+        "place_url": "http://place.map.kakao.com/8938824",
+        "road_address_name": "서울 종로구 자하문로2길 5",
+        "x": "126.973029959769",
+        "y": "37.5765844334368"
+      },
+      "area": "종로",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
     },
     "9001044": {
       "place": {
@@ -1828,6 +1848,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "10718156": {
+      "place": {
+        "address_name": "경기 성남시 수정구 태평동 3475",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "10718156",
+        "phone": "031-755-6689",
+        "place_name": "전라도회쎈타",
+        "place_url": "http://place.map.kakao.com/10718156",
+        "road_address_name": "경기 성남시 수정구 탄리로 86",
+        "x": "127.13563720852432",
+        "y": "37.44359078915948"
+      },
+      "area": "성남 신흥동",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "10725152": {
       "place": {
         "address_name": "경기 성남시 분당구 정자동 42-6",
@@ -2436,9 +2476,60 @@
         "y": "37.5497934460351"
       },
       "area": "합정",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "none",
+          "freeBottles": null,
+          "drinkTypes": [
+            "와인"
+          ],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 1,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "내가 보려고 저장하는 홍대-연남-합정-상수 안주 반입 가능한 술집",
+            "url": "https://blog.naver.com/reprtl/223855378780",
+            "date": "2025-05-04",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "[합정 양고기 맛집] 국제양식",
+            "url": "https://blog.naver.com/moving_hyun_/223281810389",
+            "date": "2023-12-03",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "（합정동 와인바) \"와인동산\" 일상에 스며드는 와인바 / 감자전, 허....",
+            "url": "https://blog.naver.com/studiolettuce/222924374187",
+            "date": "2022-11-09",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": []
+      },
+      "verifiedAt": "2026-11-27",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-27",
+        "signals": [
+          "최근 1년 반 동안 블로그 후기 없음"
+        ]
+      }
     },
     "12324131": {
       "place": {
@@ -2544,7 +2635,7 @@
         "y": "37.37032446316103"
       },
       "area": "정자동",
-      "hits": 5,
+      "hits": 4,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -3190,7 +3281,7 @@
         "y": "37.5624418410252"
       },
       "area": "을지로",
-      "hits": 5,
+      "hits": 6,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -3261,6 +3352,26 @@
       "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25"
+    },
+    "13498159": {
+      "place": {
+        "address_name": "서울 마포구 망원동 485-31",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "13498159",
+        "phone": "02-334-6154",
+        "place_name": "산이네회무침",
+        "place_url": "http://place.map.kakao.com/13498159",
+        "road_address_name": "서울 마포구 동교로9길 97",
+        "x": "126.90763431413",
+        "y": "37.5575980367307"
+      },
+      "area": "합정",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
     },
     "13566878": {
       "place": {
@@ -3539,6 +3650,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "14740306": {
+      "place": {
+        "address_name": "서울 송파구 마천동 138-7",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "14740306",
+        "phone": "02-402-4909",
+        "place_name": "종로회집",
+        "place_url": "http://place.map.kakao.com/14740306",
+        "road_address_name": "서울 송파구 거마로22길 39",
+        "x": "127.151010012316",
+        "y": "37.4973687412225"
+      },
+      "area": "위례",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "15101304": {
       "place": {
         "address_name": "경기 성남시 분당구 야탑동 369-8",
@@ -3635,7 +3766,7 @@
         "y": "37.546946347719306"
       },
       "area": "성수동",
-      "hits": 14,
+      "hits": 16,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -4505,6 +4636,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "16500655": {
+      "place": {
+        "address_name": "서울 송파구 가락동 174-19",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "16500655",
+        "phone": "02-431-2248",
+        "place_name": "바다향기",
+        "place_url": "http://place.map.kakao.com/16500655",
+        "road_address_name": "서울 송파구 오금로46길 10",
+        "x": "127.135814185862",
+        "y": "37.4964573502789"
+      },
+      "area": "위례",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "16645794": {
       "place": {
         "address_name": "서울 종로구 명륜2가 8-30",
@@ -4940,6 +5091,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "16987113": {
+      "place": {
+        "address_name": "서울 영등포구 여의도동 13-25",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "16987113",
+        "phone": "",
+        "place_name": "바다내음",
+        "place_url": "http://place.map.kakao.com/16987113",
+        "road_address_name": "서울 영등포구 은행로 29",
+        "x": "126.921901697786",
+        "y": "37.5290646788131"
+      },
+      "area": "여의도",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "17079032": {
       "place": {
         "address_name": "서울 마포구 합정동 383-9",
@@ -5270,6 +5441,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "17921505": {
+      "place": {
+        "address_name": "경기 성남시 분당구 구미동 156",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "17921505",
+        "phone": "",
+        "place_name": "올라회덮밥",
+        "place_url": "http://place.map.kakao.com/17921505",
+        "road_address_name": "경기 성남시 분당구 성남대로 51",
+        "x": "127.108087709963",
+        "y": "37.3404836877446"
+      },
+      "area": "미금역",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "17922905": {
       "place": {
         "address_name": "서울 성동구 성수동1가 656-1056",
@@ -5419,7 +5610,7 @@
         "y": "37.5523564337032"
       },
       "area": "합정",
-      "hits": 0,
+      "hits": 1,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -5829,7 +6020,7 @@
         "y": "37.52482605288599"
       },
       "area": "신사동",
-      "hits": 7,
+      "hits": 8,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -6615,7 +6806,7 @@
         "y": "37.36908966594202"
       },
       "area": "정자동",
-      "hits": 13,
+      "hits": 14,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -6881,7 +7072,7 @@
         "y": "37.2680139488386"
       },
       "area": "수원역",
-      "hits": 7,
+      "hits": 6,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -6979,7 +7170,7 @@
         "y": "37.553702008954"
       },
       "area": "합정",
-      "hits": 58,
+      "hits": 55,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -7472,7 +7663,7 @@
         "y": "37.37896314969401"
       },
       "area": "수내역",
-      "hits": 33,
+      "hits": 31,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -7625,7 +7816,7 @@
         "y": "37.381133506033464"
       },
       "area": "서현역",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -7760,7 +7951,7 @@
         "y": "37.39226645154301"
       },
       "area": "서판교",
-      "hits": 71,
+      "hits": 74,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -8112,7 +8303,7 @@
         "y": "37.49272256178499"
       },
       "area": "위례",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -8634,7 +8825,7 @@
         "y": "37.2643015895764"
       },
       "area": "수원 인계동",
-      "hits": 53,
+      "hits": 52,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -9182,7 +9373,7 @@
         "y": "37.24650014732577"
       },
       "area": "영통",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -10139,7 +10330,7 @@
         "y": "37.5189285057073"
       },
       "area": "여의도",
-      "hits": 3,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -10258,9 +10449,85 @@
         "y": "37.4006401214003"
       },
       "area": "서판교",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "disputed",
+          "reviewSignal": "mixed",
+          "freeBottles": null,
+          "drinkTypes": [
+            "와인"
+          ],
+          "extraFee": "후기상 3만원 언급",
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 11,
+          "paidMentions": 7,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "우몽블랙 판교점 상견례 후기_런치 A코스 메뉴, 룸, 주차",
+            "url": "https://blog.naver.com/darin_mj/224471943856",
+            "date": "2026-11-10",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "성남 판교 분당 연말 회식 식당 장소 추천 베스트 10 단체석 프라이....",
+            "url": "https://blog.naver.com/pias6642/224464843180",
+            "date": "2026-11-04",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "판교 우설화 메뉴 가격 및 방문 전 꼭 알아야 할 핵심 가이드",
+            "url": "https://blog.naver.com/small_basket/224435794941",
+            "date": "2026-10-09",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "판교 우설화 판교 긴자 돌잔치 돌스냅 추천, 자연스러운 돌잔치 사....",
+            "url": "https://blog.naver.com/sgt9541/224340846645",
+            "date": "2026-07-08",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "분당·판교 상견례 장소 추천 — 우설화 판교점 후기 (내돈내산, 메....",
+            "url": "https://blog.naver.com/ggangzu/224329812169",
+            "date": "2026-06-28",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "상사에게 칭찬 받는 룸식당 리스트 및 예약 꿀팁 - 판교",
+            "url": "https://blog.naver.com/blumen37/224254783933",
+            "date": "2026-04-16",
+            "source": "naver-blog",
+            "signal": "free"
+          }
+        ],
+        "tags": [
+          "데이트",
+          "조용한",
+          "룸",
+          "주차",
+          "단체"
+        ]
+      },
+      "verifiedAt": "2026-11-27",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-27",
+        "signals": []
+      }
     },
     "26897668": {
       "place": {
@@ -10904,7 +11171,7 @@
         "y": "37.39771620649867"
       },
       "area": "판교역",
-      "hits": 33,
+      "hits": 31,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -11498,7 +11765,7 @@
         "y": "37.347782606640386"
       },
       "area": "미금역",
-      "hits": 30,
+      "hits": 31,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -11590,7 +11857,7 @@
         "y": "37.3619663970977"
       },
       "area": "정자동",
-      "hits": 4,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -12481,7 +12748,7 @@
         "y": "37.2866072950197"
       },
       "area": "수원 인계동",
-      "hits": 17,
+      "hits": 16,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -12578,9 +12845,87 @@
         "y": "37.5337459557282"
       },
       "area": "이태원",
-      "hits": 0,
+      "hits": 2,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "conditional",
+          "freeBottles": 2,
+          "drinkTypes": [
+            "와인",
+            "사케"
+          ],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 22,
+          "paidMentions": 1,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "한남동 다이센스시 한국본점 런치 특 사시미 스시 정식 후기 • 예....",
+            "url": "https://blog.naver.com/qkralsdud65/224493740784",
+            "date": "2026-11-26",
+            "source": "naver-blog",
+            "signal": "conditional"
+          },
+          {
+            "title": "한남동 연예인단골집 내돈내산 스시맛집 디너코스 프라이빗 룸 모....",
+            "url": "https://blog.naver.com/dung236/224488397121",
+            "date": "2026-11-23",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "용산구 맛집 5곳, 예약 안 되는 집과 예약해야 하는 집으로 나눠 봤....",
+            "url": "https://blog.naver.com/chldmstlf1426/224482326238",
+            "date": "2026-11-18",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "[한남동 스시 맛집] 다이센스시 한국본점, 재방문도 만족스러울까? |....",
+            "url": "https://blog.naver.com/yoonjacee/224476379819",
+            "date": "2026-11-14",
+            "source": "naver-blog",
+            "signal": "conditional"
+          },
+          {
+            "title": "한남 맛집| <다이센 스시 한국본점> 사시미 스시 정식 후기 : 샤벳만 ....",
+            "url": "https://blog.naver.com/nuga-/224470728254",
+            "date": "2026-11-09",
+            "source": "naver-blog",
+            "signal": "conditional"
+          },
+          {
+            "title": "소중한 날, 일본 정통 스시 : 다이센 스시 한국본점",
+            "url": "https://blog.naver.com/nightfog59/224463308653",
+            "date": "2026-11-06",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": [
+          "데이트",
+          "분위기",
+          "룸",
+          "주차",
+          "단체",
+          "뷰"
+        ]
+      },
+      "verifiedAt": "2026-11-27",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-27",
+        "signals": []
+      }
     },
     "32703009": {
       "place": {
@@ -13189,6 +13534,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "55503199": {
+      "place": {
+        "address_name": "경기 성남시 수정구 창곡동 559-10",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 육류,고기 > 갈비 > 명륜진사갈비",
+        "distance": "",
+        "id": "55503199",
+        "phone": "031-752-9272",
+        "place_name": "명륜진사갈비 남위례역점",
+        "place_url": "http://place.map.kakao.com/55503199",
+        "road_address_name": "경기 성남시 수정구 위례서일로 46",
+        "x": "127.14046862334249",
+        "y": "37.46378494509286"
+      },
+      "area": "위례",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "60128638": {
       "place": {
         "address_name": "경기 성남시 수정구 창곡동 537-3",
@@ -13379,7 +13744,7 @@
         "y": "37.2848819805239"
       },
       "area": "행궁동",
-      "hits": 2,
+      "hits": 3,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -13470,7 +13835,7 @@
         "y": "37.474437958449485"
       },
       "area": "위례",
-      "hits": 13,
+      "hits": 12,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -13525,7 +13890,7 @@
         "y": "37.39676111233886"
       },
       "area": "판교역",
-      "hits": 22,
+      "hits": 21,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -13640,7 +14005,7 @@
         "y": "37.50626055174282"
       },
       "area": "잠실",
-      "hits": 3,
+      "hits": 2,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -13844,7 +14209,7 @@
         "y": "37.52033857670919"
       },
       "area": "여의도",
-      "hits": 1,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -14296,7 +14661,7 @@
         "y": "37.518756613911464"
       },
       "area": "신사동",
-      "hits": 11,
+      "hits": 10,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -14636,7 +15001,7 @@
         "y": "37.547696306140494"
       },
       "area": "합정",
-      "hits": 3,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -14844,7 +15209,7 @@
         "y": "37.36133758694464"
       },
       "area": "정자동",
-      "hits": 7,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -14980,7 +15345,7 @@
         "y": "37.3652852022529"
       },
       "area": "정자동",
-      "hits": 1,
+      "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -15121,6 +15486,100 @@
       "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25"
+    },
+    "106703150": {
+      "place": {
+        "address_name": "서울 마포구 서교동 398-1",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "106703150",
+        "phone": "",
+        "place_name": "바다회사랑 홍대점",
+        "place_url": "http://place.map.kakao.com/106703150",
+        "road_address_name": "서울 마포구 독막로7길 41",
+        "x": "126.919465242306",
+        "y": "37.5496968405475"
+      },
+      "area": "합정",
+      "hits": 2,
+      "localHint": false,
+      "firstSeen": "2026-11-27",
+      "result": {
+        "corkage": {
+          "status": "disputed",
+          "reviewSignal": "mixed",
+          "freeBottles": null,
+          "drinkTypes": [
+            "와인",
+            "사케",
+            "위스키"
+          ],
+          "extraFee": "후기상 2만원 언급",
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 9,
+          "paidMentions": 5,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "서울 방어 맛집 추천 동네별 정리",
+            "url": "https://blog.naver.com/lalaping888/224493212459",
+            "date": "2026-11-26",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "바다회사랑 연남점, 서교점, 홍대점 지점별 주말 웨이팅 꿀팁 및 비....",
+            "url": "https://blog.naver.com/lhs94et/224486843437",
+            "date": "2026-11-23",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "[W&D] 연남동 서울 3대 겨울 대방어 맛집 평일 방문 후기 웨이팅 방법 ....",
+            "url": "https://blog.naver.com/ped_joon/224483890611",
+            "date": "2026-11-22",
+            "source": "naver-blog",
+            "signal": "paid"
+          },
+          {
+            "title": "서울 대방어 맛집 지도 8곳 구별 위치 영업시간 웨이팅 꿀팁 총정리",
+            "url": "https://blog.naver.com/unfoe/224485637056",
+            "date": "2026-11-21",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "바다회사랑 연남점 대방어 방문 전 가격과 웨이팅 확인법",
+            "url": "https://blog.naver.com/octopus_80/224474543725",
+            "date": "2026-11-12",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "바다회사랑 홍대점 대방어, 웨이팅 2시간 기다려 먹은 맛",
+            "url": "https://blog.naver.com/mjmj_s2_/224470710602",
+            "date": "2026-11-10",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": [
+          "단체"
+        ]
+      },
+      "verifiedAt": "2026-11-27",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-27",
+        "signals": []
+      }
     },
     "106771056": {
       "place": {
@@ -15463,7 +15922,7 @@
         "y": "37.3695941114475"
       },
       "area": "정자동",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -15686,7 +16145,7 @@
         "y": "37.26532426518665"
       },
       "area": "수원 인계동",
-      "hits": 26,
+      "hits": 27,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -16026,6 +16485,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "134834627": {
+      "place": {
+        "address_name": "서울 송파구 마천동 43",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "134834627",
+        "phone": "02-448-9140",
+        "place_name": "대박회수산",
+        "place_url": "http://place.map.kakao.com/134834627",
+        "road_address_name": "서울 송파구 거마로 76",
+        "x": "127.14748254112202",
+        "y": "37.49949957082237"
+      },
+      "area": "위례",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "136061796": {
       "place": {
         "address_name": "경기 성남시 분당구 서현동 245-4",
@@ -16162,7 +16641,7 @@
         "y": "37.38581224467746"
       },
       "area": "서현역",
-      "hits": 13,
+      "hits": 14,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -16827,7 +17306,7 @@
         "y": "37.5484177596657"
       },
       "area": "성수동",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -17080,7 +17559,7 @@
         "y": "37.3680250257272"
       },
       "area": "정자동",
-      "hits": 5,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -17395,7 +17874,7 @@
         "y": "37.54620822065609"
       },
       "area": "성수동",
-      "hits": 9,
+      "hits": 8,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -17892,7 +18371,7 @@
         "y": "37.545842145383"
       },
       "area": "합정",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -18006,7 +18485,7 @@
         "y": "37.5462726859187"
       },
       "area": "성수동",
-      "hits": 8,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -18299,7 +18778,7 @@
         "y": "37.5457367343772"
       },
       "area": "합정",
-      "hits": 468,
+      "hits": 465,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -18552,7 +19031,7 @@
         "y": "37.36288651033269"
       },
       "area": "정자동",
-      "hits": 25,
+      "hits": 23,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -18845,6 +19324,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "232223734": {
+      "place": {
+        "address_name": "서울 용산구 이태원동 119-8",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 술집 > 일본식주점",
+        "distance": "",
+        "id": "232223734",
+        "phone": "02-796-1973",
+        "place_name": "엔 이자카야",
+        "place_url": "http://place.map.kakao.com/232223734",
+        "road_address_name": "서울 용산구 이태원로27가길 37",
+        "x": "126.993098321799",
+        "y": "37.5348765296195"
+      },
+      "area": "이태원",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "235219656": {
       "place": {
         "address_name": "서울 성동구 성수동1가 656-689",
@@ -18961,7 +19460,7 @@
         "y": "37.2634238205249"
       },
       "area": "수원 인계동",
-      "hits": 28,
+      "hits": 26,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -19353,7 +19852,7 @@
         "y": "37.51956207995369"
       },
       "area": "여의도",
-      "hits": 14,
+      "hits": 13,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -20192,7 +20691,7 @@
         "y": "37.5608248747538"
       },
       "area": "연남동",
-      "hits": 124,
+      "hits": 128,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -20355,6 +20854,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "322200612": {
+      "place": {
+        "address_name": "경기 수원시 권선구 권선동 994-14",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "322200612",
+        "phone": "031-236-9191",
+        "place_name": "완도어시장",
+        "place_url": "http://place.map.kakao.com/322200612",
+        "road_address_name": "경기 수원시 권선구 세지로66번길 49-23",
+        "x": "127.02036754493962",
+        "y": "37.25822700771585"
+      },
+      "area": "수원역",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "322834122": {
       "place": {
         "address_name": "서울 마포구 서교동 394-14",
@@ -20411,7 +20930,7 @@
         "y": "37.5620095537574"
       },
       "area": "연남동",
-      "hits": 13,
+      "hits": 14,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -21007,7 +21526,7 @@
         "y": "37.2634525524834"
       },
       "area": "수원 인계동",
-      "hits": 42,
+      "hits": 40,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -21207,7 +21726,7 @@
         "y": "37.5452132553594"
       },
       "area": "합정",
-      "hits": 80,
+      "hits": 76,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -21344,7 +21863,7 @@
         "y": "37.569627254189264"
       },
       "area": "종로",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -21418,7 +21937,7 @@
         "y": "37.3903255775258"
       },
       "area": "서판교",
-      "hits": 33,
+      "hits": 34,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -21608,7 +22127,7 @@
         "y": "37.50628306964464"
       },
       "area": "잠실",
-      "hits": 3,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -21940,7 +22459,7 @@
         "y": "37.5629125508635"
       },
       "area": "연남동",
-      "hits": 29,
+      "hits": 39,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -22213,7 +22732,7 @@
         "y": "37.362138755594444"
       },
       "area": "정자동",
-      "hits": 2,
+      "hits": 1,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -22307,7 +22826,7 @@
         "y": "37.4319943132009"
       },
       "area": "성남 모란",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -22507,6 +23026,26 @@
       "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25"
+    },
+    "421910395": {
+      "place": {
+        "address_name": "서울 서초구 반포동 747-11",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "421910395",
+        "phone": "",
+        "place_name": "후포항",
+        "place_url": "http://place.map.kakao.com/421910395",
+        "road_address_name": "서울 서초구 사평대로55길 8",
+        "x": "127.02284546944716",
+        "y": "37.50448368708201"
+      },
+      "area": "강남역",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
     },
     "422333844": {
       "place": {
@@ -22836,7 +23375,7 @@
         "y": "37.2635522799142"
       },
       "area": "수원 인계동",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -22927,7 +23466,7 @@
         "y": "37.44286066419284"
       },
       "area": "성남 신흥동",
-      "hits": 10,
+      "hits": 11,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -23100,7 +23639,7 @@
         "y": "37.2880596180177"
       },
       "area": "행궁동",
-      "hits": 4,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -23541,7 +24080,7 @@
         "y": "37.26493178700701"
       },
       "area": "수원 인계동",
-      "hits": 22,
+      "hits": 21,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -24250,7 +24789,7 @@
         "y": "37.3939264723571"
       },
       "area": "백현동",
-      "hits": 39,
+      "hits": 36,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -24453,7 +24992,7 @@
         "y": "37.5176401138436"
       },
       "area": "잠실",
-      "hits": 11,
+      "hits": 12,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -24870,7 +25409,7 @@
         "y": "37.547275538621"
       },
       "area": "합정",
-      "hits": 8,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -25636,7 +26175,7 @@
         "y": "37.246631770961"
       },
       "area": "영통",
-      "hits": 223,
+      "hits": 229,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -25711,6 +26250,26 @@
         "signals": []
       }
     },
+    "548284238": {
+      "place": {
+        "address_name": "경기 수원시 영통구 망포동 532-1",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "548284238",
+        "phone": "031-205-7351",
+        "place_name": "삼국지제철수산",
+        "place_url": "http://place.map.kakao.com/548284238",
+        "road_address_name": "경기 수원시 영통구 영통로 100",
+        "x": "127.05854934246375",
+        "y": "37.23780652673979"
+      },
+      "area": "영통",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "550177564": {
       "place": {
         "address_name": "서울 강남구 논현동 182-28",
@@ -25747,7 +26306,7 @@
         "y": "37.4915571573537"
       },
       "area": "강남역",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -26756,7 +27315,7 @@
         "y": "37.5125549527106"
       },
       "area": "잠실",
-      "hits": 2,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -27055,7 +27614,7 @@
         "y": "37.5095972949274"
       },
       "area": "잠실",
-      "hits": 39,
+      "hits": 37,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -27132,6 +27691,105 @@
       "closure": {
         "status": "ok",
         "checkedAt": "2026-11-25",
+        "signals": []
+      }
+    },
+    "611934496": {
+      "place": {
+        "address_name": "경기 수원시 권선구 고색동 27-1",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "611934496",
+        "phone": "070-5227-3779",
+        "place_name": "바다킹 고색본점",
+        "place_url": "http://place.map.kakao.com/611934496",
+        "road_address_name": "경기 수원시 권선구 매송고색로 755",
+        "x": "126.986957265655",
+        "y": "37.2528533169481"
+      },
+      "area": "수원역",
+      "hits": 2,
+      "localHint": false,
+      "firstSeen": "2026-11-27",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "free",
+          "freeBottles": null,
+          "drinkTypes": [
+            "와인",
+            "사케",
+            "위스키",
+            "소주·전통주",
+            "맥주"
+          ],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 36,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "수원 고색역 횟집, 바다킹 고색본점｜돼지방어 굴튀김 콜키지프리",
+            "url": "https://blog.naver.com/ruddls6280/224470555352",
+            "date": "2026-11-09",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "경기 수원｜바다킹 고색본점 내돈내산 재재재방문 후기, 제철 전어 ....",
+            "url": "https://blog.naver.com/uu1016/224452086763",
+            "date": "2026-10-24",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "[수원 회 맛집] 가성비 횟집인데 분위기·서비스는 하이엔드급! 바다....",
+            "url": "https://blog.naver.com/sliuy94/224358360206",
+            "date": "2026-07-26",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "새로 생긴 고색 횟집 바다킹 회덮밥 후기",
+            "url": "https://blog.naver.com/di753951/224213589592",
+            "date": "2026-03-12",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "수원 고색동 특대방어 맛집 바다킹 고색본점 내돈내산 솔직후기",
+            "url": "https://blog.naver.com/aos37/224140368160",
+            "date": "2026-01-09",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "[경기/수원/내돈내산] 제철 대방어 맛집 (+찰광어)｜바다킹 고색본점....",
+            "url": "https://blog.naver.com/yum-s_funfun_life/224121612214",
+            "date": "2025-12-24",
+            "source": "naver-blog",
+            "signal": "free"
+          }
+        ],
+        "tags": [
+          "룸",
+          "주차",
+          "단체",
+          "뷰"
+        ]
+      },
+      "verifiedAt": "2026-11-27",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-27",
         "signals": []
       }
     },
@@ -27342,9 +28000,80 @@
         "y": "37.5097696650439"
       },
       "area": "잠실",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "none",
+          "freeBottles": null,
+          "drinkTypes": [],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 0,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "잠실새내 횟집 추천 [오징어잡는남자] 송파 방어맛집 회식장소 술집",
+            "url": "https://blog.naver.com/leees34/224483763774",
+            "date": "2026-11-19",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "[잠실새내]잠실새내 횟집 서울 대방어 맛집 오징어잡는남자",
+            "url": "https://blog.naver.com/pm_0828/224479904054",
+            "date": "2026-11-17",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "[잠실새내역 맛집] 야장 느낌 낼 수 있는 횟집 오징어잡는남자(4.2점)",
+            "url": "https://blog.naver.com/jamsilmatzip/224415682812",
+            "date": "2026-09-18",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "잠실새내 횟집 오징어잡는남자 봄 제철 도다리 맛집 야장 술집 추천",
+            "url": "https://blog.naver.com/vtndusv/224259144668",
+            "date": "2026-04-20",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "잠실새내 횟집 추천 야장에서 즐기는 오징어잡는남자",
+            "url": "https://blog.naver.com/cloud0420/224255554683",
+            "date": "2026-04-19",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "[서울/잠실새내] 야장에서 모듬회 맛 볼 수 있는 “오징어잡는남자....",
+            "url": "https://blog.naver.com/hyobin11/223995571526",
+            "date": "2025-09-04",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": [
+          "주차",
+          "단체"
+        ]
+      },
+      "verifiedAt": "2026-11-27",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-27",
+        "signals": []
+      }
     },
     "617218371": {
       "place": {
@@ -27442,7 +28171,7 @@
         "y": "37.50996154823901"
       },
       "area": "잠실",
-      "hits": 1,
+      "hits": 0,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -27663,7 +28392,7 @@
         "y": "37.5286043153107"
       },
       "area": "여의도",
-      "hits": 4,
+      "hits": 3,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -27861,7 +28590,7 @@
         "y": "37.5627643609735"
       },
       "area": "연남동",
-      "hits": 12,
+      "hits": 15,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -28115,7 +28844,7 @@
         "y": "37.46766721178328"
       },
       "area": "위례",
-      "hits": 3,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -28209,7 +28938,7 @@
         "y": "37.5696563184524"
       },
       "area": "종로",
-      "hits": 43,
+      "hits": 45,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -29157,7 +29886,7 @@
         "y": "37.2468351239809"
       },
       "area": "영통",
-      "hits": 0,
+      "hits": 1,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -29542,7 +30271,7 @@
         "y": "37.5350512583555"
       },
       "area": "이태원",
-      "hits": 6,
+      "hits": 4,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -30379,7 +31108,7 @@
         "y": "37.49820458397177"
       },
       "area": "강남역",
-      "hits": 2,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -30607,7 +31336,7 @@
         "y": "37.38930026897035"
       },
       "area": "서현역",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -30740,7 +31469,7 @@
         "y": "37.4121779470217"
       },
       "area": "야탑역",
-      "hits": 3,
+      "hits": 5,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -31092,7 +31821,7 @@
         "y": "37.2930518587864"
       },
       "area": "광교",
-      "hits": 14,
+      "hits": 13,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -31506,7 +32235,7 @@
         "y": "37.29262719802653"
       },
       "area": "광교",
-      "hits": 29,
+      "hits": 39,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -31793,7 +32522,7 @@
         "y": "37.55428144176397"
       },
       "area": "합정",
-      "hits": 22,
+      "hits": 24,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -31884,7 +32613,7 @@
         "y": "37.5498190291273"
       },
       "area": "합정",
-      "hits": 10,
+      "hits": 12,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -32004,6 +32733,26 @@
       "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25"
+    },
+    "831592877": {
+      "place": {
+        "address_name": "경기 성남시 중원구 성남동 3827",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "831592877",
+        "phone": "031-751-1253",
+        "place_name": "회무침잘하는집 성남본점",
+        "place_url": "http://place.map.kakao.com/831592877",
+        "road_address_name": "경기 성남시 중원구 제일로35번길 9-2",
+        "x": "127.13574106287349",
+        "y": "37.43039169987359"
+      },
+      "area": "성남 모란",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
     },
     "833062819": {
       "place": {
@@ -32218,7 +32967,7 @@
         "y": "37.4108900371308"
       },
       "area": "야탑역",
-      "hits": 31,
+      "hits": 28,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -32988,7 +33737,7 @@
         "y": "37.3468564647742"
       },
       "area": "미금역",
-      "hits": 7,
+      "hits": 8,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -33316,7 +34065,7 @@
         "y": "37.547902606941484"
       },
       "area": "성수동",
-      "hits": 2,
+      "hits": 3,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -33608,7 +34357,7 @@
         "y": "37.41084980804417"
       },
       "area": "야탑역",
-      "hits": 33,
+      "hits": 34,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -33722,9 +34471,83 @@
         "y": "37.5729951676138"
       },
       "area": "종로",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "free",
+          "freeBottles": null,
+          "drinkTypes": [
+            "와인"
+          ],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 6,
+          "paidMentions": 1,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "광화문 예약 가능한 분위기 맛집 루뽀",
+            "url": "https://blog.naver.com/rohyunji8442/224459507520",
+            "date": "2026-10-30",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "[광화문 맛집] 루뽀 ✦ 분위기 좋은 통창뷰 레스토랑  LUPO｜프라이빗....",
+            "url": "https://blog.naver.com/nini-world/224417333485",
+            "date": "2026-09-20",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "광화문 맛집 _ 루뽀",
+            "url": "https://blog.naver.com/bymolly/224349501345",
+            "date": "2026-07-17",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "광화문 루뽀, 늑대 이야기를 품은 이탈리안 가스트로펍 (세종문화회....",
+            "url": "https://blog.naver.com/candypowder/224338531444",
+            "date": "2026-07-06",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "[광화문 양식] 양갈비가 맛있는 분위기 양식맛집 루뽀 광화문",
+            "url": "https://blog.naver.com/eunjicho98/224159014793",
+            "date": "2026-01-25",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "세종문화회관맛집 루뽀 미쉐린 출신 쉐프 광화문 룸식당",
+            "url": "https://blog.naver.com/reve8612/224095598248",
+            "date": "2025-12-02",
+            "source": "naver-blog",
+            "signal": "free"
+          }
+        ],
+        "tags": [
+          "분위기",
+          "룸",
+          "뷰"
+        ]
+      },
+      "verifiedAt": "2026-11-27",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-27",
+        "signals": []
+      }
     },
     "889532039": {
       "place": {
@@ -34201,7 +35024,7 @@
         "y": "37.362127150821806"
       },
       "area": "정자동",
-      "hits": 7,
+      "hits": 9,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -34956,7 +35779,7 @@
         "y": "37.3867288814895"
       },
       "area": "서현역",
-      "hits": 33,
+      "hits": 31,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -35722,7 +36545,7 @@
         "y": "37.39584411547252"
       },
       "area": "판교역",
-      "hits": 26,
+      "hits": 25,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -35956,7 +36779,7 @@
         "y": "37.5346545478702"
       },
       "area": "이태원",
-      "hits": 1,
+      "hits": 2,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -36347,7 +37170,7 @@
         "y": "37.5201941032677"
       },
       "area": "여의도",
-      "hits": 1,
+      "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -36578,7 +37401,7 @@
         "y": "37.569050818571924"
       },
       "area": "종로",
-      "hits": 30,
+      "hits": 31,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -36654,6 +37477,26 @@
         "checkedAt": "2026-11-25",
         "signals": []
       }
+    },
+    "984976379": {
+      "place": {
+        "address_name": "경기 수원시 영통구 원천동 605",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회 > 육회바른연어",
+        "distance": "",
+        "id": "984976379",
+        "phone": "070-7622-3482",
+        "place_name": "육회바른연어 광교점",
+        "place_url": "http://place.map.kakao.com/984976379",
+        "road_address_name": "경기 수원시 영통구 광교호수공원로 20",
+        "x": "127.06011402137865",
+        "y": "37.271000185449104"
+      },
+      "area": "광교",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
     },
     "985922932": {
       "place": {
@@ -36890,7 +37733,7 @@
         "y": "37.5210146876137"
       },
       "area": "여의도",
-      "hits": 50,
+      "hits": 51,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -37143,7 +37986,7 @@
         "y": "37.5349971929501"
       },
       "area": "이태원",
-      "hits": 14,
+      "hits": 15,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -37783,7 +38626,7 @@
         "y": "37.5139306742295"
       },
       "area": "신사동",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -37939,7 +38782,7 @@
         "y": "37.26552912653312"
       },
       "area": "수원 인계동",
-      "hits": 2,
+      "hits": 1,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -38055,7 +38898,7 @@
         "y": "37.494799318551806"
       },
       "area": "강남역",
-      "hits": 10,
+      "hits": 8,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -38352,7 +39195,7 @@
         "y": "37.52737862024652"
       },
       "area": "신사동",
-      "hits": 6,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -39097,7 +39940,7 @@
         "y": "37.5205041140782"
       },
       "area": "신사동",
-      "hits": 11,
+      "hits": 12,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -39233,7 +40076,7 @@
         "y": "37.2655920786361"
       },
       "area": "수원역",
-      "hits": 12,
+      "hits": 13,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -39313,7 +40156,7 @@
         "y": "37.2690268496078"
       },
       "area": "수원역",
-      "hits": 17,
+      "hits": 18,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -39403,7 +40246,7 @@
         "y": "37.387793137852"
       },
       "area": "서현역",
-      "hits": 10,
+      "hits": 12,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -39600,7 +40443,7 @@
         "y": "37.364603141377785"
       },
       "area": "정자동",
-      "hits": 28,
+      "hits": 26,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -39845,7 +40688,7 @@
         "y": "37.5221805954256"
       },
       "area": "여의도",
-      "hits": 23,
+      "hits": 21,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -40230,7 +41073,7 @@
         "y": "37.5339880616183"
       },
       "area": "이태원",
-      "hits": 12,
+      "hits": 10,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -40917,7 +41760,7 @@
         "y": "37.3860479931367"
       },
       "area": "서현역",
-      "hits": 9,
+      "hits": 8,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -41051,7 +41894,7 @@
         "y": "37.29170158506528"
       },
       "area": "광교",
-      "hits": 33,
+      "hits": 31,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -41239,7 +42082,7 @@
         "y": "37.3483703838609"
       },
       "area": "미금역",
-      "hits": 13,
+      "hits": 14,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -41807,7 +42650,7 @@
         "y": "37.57342019155"
       },
       "area": "종로",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -41882,7 +42725,7 @@
         "y": "37.5615401788009"
       },
       "area": "연남동",
-      "hits": 12,
+      "hits": 11,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -42063,7 +42906,7 @@
         "y": "37.265566936031"
       },
       "area": "수원 인계동",
-      "hits": 20,
+      "hits": 21,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -42354,7 +43197,7 @@
         "y": "37.37960561845528"
       },
       "area": "수내역",
-      "hits": 48,
+      "hits": 46,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -42624,7 +43467,7 @@
         "y": "37.5248395668752"
       },
       "area": "여의도",
-      "hits": 4,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -43476,7 +44319,7 @@
         "y": "37.2878935085875"
       },
       "area": "광교",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -43757,7 +44600,7 @@
         "y": "37.2645161980618"
       },
       "area": "수원 인계동",
-      "hits": 24,
+      "hits": 28,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -44027,7 +44870,7 @@
         "y": "37.271966398717794"
       },
       "area": "행궁동",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -44392,7 +45235,7 @@
         "y": "37.3850644432538"
       },
       "area": "정자동",
-      "hits": 45,
+      "hits": 47,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -44742,7 +45585,7 @@
         "y": "37.387685864038005"
       },
       "area": "서현역",
-      "hits": 7,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -45332,7 +46175,7 @@
         "y": "37.39043599698454"
       },
       "area": "서판교",
-      "hits": 6,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -45430,7 +46273,7 @@
         "y": "37.2628242725016"
       },
       "area": "수원 인계동",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -46136,7 +46979,7 @@
         "y": "37.5212952414264"
       },
       "area": "여의도",
-      "hits": 11,
+      "hits": 12,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -46588,6 +47431,26 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "1398019894": {
+      "place": {
+        "address_name": "서울 송파구 문정동 325-2",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "1398019894",
+        "phone": "02-2054-8648",
+        "place_name": "광명횟집",
+        "place_url": "http://place.map.kakao.com/1398019894",
+        "road_address_name": "서울 송파구 송파대로 167",
+        "x": "127.122167676006",
+        "y": "37.4849564800534"
+      },
+      "area": "위례",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "1398651088": {
       "place": {
         "address_name": "서울 영등포구 여의도동 54-2",
@@ -46970,7 +47833,7 @@
         "y": "37.5596614249243"
       },
       "area": "연남동",
-      "hits": 16,
+      "hits": 14,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -47224,7 +48087,7 @@
         "y": "37.39413578931001"
       },
       "area": "판교역",
-      "hits": 25,
+      "hits": 26,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -48069,7 +48932,7 @@
         "y": "37.4678567670341"
       },
       "area": "위례",
-      "hits": 23,
+      "hits": 28,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -48389,7 +49252,7 @@
         "y": "37.5229117923318"
       },
       "area": "신사동",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -48831,7 +49694,7 @@
         "y": "37.5103363825724"
       },
       "area": "잠실",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -48943,7 +49806,7 @@
         "y": "37.4952559571223"
       },
       "area": "강남역",
-      "hits": 26,
+      "hits": 25,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49173,7 +50036,7 @@
         "y": "37.5238601476218"
       },
       "area": "여의도",
-      "hits": 6,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49309,7 +50172,7 @@
         "y": "37.300729104204436"
       },
       "area": "광교",
-      "hits": 13,
+      "hits": 12,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49523,7 +50386,7 @@
         "y": "37.5293660562448"
       },
       "area": "여의도",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49563,7 +50426,7 @@
         "y": "37.3602107040178"
       },
       "area": "정자동",
-      "hits": 10,
+      "hits": 9,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49657,7 +50520,7 @@
         "y": "37.51956626403234"
       },
       "area": "신사동",
-      "hits": 70,
+      "hits": 66,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49753,7 +50616,7 @@
         "y": "37.3845713462609"
       },
       "area": "정자동",
-      "hits": 58,
+      "hits": 57,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -49849,7 +50712,7 @@
         "y": "37.2842842378417"
       },
       "area": "행궁동",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -50052,6 +50915,54 @@
       "localHint": false,
       "firstSeen": "2026-11-25"
     },
+    "1527216906": {
+      "place": {
+        "address_name": "서울 종로구 관철동 175",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선",
+        "distance": "",
+        "id": "1527216906",
+        "phone": "02-732-8806",
+        "place_name": "차돌박힌쭈꾸미 본점",
+        "place_url": "http://place.map.kakao.com/1527216906",
+        "road_address_name": "서울 종로구 삼일대로17길 47-1",
+        "x": "126.984942936056",
+        "y": "37.5690821668477"
+      },
+      "area": "종로",
+      "hits": 0,
+      "localHint": true,
+      "firstSeen": "2026-11-27",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "none",
+          "freeBottles": null,
+          "drinkTypes": [],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 0,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "종로점심 추천 종각역 맛집 차돌박힌쭈꾸미 본점",
+            "url": "https://blog.naver.com/trchoi_zr/223593856826",
+            "date": "2024-09-23",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": []
+      },
+      "verifiedAt": "2026-11-27"
+    },
     "1528248161": {
       "place": {
         "address_name": "경기 용인시 수지구 상현동 1117-8",
@@ -50088,7 +50999,7 @@
         "y": "37.47446611897799"
       },
       "area": "위례",
-      "hits": 7,
+      "hits": 8,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -50176,7 +51087,7 @@
         "y": "37.50747447481824"
       },
       "area": "잠실",
-      "hits": 6,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -50955,7 +51866,7 @@
         "y": "37.36182779001034"
       },
       "area": "정자동",
-      "hits": 6,
+      "hits": 8,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -51070,7 +51981,7 @@
         "y": "37.294525354282"
       },
       "area": "광교",
-      "hits": 2,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -51267,9 +52178,44 @@
         "y": "37.350803905701206"
       },
       "area": "미금역",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "none",
+          "freeBottles": null,
+          "drinkTypes": [],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 0,
+          "paidMentions": 0,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "동탄 북광장 술집 주상낙원 동탄북광장점 안주 맛있는 한식 맛집",
+            "url": "https://blog.naver.com/happyheesworld/224401996604",
+            "date": "2026-09-05",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "금곡동 텐모리... 분당에서 제일 찾게 되는 이자카야",
+            "url": "https://blog.naver.com/purpist/223413301416",
+            "date": "2024-04-12",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": []
+      },
+      "verifiedAt": "2026-11-27"
     },
     "1581387568": {
       "place": {
@@ -51422,7 +52368,7 @@
         "y": "37.5146137534674"
       },
       "area": "잠실",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -51482,7 +52428,7 @@
         "y": "37.5493502616148"
       },
       "area": "성수동",
-      "hits": 43,
+      "hits": 40,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -51694,7 +52640,7 @@
         "y": "37.2879315127006"
       },
       "area": "행궁동",
-      "hits": 30,
+      "hits": 29,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -52064,6 +53010,26 @@
         "signals": []
       }
     },
+    "1596187193": {
+      "place": {
+        "address_name": "경기 성남시 분당구 수내동 75",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "1596187193",
+        "phone": "",
+        "place_name": "바다회이소",
+        "place_url": "http://place.map.kakao.com/1596187193",
+        "road_address_name": "경기 성남시 분당구 돌마로366번길 8",
+        "x": "127.123984070613",
+        "y": "37.3695001110362"
+      },
+      "area": "정자동",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
+    },
     "1596537870": {
       "place": {
         "address_name": "경기 성남시 수정구 창곡동 546-2",
@@ -52294,7 +53260,7 @@
         "y": "37.43554395954446"
       },
       "area": "성남 모란",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -52401,7 +53367,7 @@
         "y": "37.5629187302678"
       },
       "area": "연남동",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -52632,9 +53598,81 @@
         "y": "37.412705999486455"
       },
       "area": "야탑역",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "paid",
+          "freeBottles": null,
+          "drinkTypes": [],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 0,
+          "paidMentions": 5,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "야탑역 맛집 내돈내산 야탑역 고기집 육닷 찐맛집",
+            "url": "https://blog.naver.com/jolnsi/224151284667",
+            "date": "2026-01-18",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "회식 모임 장소 추천 직접 고기를 구워주시는 숙성고기전문점 야탑....",
+            "url": "https://blog.naver.com/tembatemba/223973929019",
+            "date": "2025-08-18",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "야탑 육닷 : 고기 구워주는 12종 반찬 고깃집, 흑돼지 오겹살 맛집 추....",
+            "url": "https://blog.naver.com/confident_jy/223927962090",
+            "date": "2025-07-09",
+            "source": "naver-blog",
+            "signal": "paid"
+          },
+          {
+            "title": "야탑역 삼겹살 맛집 육닷 제주흑돼지오겹살, 통갈매기살 모임장소 ....",
+            "url": "https://blog.naver.com/a0389/223853584793",
+            "date": "2025-05-02",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "내돈내산 야탑 고기집 추천 - 육닷",
+            "url": "https://blog.naver.com/goodmorningbbang/223696997730",
+            "date": "2024-12-17",
+            "source": "naver-blog",
+            "signal": "paid"
+          },
+          {
+            "title": "야탑 맛집 어디 육닷 야탑 고기집 후기",
+            "url": "https://blog.naver.com/5chbvjdvv/223680401355",
+            "date": "2024-12-02",
+            "source": "naver-blog",
+            "signal": "mention"
+          }
+        ],
+        "tags": [
+          "분위기",
+          "주차",
+          "단체"
+        ]
+      },
+      "verifiedAt": "2026-11-27",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-27",
+        "signals": []
+      }
     },
     "1616941791": {
       "place": {
@@ -53410,7 +54448,7 @@
         "y": "37.5374502017873"
       },
       "area": "이태원",
-      "hits": 12,
+      "hits": 13,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -53504,7 +54542,7 @@
         "y": "37.5694335334678"
       },
       "area": "종로",
-      "hits": 4,
+      "hits": 3,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -53930,7 +54968,7 @@
         "y": "37.4819908924215"
       },
       "area": "위례",
-      "hits": 10,
+      "hits": 11,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -54411,7 +55449,7 @@
         "y": "37.5103990004295"
       },
       "area": "잠실",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -54491,6 +55529,26 @@
         "checkedAt": "2026-11-25",
         "signals": []
       }
+    },
+    "1670188564": {
+      "place": {
+        "address_name": "서울 송파구 잠실동 204-12",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "1670188564",
+        "phone": "02-422-8524",
+        "place_name": "푸짐회",
+        "place_url": "http://place.map.kakao.com/1670188564",
+        "road_address_name": "서울 송파구 올림픽로12길 24",
+        "x": "127.083107589966",
+        "y": "37.5094500301498"
+      },
+      "area": "잠실",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
     },
     "1670767985": {
       "place": {
@@ -55097,7 +56155,7 @@
         "y": "37.39177870667812"
       },
       "area": "서판교",
-      "hits": 13,
+      "hits": 12,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -55191,7 +56249,7 @@
         "y": "37.2638897106761"
       },
       "area": "수원 인계동",
-      "hits": 1,
+      "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -55415,7 +56473,7 @@
         "y": "37.4674232628865"
       },
       "area": "성남 신흥동",
-      "hits": 6,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -55509,7 +56567,7 @@
         "y": "37.5286949246729"
       },
       "area": "여의도",
-      "hits": 17,
+      "hits": 18,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -56212,7 +57270,7 @@
         "y": "37.3975107617368"
       },
       "area": "판교역",
-      "hits": 88,
+      "hits": 85,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -56326,7 +57384,7 @@
         "y": "37.2786283307857"
       },
       "area": "행궁동",
-      "hits": 880,
+      "hits": 892,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -56445,7 +57503,7 @@
         "y": "37.395223541099234"
       },
       "area": "판교역",
-      "hits": 13,
+      "hits": 12,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -57106,7 +58164,7 @@
         "y": "37.528269859433905"
       },
       "area": "여의도",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -57554,7 +58612,7 @@
         "y": "37.5197643484247"
       },
       "area": "여의도",
-      "hits": 13,
+      "hits": 12,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -58216,7 +59274,7 @@
         "y": "37.5417127505397"
       },
       "area": "이태원",
-      "hits": 78,
+      "hits": 81,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -58326,7 +59384,7 @@
         "y": "37.3922923194305"
       },
       "area": "서판교",
-      "hits": 1,
+      "hits": 2,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -58935,7 +59993,7 @@
         "y": "37.3902785165099"
       },
       "area": "서판교",
-      "hits": 65,
+      "hits": 64,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -59031,7 +60089,7 @@
         "y": "37.29014030227881"
       },
       "area": "광교",
-      "hits": 3,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -59249,6 +60307,26 @@
       "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25"
+    },
+    "1856749504": {
+      "place": {
+        "address_name": "경기 수원시 영통구 영통동 978-4",
+        "category_group_code": "FD6",
+        "category_group_name": "음식점",
+        "category_name": "음식점 > 한식 > 해물,생선 > 회",
+        "distance": "",
+        "id": "1856749504",
+        "phone": "031-205-8419",
+        "place_name": "삼도숙성회 망포본점",
+        "place_url": "http://place.map.kakao.com/1856749504",
+        "road_address_name": "경기 수원시 영통구 영통로217번길 13",
+        "x": "127.05620956234334",
+        "y": "37.2466487176484"
+      },
+      "area": "영통",
+      "hits": 0,
+      "localHint": false,
+      "firstSeen": "2026-11-27"
     },
     "1858446927": {
       "place": {
@@ -59623,7 +60701,7 @@
         "y": "37.44696577506068"
       },
       "area": "성남 신흥동",
-      "hits": 51,
+      "hits": 52,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -60034,7 +61112,7 @@
         "y": "37.51395258674241"
       },
       "area": "잠실",
-      "hits": 1,
+      "hits": 0,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -60305,7 +61383,7 @@
         "y": "37.56355883722992"
       },
       "area": "을지로",
-      "hits": 2,
+      "hits": 3,
       "localHint": true,
       "firstSeen": "2026-11-25",
       "result": {
@@ -60746,7 +61824,7 @@
         "y": "37.4121266620497"
       },
       "area": "야탑역",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -61009,7 +62087,7 @@
         "y": "37.288647276753366"
       },
       "area": "행궁동",
-      "hits": 25,
+      "hits": 24,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -61967,7 +63045,7 @@
         "y": "37.56875705133095"
       },
       "area": "종로",
-      "hits": 1,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -62322,7 +63400,7 @@
         "y": "37.393762512563484"
       },
       "area": "백현동",
-      "hits": 33,
+      "hits": 31,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -62944,7 +64022,7 @@
         "y": "37.50092437222819"
       },
       "area": "강남역",
-      "hits": 4,
+      "hits": 3,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -63307,9 +64385,85 @@
         "y": "37.5094601272586"
       },
       "area": "잠실",
-      "hits": 0,
+      "hits": 1,
       "localHint": false,
-      "firstSeen": "2026-11-25"
+      "firstSeen": "2026-11-25",
+      "result": {
+        "corkage": {
+          "status": "unknown",
+          "reviewSignal": "free",
+          "freeBottles": null,
+          "drinkTypes": [
+            "와인",
+            "위스키"
+          ],
+          "extraFee": null,
+          "glassIce": null,
+          "minOrder": null,
+          "conditions": [],
+          "freeMentions": 26,
+          "paidMentions": 1,
+          "verifiedAt": null,
+          "verificationMethod": "review",
+          "reviewCheckedAt": "2026-11-27"
+        },
+        "evidence": [
+          {
+            "title": "잠실새내 고기집 연탄부락 잠실새내점 회식하기 좋은 알짜세트",
+            "url": "https://blog.naver.com/the_manura/224493278549",
+            "date": "2026-11-26",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "잠실새내 고기집 추천, 연탄 삼겹살 맛집 연탄부락 후기",
+            "url": "https://blog.naver.com/hm12-29/224373274663",
+            "date": "2026-08-09",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "[석촌맛집] 석촌호수 근처 쫄면 주는 가브리살 맛집 :: 연탄부락",
+            "url": "https://blog.naver.com/toony224/224334315671",
+            "date": "2026-07-02",
+            "source": "naver-blog",
+            "signal": "mention"
+          },
+          {
+            "title": "잠실새내역 가브리살, 닭발구이 연탄부락",
+            "url": "https://blog.naver.com/iamwinmir/224325229425",
+            "date": "2026-06-24",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "[잠실새내역 맛집] 연탄부락 오겹살에 파김치 조합, 고기 폭탄 볶음....",
+            "url": "https://blog.naver.com/jinipiano_/224324515320",
+            "date": "2026-06-23",
+            "source": "naver-blog",
+            "signal": "free"
+          },
+          {
+            "title": "종합운동장역맛집 찾다가 퇴근 후 방문한 연탄부락 잠실새내점",
+            "url": "https://blog.naver.com/dbdeasy/224297201500",
+            "date": "2026-05-26",
+            "source": "naver-blog",
+            "signal": "free"
+          }
+        ],
+        "tags": [
+          "데이트",
+          "주차",
+          "단체",
+          "뷰"
+        ]
+      },
+      "verifiedAt": "2026-11-27",
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-27",
+        "signals": []
+      }
     },
     "2021642443": {
       "place": {
@@ -63702,7 +64856,7 @@
         "y": "37.4756108024759"
       },
       "area": "위례",
-      "hits": 6,
+      "hits": 5,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -63901,7 +65055,7 @@
         "y": "37.5469768805097"
       },
       "area": "성수동",
-      "hits": 13,
+      "hits": 12,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -64558,7 +65712,7 @@
         "y": "37.569429104479"
       },
       "area": "종로",
-      "hits": 5,
+      "hits": 4,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -65195,7 +66349,7 @@
         "y": "37.51258336451861"
       },
       "area": "잠실",
-      "hits": 6,
+      "hits": 7,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -65540,7 +66694,7 @@
         "y": "37.254302651857"
       },
       "area": "영통",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
@@ -65724,7 +66878,7 @@
         "y": "37.2927351905643"
       },
       "area": "광교",
-      "hits": 2,
+      "hits": 1,
       "localHint": false,
       "firstSeen": "2026-11-25",
       "result": {
