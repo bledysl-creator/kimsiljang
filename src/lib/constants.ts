@@ -2,6 +2,7 @@ import type { CorkageStatus, Drink, Food, Mood, Region, ReviewSignal } from '@/t
 
 export const SERVICE_NAME = '김실장';
 export const PROJECT_NAME = 'OUR TABLE';
+export const TAGLINE = '커플 콜키지 프리 맛집 큐레이션';
 
 export const REGIONS: Region[] = ['서울', '성남', '수원', '기타 경기'];
 export const FOODS: Food[] = ['일식·이자카야', '양식', '한식', '중식', '고기', '회·해산물', '기타'];

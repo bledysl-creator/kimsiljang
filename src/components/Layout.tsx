@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
-import { BarChart3, PanelLeftClose, PanelLeftOpen, CalendarHeart, Dices, Heart, Home, Inbox, MapPin, Menu, Search, Settings, Sparkles, Wine, X } from 'lucide-react';
+import { Link, NavLink, useLocation } from 'react-router-dom';
+import { BarChart3, PanelLeftClose, PanelLeftOpen, CalendarHeart, Dices, Heart, Home, Inbox, LogIn, LogOut, MapPin, Menu, Search, Settings, Sparkles, Wine, X } from 'lucide-react';
 import { useStore } from '@/store/AppStore';
-import { PROJECT_NAME, SERVICE_NAME } from '@/lib/constants';
+import { PROJECT_NAME, SERVICE_NAME, TAGLINE } from '@/lib/constants';
+import { supabase } from '@/lib/supabase';
+import { BetaBadge } from '@/pages/Auth';
 import { cx } from './ui';
 
 export const MENU = [
@@ -30,15 +32,19 @@ const BOTTOM: { to: string; label: string }[] = [
 function Brand({ compact }: { compact?: boolean }) {
   return (
     <div className={compact ? 'text-center' : ''}>
-      <p className={cx('flex items-center gap-2 font-extrabold', compact ? 'justify-center' : 'text-xl')}>
+      <p className={cx('flex items-center gap-1.5 whitespace-nowrap font-extrabold', compact ? 'justify-center' : 'text-xl')}>
         <Wine size={compact ? 24 : 22} aria-hidden />
         {!compact && (
           <>
-            {SERVICE_NAME} <Heart size={14} className="fill-current text-brand-soft" aria-hidden />
+            {SERVICE_NAME} <BetaBadge className="ml-0.5 text-side-muted" />
           </>
         )}
       </p>
-      {!compact && <p className="mt-1 text-xs text-side-muted">{PROJECT_NAME} · 우리 둘만의 콜키지 프리 맛집 가이드</p>}
+      {!compact && (
+        <p className="mt-1 text-xs text-side-muted">
+          {PROJECT_NAME} · {TAGLINE}
+        </p>
+      )}
     </div>
   );
 }
@@ -71,6 +77,27 @@ function NavItems({ compact, onNavigate }: { compact?: boolean; onNavigate?: () 
         </NavLink>
       ))}
     </nav>
+  );
+}
+
+/** 로그인 상태: 로그인 전이면 로그인 버튼, 후면 이름과 로그아웃 */
+function AccountLink({ compact, onNavigate }: { compact?: boolean; onNavigate?: () => void }) {
+  const { session } = useStore();
+  const base = cx('flex min-h-11 items-center gap-3 rounded-xl text-[15px] font-medium text-side-fg hover:bg-white/10', compact ? 'justify-center px-0' : 'px-4');
+  if (session) {
+    const name = (session.user.user_metadata?.display_name as string | undefined) || session.user.email;
+    return (
+      <button onClick={() => supabase?.auth.signOut()} className={cx(base, 'w-full')} title={compact ? '로그아웃' : undefined} aria-label={compact ? '로그아웃' : undefined}>
+        <LogOut size={19} aria-hidden />
+        {!compact && <span className="flex-1 truncate text-left">{name} · 로그아웃</span>}
+      </button>
+    );
+  }
+  return (
+    <Link to="/login" onClick={onNavigate} className={base} title={compact ? '로그인' : undefined} aria-label={compact ? '로그인' : undefined}>
+      <LogIn size={19} aria-hidden />
+      {!compact && <span className="flex-1">로그인 · 회원가입</span>}
+    </Link>
   );
 }
 
@@ -136,6 +163,9 @@ export function Layout({ children }: { children: ReactNode }) {
         <div className="scrollbar-none mt-6 flex-1 overflow-y-auto">
           <NavItems compact={!wide} />
         </div>
+        <div className="mt-3 border-t border-white/10 pt-3">
+          <AccountLink compact={!wide} />
+        </div>
         {wide && (
           <div className="mt-4 rounded-2xl bg-white/10 p-4">
             <p className="text-sm font-semibold">오늘도 좋은 음식과, 좋은 술로 ♡</p>
@@ -164,6 +194,9 @@ export function Layout({ children }: { children: ReactNode }) {
               </button>
             </div>
             <NavItems onNavigate={() => setOpen(false)} />
+            <div className="mt-3 border-t border-white/10 pt-3">
+              <AccountLink onNavigate={() => setOpen(false)} />
+            </div>
             <div className="mt-auto pt-6">
               <DataStatus />
             </div>
@@ -203,8 +236,9 @@ function SiteFooter() {
   return (
     <footer className="mt-10 border-t border-line pb-2 pt-5 text-center text-xs leading-relaxed text-muted">
       <p>매일 오전 7시(한국 시간) 자동 업데이트{lastSuccessAt && ` · 마지막 업데이트 ${lastSuccessAt}`}</p>
+      <p className="mt-0.5">베타 버전이에요. 기능과 데이터가 바뀔 수 있어요.</p>
       <p className="mt-0.5">
-        {SERVICE_NAME} · 제작자: <b className="font-semibold text-fg">JYK</b>
+        {SERVICE_NAME} · 만든이: <b className="font-semibold text-fg">JYK</b>
       </p>
     </footer>
   );
