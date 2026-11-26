@@ -14,6 +14,7 @@ import Cellar from '@/pages/Cellar';
 import RandomDate from '@/pages/RandomDate';
 import Stats from '@/pages/Stats';
 import Settings from '@/pages/Settings';
+import { LoginPage, SignupPage } from '@/pages/Auth';
 
 // HashRouter: GitHub Pages 와 Vercel 둘 다 새로고침해도 404 가 안 나요.
 export default function App() {
@@ -21,22 +22,31 @@ export default function App() {
     <HashRouter>
       <AppStoreProvider>
         <FiltersProvider>
-          <Layout>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/explore" element={<Explore />} />
-              <Route path="/map" element={<MapPage />} />
-              <Route path="/recommend" element={<Recommend />} />
-              <Route path="/discover" element={<Discover />} />
-              <Route path="/wishlist" element={<Wishlist />} />
-              <Route path="/visits" element={<Visits />} />
-              <Route path="/cellar" element={<Cellar />} />
-              <Route path="/random" element={<RandomDate />} />
-              <Route path="/stats" element={<Stats />} />
-              <Route path="/settings" element={<Settings />} />
-              <Route path="*" element={<Home />} />
-            </Routes>
-          </Layout>
+          <Routes>
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignupPage />} />
+            <Route
+              path="*"
+              element={
+                <Layout>
+                  <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/explore" element={<Explore />} />
+                    <Route path="/map" element={<MapPage />} />
+                    <Route path="/recommend" element={<Recommend />} />
+                    <Route path="/discover" element={<Discover />} />
+                    <Route path="/wishlist" element={<Wishlist />} />
+                    <Route path="/visits" element={<Visits />} />
+                    <Route path="/cellar" element={<Cellar />} />
+                    <Route path="/random" element={<RandomDate />} />
+                    <Route path="/stats" element={<Stats />} />
+                    <Route path="/settings" element={<Settings />} />
+                    <Route path="*" element={<Home />} />
+                  </Routes>
+                </Layout>
+              }
+            />
+          </Routes>
           <DetailModal />
         </FiltersProvider>
       </AppStoreProvider>
