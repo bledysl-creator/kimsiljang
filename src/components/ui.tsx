@@ -1,4 +1,5 @@
-import { FlaskConical, Heart, UtensilsCrossed } from 'lucide-react';
+import { FoodArt } from './FoodArt';
+import { FlaskConical, Heart } from 'lucide-react';
 import type { ReactNode } from 'react';
 import type { CorkageStatus, Restaurant, ReviewSignal } from '@/types';
 import { CORKAGE_META, REVIEW_LABEL } from '@/lib/constants';
@@ -75,11 +76,11 @@ export function PhotoBox({ r, className, rounded = 'rounded-xl' }: { r: Restaura
       </div>
     );
   return (
-    <div className={cx('grid place-items-center border border-line bg-card2 text-muted', rounded, className)} aria-label="등록된 사진 없음">
-      <div className="flex flex-col items-center gap-1">
-        <UtensilsCrossed size={26} className="opacity-60" aria-hidden />
-        <span className="text-[11px]">{r.food}</span>
-      </div>
+    <div className={cx('relative overflow-hidden bg-card2', rounded, className)}>
+      <FoodArt food={r.food} className="size-full" />
+      <span className="absolute bottom-1 right-1 rounded bg-black/45 px-1 py-px text-[10px] leading-tight text-white" aria-hidden>
+        일러스트
+      </span>
     </div>
   );
 }

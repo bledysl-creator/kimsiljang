@@ -204,7 +204,7 @@ function SiteFooter() {
     <footer className="mt-10 border-t border-line pb-2 pt-5 text-center text-xs leading-relaxed text-muted">
       <p>매일 오전 7시(한국 시간) 자동 업데이트{lastSuccessAt && ` · 마지막 업데이트 ${lastSuccessAt}`}</p>
       <p className="mt-0.5">
-        {SERVICE_NAME} · 제작자 <b className="font-semibold text-fg">웅냥냥</b>
+        {SERVICE_NAME} · 제작자: <b className="font-semibold text-fg">JYK</b>
       </p>
     </footer>
   );
