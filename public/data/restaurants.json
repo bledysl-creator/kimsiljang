@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-27",
+  "updatedAt": "2026-11-28",
   "source": "네이버 블로그·지역 검색(NAVER API HUB), 카카오 로컬 API 자동 수집 · 블로그는 제목/링크/날짜만",
   "lastRun": {
     "status": "success",
-    "startedAt": "2026-11-26T22:52:56.082Z",
-    "finishedAt": "2026-11-26T22:57:12.595Z",
-    "count": 421,
+    "startedAt": "2026-11-27T22:53:01.110Z",
+    "finishedAt": "2026-11-27T22:57:32.923Z",
+    "count": 431,
     "error": null
   },
-  "lastSuccessAt": "2026-11-27",
+  "lastSuccessAt": "2026-11-28",
   "restaurants": [
     {
       "id": "k26913121",
@@ -9320,6 +9320,101 @@
       "menus": []
     },
     {
+      "id": "k1576091113",
+      "name": "피콜레",
+      "region": "수원",
+      "area": "팔달구 인계동",
+      "food": "양식",
+      "category": "술집 > 와인바",
+      "priceFor2": null,
+      "address": "경기 수원시 팔달구 경수대로466번길 43",
+      "lat": 37.2672138443798,
+      "lng": 127.029654150412,
+      "phone": "031-222-9550",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1576091113"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": "후기상 30,000원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 21,
+        "paidMentions": 7,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "수원 인계동 와인BAR 피콜레",
+          "url": "https://blog.naver.com/kangminje/224400972654",
+          "date": "2026-09-04",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 | 인계동 와인바 피콜레 내 돈 내산",
+          "url": "https://blog.naver.com/syssys123456-/224352352414",
+          "date": "2026-07-20",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "수원 와인바 추천) 인계동 피콜레 (콜키지 프리)",
+          "url": "https://blog.naver.com/daun4128/224263351351",
+          "date": "2026-04-24",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "수원 인계동 맛집 프랑스 출신 셰프님의 와인바 피콜레",
+          "url": "https://blog.naver.com/poopoobubu/224015801441",
+          "date": "2025-09-28",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[수원] 맛있는 프렌치 요리가 있는 인계동 와인바 ‘피콜레’ 콜키....",
+          "url": "https://blog.naver.com/5959_doyoni/224022172682",
+          "date": "2025-09-26",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[인계동 맛집] 피콜레 : 수원시청역 프렌치 요리 와인바 내돈내산 (....",
+          "url": "https://blog.naver.com/myhyun8022/224001584315",
+          "date": "2025-09-09",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "조용한"
+      ],
+      "menus": []
+    },
+    {
       "id": "k1655317727",
       "name": "서울안심정육 서여의도점",
       "region": "서울",
@@ -11826,6 +11921,196 @@
       "menus": []
     },
     {
+      "id": "k1904311303",
+      "name": "회동",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "회·해산물",
+      "category": "한식 > 해물,생선 > 회",
+      "priceFor2": null,
+      "address": "서울 영등포구 국회대로72길 21",
+      "lat": 37.5293274919952,
+      "lng": 126.92148056583,
+      "phone": "02-785-4877",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1904311303"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "conditional",
+        "freeBottles": 1,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 15,
+        "paidMentions": 3,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[여의도]가성비 소고기와 양고기를 숯불에 구워주는 고기집, 우양연....",
+          "url": "https://blog.naver.com/hahah_eun9/224460147382",
+          "date": "2026-10-31",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "마포 공덕역 월화식당 연말 회식 모임 하기 좋은 삼겹살블루리본 맛....",
+          "url": "https://blog.naver.com/mjinchul1/224455505682",
+          "date": "2026-10-27",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[여의도/아일렉스] 스시유타카 鮨ゆたか - 런치 스시오마카세 (+무료....",
+          "url": "https://blog.naver.com/kmd_kim/224373353738",
+          "date": "2026-08-31",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "난 여름이 너무 좋아! 행복한 7월의 일상 바쁘다 바빠~~",
+          "url": "https://blog.naver.com/chickiru/224377163752",
+          "date": "2026-08-13",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "장사천재 조사장 조서형 맛집 여의도 요정 한식코스요리 솔직 후기",
+          "url": "https://blog.naver.com/rkgml506/224368267627",
+          "date": "2026-08-04",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도점심맛집 100년고택 우대판갈비 난로연 남영점",
+          "url": "https://blog.naver.com/sambastar05/224349401177",
+          "date": "2026-07-17",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-28",
+      "isSample": false,
+      "tags": [
+        "룸",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k10306073",
+      "name": "도적 인계점",
+      "region": "수원",
+      "area": "팔달구 인계동",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "경기 수원시 팔달구 효원로291번길 49-7",
+      "lat": 37.2635652386993,
+      "lng": 127.034068554488,
+      "phone": "031-267-4258",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/10306073"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 14,
+        "paidMentions": 0,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "수원 인계동 고기집 도적 인계점｜직접 구워주는 칼삼겹살 맛집, 된....",
+          "url": "https://blog.naver.com/wanderlustsis/224374221771",
+          "date": "2026-08-10",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "나혜석거리맛집 도적 언제와도 맛있는 인계동 삼겹살 추천",
+          "url": "https://blog.naver.com/lune09/224321579964",
+          "date": "2026-06-20",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "나혜석거리 맛집 도적ㅣ생활의달인 우승자의 인계동 고기집 후기",
+          "url": "https://blog.naver.com/beaulife20/224316495928",
+          "date": "2026-06-16",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "인계동 삼겹살 맛집 도적 수원점 SBS 생활의 달인은 다르다",
+          "url": "https://blog.naver.com/yuhandme/224312857262",
+          "date": "2026-06-11",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "인계동 고기집 삼겹살 맛집 도적",
+          "url": "https://blog.naver.com/riace/224310783223",
+          "date": "2026-06-09",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "인계동 삼겹살 맛집 인계동 도적 칼삼겹살과 항정살",
+          "url": "https://blog.naver.com/hayoolle/224307891058",
+          "date": "2026-06-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-28",
+      "isSample": false,
+      "tags": [
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
       "id": "k18257217",
       "name": "강강술래 홍대점",
       "region": "서울",
@@ -13940,6 +14225,100 @@
         "분위기",
         "주차",
         "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k1338357461",
+      "name": "스시츠바키",
+      "region": "서울",
+      "area": "강남구 신사동",
+      "food": "일식·이자카야",
+      "category": "일식 > 일식집",
+      "priceFor2": null,
+      "address": "서울 강남구 언주로174길 30",
+      "lat": 37.5278550756911,
+      "lng": 127.036233807382,
+      "phone": "02-545-9149",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1338357461"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키"
+        ],
+        "extraFee": "후기상 3만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 12,
+        "paidMentions": 7,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[압구정로데오역] 신사동 스시오마카세 스시츠바키, 가격·맛·접객 ....",
+          "url": "https://blog.naver.com/hongstreet_/224418639670",
+          "date": "2026-09-21",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[압구정로데오 스시] 스시츠바키 - 가격 대비 훌륭한 구성, 콜키지 ....",
+          "url": "https://blog.naver.com/orfeo21/224235652608",
+          "date": "2026-04-01",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "2026-02-25의 초밥: 스시츠바키 #2",
+          "url": "https://blog.naver.com/moggycc/224217026930",
+          "date": "2026-03-15",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "스시츠바키 : 압구정로데오 가성비 훌륭한 스시 오마카세 일식집 - ....",
+          "url": "https://blog.naver.com/yjoshjh/224196790625",
+          "date": "2026-02-26",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "2026-02-10의 초밥: 스시츠바키 #1",
+          "url": "https://blog.naver.com/moggycc/224185367073",
+          "date": "2026-02-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "신사 압구정로데오 오마카세 - [스시츠바키] 또다시 방문한 콜키지 ....",
+          "url": "https://blog.naver.com/ranislog/224155536710",
+          "date": "2026-01-22",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "룸"
       ],
       "menus": []
     },
@@ -18915,6 +19294,97 @@
         "주차",
         "단체"
       ],
+      "menus": []
+    },
+    {
+      "id": "k184807309",
+      "name": "김진목삼",
+      "region": "서울",
+      "area": "종로구 필운동",
+      "food": "고기",
+      "category": "한식 > 육류,고기 > 삼겹살",
+      "priceFor2": null,
+      "address": "서울 종로구 자하문로1길 56",
+      "lat": 37.577147601023654,
+      "lng": 126.96951696857136,
+      "phone": "02-929-2929",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/184807309"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "free",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 6,
+        "paidMentions": 1,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[서촌/경복궁] 육즙 가득 숙성 고기의 진수, 데이트 맛집 김진목삼",
+          "url": "https://blog.naver.com/silversh85/224398767126",
+          "date": "2026-09-14",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "김진목삼(서울 필운동) - 목살이 맛있는 서촌 돼지고기 구이집",
+          "url": "https://blog.naver.com/freest1_0327/224372308943",
+          "date": "2026-08-08",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서촌 고깃집은 그냥 여기. 경복궁 김진목삼",
+          "url": "https://blog.naver.com/kkkj5444/224323839773",
+          "date": "2026-06-22",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[서울] 필운동 맛집 ‘김진목삼‘ : 목살 찐하게 한입 드시러 가실래....",
+          "url": "https://blog.naver.com/squarecircle1106/224221457927",
+          "date": "2026-03-18",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[경복궁역/서촌] 김진목삼 : 고기는 물론 정갈한 반찬에 반해 또 가....",
+          "url": "https://blog.naver.com/now0jj/223921020443",
+          "date": "2025-07-03",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "[서울/종로·필운동·서촌·경복궁역] \"김진목삼\" 최상의 목살과 삼겹....",
+          "url": "https://blog.naver.com/puyopiyo/223719677780",
+          "date": "2025-01-10",
+          "source": "naver-blog",
+          "signal": "free"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
       "menus": []
     },
     {
@@ -25977,12 +26447,12 @@
       "region": "서울",
       "area": "강남구 역삼동",
       "food": "고기",
-      "category": "한식 > 육류,고기 > 갈비",
+      "category": "한식 > 육류,고기",
       "priceFor2": null,
       "address": "서울 강남구 봉은사로2길 23",
       "lat": 37.5031495116794,
       "lng": 127.0261587279316,
-      "phone": "02-561-5705",
+      "phone": "0507-1384-5705",
       "sources": [
         {
           "provider": "kakao",
@@ -26167,6 +26637,102 @@
         "주차",
         "단체",
         "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k377327523",
+      "name": "달맞이광장바베큐",
+      "region": "서울",
+      "area": "중구 을지로3가",
+      "food": "고기",
+      "category": "한식 > 육류,고기",
+      "priceFor2": null,
+      "address": "서울 중구 을지로 112-1",
+      "lat": 37.565847266782,
+      "lng": 126.990474006135,
+      "phone": "02-2272-6692",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/377327523"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인",
+          "위스키",
+          "맥주"
+        ],
+        "extraFee": "후기상 병당 3만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 7,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "수원역 야장맛집 숯불치킨과 육즙가득 소세지 달맞이광장바베큐 수....",
+          "url": "https://blog.naver.com/kimyunjijiji/224487473125",
+          "date": "2026-11-22",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[수원 인계동 나혜석거리 술집] 달맞이광장바베큐 수원인계점 | 7명 ....",
+          "url": "https://blog.naver.com/enjoynow_daily/224484616789",
+          "date": "2026-11-20",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "수원 인계동 술집 달맞이광장바베큐, 야장 감성 숯불치킨과 생맥주 ....",
+          "url": "https://blog.naver.com/he_he_land/224483702473",
+          "date": "2026-11-20",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "인계동 술집 달맞이광장바베큐 수원인계점 을지로본점 vs 수원인계....",
+          "url": "https://blog.naver.com/yeoniido/224469696371",
+          "date": "2026-11-09",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "제 (가을) 일상을 보세요",
+          "url": "https://blog.naver.com/sodam0907/224470261000",
+          "date": "2026-11-09",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "수원역 맛집 달맞이광장바베큐 신상 바베큐 하우스 소금바베큐 후....",
+          "url": "https://blog.naver.com/ja0643/224466916035",
+          "date": "2026-11-06",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-28",
+      "isSample": false,
+      "tags": [
+        "분위기",
+        "단체"
       ],
       "menus": []
     },
@@ -27043,6 +27609,104 @@
       "tags": [
         "데이트",
         "분위기",
+        "단체",
+        "뷰"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k623393395",
+      "name": "심퍼티쿠시 성수점",
+      "region": "서울",
+      "area": "성동구 성수동1가",
+      "food": "양식",
+      "category": "양식",
+      "priceFor2": null,
+      "address": "서울 성동구 아차산로 6",
+      "lat": 37.5476938415342,
+      "lng": 127.045124332604,
+      "phone": "070-4101-1408",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/623393395"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": "후기상 병당 20,000원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 15,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "연말 모임·데이트하기 좋은 서울 분위기 맛집 4곳 — 성수·을지로·....",
+          "url": "https://blog.naver.com/h__3010/224492695687",
+          "date": "2026-11-26",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "센스 있는 총무 소리 듣는 서울 연말모임 식당 6선 프라이빗 룸 예약....",
+          "url": "https://blog.naver.com/goldwing113/224491386206",
+          "date": "2026-11-25",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "뚝섬역 1분 성수 소개팅 맛집, 심퍼티쿠시 성수점 후기 (메뉴 가격, ....",
+          "url": "https://blog.naver.com/koyapick/224485749445",
+          "date": "2026-11-24",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "성수 크리스마스 맛집 심퍼티쿠시 성수 | 통창 대형 트리 뷰 파스타 ....",
+          "url": "https://blog.naver.com/aileen2426/224488869815",
+          "date": "2026-11-23",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "성수동 양식 맛집 심퍼티쿠시 파스타 스테이크 가격 주차 정보 안내",
+          "url": "https://blog.naver.com/bghj1234/224464954613",
+          "date": "2026-11-20",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "성수 기념일 맛집 추천, 심퍼티쿠시 성수점 가성비 좋은 메뉴와 분....",
+          "url": "https://blog.naver.com/dhk0703/224455045418",
+          "date": "2026-10-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "룸",
+        "주차",
         "단체",
         "뷰"
       ],
@@ -28519,6 +29183,104 @@
       "firstSeen": "2026-11-25",
       "isSample": false,
       "tags": [],
+      "menus": []
+    },
+    {
+      "id": "k1430791722",
+      "name": "비스트로 멕시",
+      "region": "서울",
+      "area": "용산구 이태원동",
+      "food": "양식",
+      "category": "술집 > 호프,요리주점",
+      "priceFor2": null,
+      "address": "서울 용산구 이태원로 191",
+      "lat": 37.5348496056693,
+      "lng": 126.995248026552,
+      "phone": "02-797-6855",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/1430791722"
+        }
+      ],
+      "corkage": {
+        "status": "disputed",
+        "reviewSignal": "mixed",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 2,
+        "paidMentions": 8,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "서울 연말 파티 장소 TOP5, 가족모임·생일파티 룸·대관 식당 가격·....",
+          "url": "https://blog.naver.com/reviewwang123/224494564826",
+          "date": "2026-11-27",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "이태원 파티장소대관 프라이빗파티룸 브라이덜 샤워 추천 ! \"비스트....",
+          "url": "https://blog.naver.com/zzzzxh/224329232564",
+          "date": "2026-06-28",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "이태원 비스트로 멕시 펍 멕시칸 맛집",
+          "url": "https://blog.naver.com/seoi8/223930633989",
+          "date": "2025-07-12",
+          "source": "naver-blog",
+          "signal": "free"
+        },
+        {
+          "title": "이태원 데이트/단체 모임하기 좋은 맛있는 안주+놀거리 가득한 핫플....",
+          "url": "https://blog.naver.com/dlgmlwjd02/223924260709",
+          "date": "2025-07-07",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "서울에서 칸쿤까지 3초 컷? 이태원 펍 비스트로 멕시에서 여름밤 터....",
+          "url": "https://blog.naver.com/s_o_jeong/223923815498",
+          "date": "2025-07-06",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "이태원 데이트 맛집 클럽 멕시칸 펍비스트로 멕시",
+          "url": "https://blog.naver.com/xsyeonix/223901141001",
+          "date": "2025-06-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
+        "룸",
+        "주차",
+        "단체",
+        "늦게까지"
+      ],
       "menus": []
     },
     {
@@ -30589,6 +31351,103 @@
       "firstSeen": "2026-11-25",
       "isSample": false,
       "tags": [
+        "룸",
+        "주차",
+        "단체"
+      ],
+      "menus": []
+    },
+    {
+      "id": "k228613367",
+      "name": "심퍼티쿠시 여의도점",
+      "region": "서울",
+      "area": "영등포구 여의도동",
+      "food": "양식",
+      "category": "양식",
+      "priceFor2": null,
+      "address": "서울 영등포구 의사당대로 96",
+      "lat": 37.521363640441,
+      "lng": 126.923009269574,
+      "phone": "070-4757-6356",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/228613367"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": "후기상 2만원 언급",
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 1,
+        "paidMentions": 13,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "여의도 TP타워 맛집 데이트 모임하기좋은 와인바 <심퍼티쿠시 여의....",
+          "url": "https://blog.naver.com/ricolife/224492822378",
+          "date": "2026-11-26",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도역 파스타 맛집 심퍼티쿠시 들기름 알배추와 랍스터 파스타 ....",
+          "url": "https://blog.naver.com/able500/224487048263",
+          "date": "2026-11-22",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "여의도 크리스마스 맛집 TOP 6｜파스타와 와인으로 즐기는 연말 모임....",
+          "url": "https://blog.naver.com/siseon874/224478776319",
+          "date": "2026-11-16",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도 청첩장 모임 추천 ✨ ‘심퍼티쿠시 여의도점’ 내돈내산 솔....",
+          "url": "https://blog.naver.com/cho_418/224470018864",
+          "date": "2026-11-09",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "여의도에서 느좋 레스토랑 찾는다면 일단 여기 보세요! [심퍼티쿠시....",
+          "url": "https://blog.naver.com/samsamcouple/224469012623",
+          "date": "2026-11-08",
+          "source": "naver-blog",
+          "signal": "mention"
+        },
+        {
+          "title": "[종로] 경복궁 앞에 새로 오픈한 심퍼티쿠시 SZIMPATIKUS 광화문점",
+          "url": "https://blog.naver.com/aquaarium/224435413378",
+          "date": "2026-10-08",
+          "source": "naver-blog",
+          "signal": "mention"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [
+        "데이트",
+        "분위기",
         "룸",
         "주차",
         "단체"
@@ -39036,6 +39895,76 @@
       "tags": [
         "단체"
       ],
+      "menus": []
+    },
+    {
+      "id": "k2138149424",
+      "name": "위하우스",
+      "region": "서울",
+      "area": "성동구 성수동1가",
+      "food": "양식",
+      "category": "술집 > 와인바",
+      "priceFor2": null,
+      "address": "서울 성동구 왕십리로4길 24-19",
+      "lat": 37.5467362639727,
+      "lng": 127.046962608281,
+      "phone": "010-8033-4877",
+      "sources": [
+        {
+          "provider": "kakao",
+          "label": "카카오맵 장소",
+          "url": "http://place.map.kakao.com/2138149424"
+        }
+      ],
+      "corkage": {
+        "status": "unknown",
+        "reviewSignal": "paid",
+        "freeBottles": null,
+        "drinkTypes": [
+          "와인"
+        ],
+        "extraFee": null,
+        "glassIce": null,
+        "minOrder": null,
+        "conditions": [],
+        "freeMentions": 0,
+        "paidMentions": 3,
+        "verifiedAt": null,
+        "verificationMethod": "review",
+        "reviewCheckedAt": "2026-11-28"
+      },
+      "closure": {
+        "status": "ok",
+        "checkedAt": "2026-11-28",
+        "signals": []
+      },
+      "evidence": [
+        {
+          "title": "[성수 맛집] 아늑한 분위기의 내추럴 와인 전문 와인바, 성수 위하우....",
+          "url": "https://blog.naver.com/sye0n_y/224427118401",
+          "date": "2026-09-30",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "뚝섬 맛집 위하우스, 성수 와인바 추천",
+          "url": "https://blog.naver.com/syeonlog/224421424019",
+          "date": "2026-09-26",
+          "source": "naver-blog",
+          "signal": "paid"
+        },
+        {
+          "title": "[성수맛집] 위하우스 성수동 와인바 성수 데이트 | 뚝섬 와인바 추천....",
+          "url": "https://blog.naver.com/seul_ddomuk/224419618117",
+          "date": "2026-09-22",
+          "source": "naver-blog",
+          "signal": "paid"
+        }
+      ],
+      "photos": [],
+      "firstSeen": "2026-11-25",
+      "isSample": false,
+      "tags": [],
       "menus": []
     }
   ]
